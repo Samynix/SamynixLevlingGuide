@@ -1,0 +1,137 @@
+﻿<Title>5-7 Durotar</Title>
+<StepNumber>2</StepNumber>
+<Image class="Warrior">ImageWarrior.png</Image>
+<Image class="Shaman">ImageShaman.png</Image>
+
+
+<ST order="1" class="Shaman" legend="225, 210, 95, 255">
+	Accept quest 
+		<AQ>A Peon's Burden</AQ>
+	Grind your way south/east to Sen'jin Village and accept quests
+		<AQ>Minshina's Skull</AQ>
+		<AQ>Report to Orgnil</AQ>
+		<AQ>Zalazane</AQ>
+		<AQ>A Solvent Spirit</AQ>
+		<AQ>Practical Prey</AQ>
+	<br/>
+	Grind your way north to <place>Tiragarde Keep</place> and meet up with your <b>DUO</b> partner.
+</ST>
+
+<ST order="1" class="Warrior"  legend="0, 174, 239">
+	In the burrow(jump up on the side) accept 
+		<AQ>Vanquish the Betrayers</AQ>
+	Go west up the <Picture url="razorPathToTower.png">path</Picture> to the tower, at the top of the tower accept quest 
+		<AQ>Carry your weight</AQ>. 
+	Jump down on the left side of the inn and buy <Bold>Large axe</Bold> from <NamedMob>Uhgar</NamedMob>
+
+	Grind your way down to <place>Tiragarde Keep</place> and meet up with your <b>DUO</b> partner.
+</ST>
+
+<ST order="2" class="shaman" legend="127, 19, 40, 255">
+	<em>SHARE YOUR QUESTS WITH YOUR DUO PARTNER</em>
+	Accept quests from <b>DUO</b> partner
+		<AQ>Vanquish the Betrayers</AQ>
+		<AQ>Carry your weight</AQ>
+	<br/>
+	Start working on 
+		<WorkOnQuest>Vanquish the Betrayers</WorkOnQuest>
+		<WorkOnQuest>Carry your weight</WorkOnQuest>
+	Go into the keep and kill/loot <NamedMob>Lieutenant Benedict</NamedMob>. Be sure to pickup his key!
+	<br/>
+	Go up in the tower, on the roof loot the chest. Accept quest 
+		<AQ>The Admiral's Orders</AQ> from <NamedMob>Aged Envelope</NamedMob>
+	Finish up quests 
+		<DoQuest>Vanquish the Betrayers</DoQuest>
+		<DoQuest>Carry your weight</DoQuest>
+	<br/>
+	Once done <bold>DIE</bold> on the <bold>NORTH</bold> side of the keep. If there are no mobs, grind your way back to <place>Razor Hill</place>
+</ST>
+
+<ST order="2" class="warrior" legend="127, 19, 40, 255">
+	<em>SHARE YOUR QUESTS WITH YOUR DUO PARTNER</em>
+	Accept quests from <b>DUO</b> partner
+		<AQ>Minshina's Skull</AQ>
+		<AQ>Report to Orgnil</AQ>
+		<AQ>Zalazane</AQ>
+		<AQ>A Solvent Spirit</AQ>
+		<AQ>Practical Prey</AQ>
+	<br/>
+	Start working on 
+		<WorkOnQuest>Vanquish the Betrayers</WorkOnQuest>
+		<WorkOnQuest>Carry your weight</WorkOnQuest>
+	Go into the keep and kill/loot <NamedMob>Lieutenant Benedict</NamedMob>. Be sure to pickup his key!
+	<br/>
+	Go up in the tower, on the roof loot the chest. Accept quest 
+		<AQ>The Admiral's Orders</AQ> from <NamedMob>Aged Envelope</NamedMob>
+	Finish up quests 
+		<DoQuest>Vanquish the Betrayers</DoQuest>
+		<DoQuest>Carry your weight</DoQuest>
+	<br/>
+	Once done <bold>DIE</bold> on the <bold>NORTH</bold> side of the keep. If there are no mobs, grind your way back to <place>Razor Hill</place>
+</ST>
+
+
+<ST order="3" class="Shaman">
+	Turn in quest 
+		<RQ>Report to Orgnil</RQ>
+	Accept 
+		<AQ>Dark Storms</AQ>
+	Turn in quests
+		<RQ>Vanquish the Betrayers</RQ>
+		<RQ>The Admiral's Orders</RQ>
+	Accept quests
+		<AQ>The Admiral's Orders;2</AQ>
+		<AQ>Encroachment</AQ>  
+		<AQ>From the Wreckage...</AQ>
+	Go <Picture url="razorPathToTower.png">west</Picture> to the cooking area and pickup 
+		<AQ>Break a Few Eggs</AQ>
+	Continue up the path to the tower. At the tower<Legend>111, 200, 186, 255</Legend>, turn in quest 
+		<RQ>Carry your weight</RQ>. 
+	Jump down on the left side of the <bold>inn</bold>, Buy <Bold>Walking Stick</Bold> from <NamedMob>Uhgar</NamedMob>
+	Enter the <place>Inn</place>.
+	If you have it, turn in 
+		<RQ>A Peon's Burden</RQ>
+	Make <SetHome>Razor Hill</SetHome> your new home.
+	<br/>
+	In the <place>barracks</place>, get your lvl 6 skills
+</ST>
+
+
+
+
+<ST order="3" class="Warrior">
+	Turn in quest
+		<RQ>Report to Orgnil</RQ>
+	Accept 
+		<AQ>Dark Storms</AQ>
+	Turn in quests
+		<RQ>Vanquish the Betrayers</RQ>
+		<RQ>The Admiral's Orders</RQ>
+	Accept quests
+		<AQ>The Admiral's Orders;2</AQ>
+		<AQ>Encroachment</AQ>
+		<AQ>From the Wreckage...</AQ>
+	Go <Picture url="razorPathToTower.png">west</Picture> to the cooking area and pickup quest 
+		<AQ>Break a Few Eggs</AQ>. 
+	Continue up the path to the tower, at the tower<Legend>111, 200, 186, 255</Legend>, turn in quest 
+		<RQ>Carry your weight</RQ>
+	Jump down on the left side of the <bold>inn</bold> and enter.
+	If you have it, turn in 
+		<RQ>A Peon's Burden</RQ>
+	Make <SetHome>Razor Hill</SetHome> your new home.
+	<br/>
+	In the barracks, get your lvl 6 skills
+</ST>
+
+
+<ST order="4" class="all" legend="106, 189, 69, 255">
+	Grind your way east to the sea, start working on 
+		<WorkOnQuest>A Solvent Spirit</WorkOnQuest>. Kill/loot the local sealife!
+	<br/>
+	Grind your way down south to the shipwrecks <Legend>60, 85, 165, 255</Legend>
+	By looting the <NamedMob>Gnomish Tools</NamedMob</NamedMob> do quest
+		<DoQuest>From the Wreckage...</DoQuest>
+	<br/>
+	When done, if your want you can <bold>DIE</bold>(south of keep) to <place>Senjin Village</place> to get <b>resupplied</b>
+	If not swim straight to <place>Echo Isles</place>.
+</ST>

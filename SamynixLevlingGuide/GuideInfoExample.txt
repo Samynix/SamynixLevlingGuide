@@ -1,0 +1,6 @@
+﻿#File Guide/GuideName/GuideInfo.txt
+#<Title>Guide title</Title>
+#<Class>Guide classes</Class>
+
+<Title>Samy Warrior/Shaman Duo guide</Title>
+<Class>Warrior, Shaman</Class>

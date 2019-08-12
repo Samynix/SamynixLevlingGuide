@@ -1,0 +1,20 @@
+﻿<Title>10-10 Durator</Title>
+<StepNumber>7</StepNumber>
+<Image class="Shaman, Warrior">Image.png</Image>
+
+<ST order="1" legend="0, 166, 81, 255">
+	Go south and turn in
+		<RQ>Securing the Lines</RQ>
+	Drop down in the canyon, kill/loot <namedmob>Fizzle Darkstorm</namedmob> <tloc>42, 27</tloc> for 
+		<DoQuest>Dark Storms</DoQuest>
+	Grind your way south
+</ST>
+
+<ST order="2" legend="236, 0, 140, 255">
+	When reaching the river do 
+		<DoQuest>Lost But Not Forgotten</DoQuest> by killing <namedmob>Dreadmaw Crocolisk</namedmob> along the river
+	You can also start working on 
+		<workonquest>Finding the Antidote</workonquest> by killing/looting <namedmob>Venomtail Scorpids</namedmob>
+		<br/>
+	Once done, enter <namedmob>The Barrens</namedmob>
+</ST>

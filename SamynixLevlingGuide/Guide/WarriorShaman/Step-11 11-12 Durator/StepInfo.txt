@@ -1,0 +1,16 @@
+﻿<Title>11-12 Durator</Title>
+<StepNumber>11</StepNumber>
+<Image class="All">Image.png</Image>
+
+<ST order="1">
+	Res at the <nm>Spirit resser</nm>
+	<em>Be careful, you have 1 min res sikcness</em>
+	Head west <legend>237, 28, 36</legend> <tl>41.6, 18.6</tl> and accept quest
+		<AQ>Need for a cure</AQ>
+	Turn in quest
+		<RQ>Need for a cure</RQ>
+	Head south <legend>0, 166, 81</legend> at the east side of the canyon to the hut <tl>43, 30.4</tl> and turn in 
+		<RQ>Lost But Not Forgotten</RQ>
+	<br/>
+	Continue south/west <le>0, 174, 239</le> until you are in <place>The Barrens</place>
+</ST>

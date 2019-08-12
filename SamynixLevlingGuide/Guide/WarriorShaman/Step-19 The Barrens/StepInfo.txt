@@ -1,0 +1,36 @@
+﻿<Title>19 - The Barrens</Title>
+<StepNumber>19</StepNumber>
+<Image>Image.png</Image>
+
+<ST order="1">
+	At the <place>Watchtower</place> turn in
+		<RQ>Harpy Raiders</RQ>
+	Accept
+		<AQ>Harpy Lieutenants</AQ>
+	Over the road next to the <place>Inn</place> accept
+		<AQ>The Angry Scytheclaws</AQ>
+</ST>
+
+<ST order="2">
+	Head south/east towards <place>The Stagnant Oasis</place>
+	Check if <nm>Verog the Dervish</nm> <tloc>53, 42</tloc> is up if so kill him for 
+		<WQ>Verog the Dervish</WQ>
+	Do 
+		<DQ>Centaur Bracers</DQ> by killing <nm>Kolkars</nm>
+	<nm>Verog the Dervish</nm> spawns by killing the <nm>Kolkars</nm> in the area
+	<br/>
+	You can also start working on 
+		<WQ>Altered Beings</WQ>
+	If you still need to kill <nm>Verog the Dervish</nm> kill him for
+		<DQ>Verog the Dervish</DQ>
+</ST>
+
+<ST order="3">
+	Head abit east to the Stagnant Oasis
+	Kill/loot <nm>Oasis Snapjaw</nm> for quest
+		<DQ>Altered Beings</DQ>
+	Once done head back to <place>The Crossroads</place>
+</ST>
+
+#<ST order="4">
+	

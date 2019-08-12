@@ -1,0 +1,27 @@
+﻿<Title>11-11 Orgrimmar</Title>
+<StepNumber>10</StepNumber>
+<Image class="All">Image.png</Image>
+
+
+<ST order="1" legend="237, 28, 36">
+	Head towards <place>Thrall's throne room</place>
+	Turn in
+		<RQ>Hidden Enemies</RQ>
+	Accept the next part
+		<AQ>Hidden Enemies;2</AQ>
+	Leave and go towards <place>The cleft of Shadows</place>
+</ST>
+
+<ST order="2" legend="0, 166, 81">
+	In <place>The cleft of Shadows</place> turn in quest 
+		<RQ>Finding the Antidote</RQ>
+	Right over the road, get <b>repaired</b> at the Staves vendor
+	Jump down towards <place>RFC</place> and turn in
+		<RQ>Burning Shadows</RQ>
+		<RQ>Neeru Fireblade</RQ>
+	Accept
+		<AQ>Ak'Zeloth</AQ>
+	Do gossip with <nm>Neeru Fireblade</nm> until 
+		<dq>Hidden Enemies;2</dq> is done
+	Enter <place>RFC</place> and <bold>DIE</bold>
+</ST>

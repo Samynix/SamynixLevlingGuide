@@ -1,0 +1,29 @@
+﻿<Title>10-10 The Barrens - Class quests</Title>
+<StepNumber>8</StepNumber>
+<Image class="Shaman">ImageShaman.png</Image>
+<Image class="Warrior">ImageWarrior.png</Image>
+
+
+<SubStepOrder>1</SubStepOrder>
+<Class>Shaman</Class>
+<ST order="1" class="Shaman">
+	Follow the path west into <place>The Barrens</place>. Look for a tower @ <tloc>55.8, 20</tloc>, here you will find <namedmob>Kranal Fiss</namedmob>
+	Turn in quest 
+		<RQ>Call of Fire</RQ>
+	Accept the next part
+		<AQ>Call of Fire;2</AQ>
+	<br/>
+	Head back to <place>Durator</place> by going south/east
+</ST>
+
+
+<ST order="1" class="warrior">
+	Just over the bridge find the npc <namedmob>Uzzek</namedmob> <tloc>61.4, 21</tloc>.
+	Turn in quest 
+		<RQ>Veteran Uzzek</RQ>
+	Accept
+		<AQ>Path of Defense</AQ>
+	<br/>
+	Leave <place>The Barrens</place> over the bridge. Heading towards <place>Thunder Ridge</place>
+</ST>
+

@@ -1,0 +1,57 @@
+﻿<Title>9-10 Durator</Title>
+<StepNumber>5</StepNumber>
+<Image class="All">Image.png</Image>
+
+<ST order="1" class="all">
+	North just outside the Inn, get <bold>repaired</bold>
+	If you have, turn in quest
+		<RQ>A Peon's Burden</RQ>
+	At the cooking area(south) turn in
+		<RQ>Break a Few eggs</RQ>
+	In the barrow(jump up outside) turn in quest
+		<RQ>From the Wreckage...</RQ>. 
+	Accept (if you havent already)
+		<AQ>Encroachment</AQ>
+	<br/>
+	Go to the <place>barracks</place> and get new skills. If you havent already, train <NamedMob>First aid</NamedMob>
+</ST>
+
+<ST order="2" class="all" legend="251, 176, 64, 255">
+	Go south/west and do the first part of
+		<WorkOnQuest>Encroachment</WorkOnQuest> by killing <NamedMob>Razormane Quilboars</NamedMob> and <namedmob>Razormane Scouts</namedmob> <TLoc>49, 49</Tloc>
+</ST>
+
+
+<ST order="3" class="all" legend="141, 198, 63, 255">
+	Grind your way north and do the last part of 
+		<DoQuest>Encroachment</DoQuest> Kill <NamedMob>Razormane Dustrunners</NamedMob> and <namedmob>Razormane Battleguards</namedmob> <TLoc>44, 40</TLoc>
+	Follow the path<legend>39, 170, 225, 255</legend> up to the hut,  once there accept
+		<AQ>Lost But Not Forgotten</AQ> <Tloc>43, 30</TLoc>
+	Continue north<legend>247, 148, 30, 255</legend> and accept quest
+		<AQ>Winds in the Desert</AQ> <tloc>46, 23</tloc>
+</ST>
+
+
+<ST order="4" class="all" legend="236, 0, 140, 255">
+	Go east and do (follow path)
+		<DoQuest>Winds in the Desert</DoQuest> by looting <namedmob>Stolen Supply Sacks</namedmob> on the ground
+	Once done go back to the quest npc<legend>158, 31, 99, 255</legend> and turn in
+		<RQ>Winds in the Desert</RQ>
+	Accept the follow up
+		<AQ>Securing the Lines</AQ>
+</ST>
+
+
+
+<ST order="5" class="all" legend="158, 31, 99, 255">
+	Go east again, trough the tunnel and do
+		<DoQuest>Securing the Lines</DoQuest> by killing <namedmob>Dustwind Savage</namedmob>, <namedmob>Dustwind Storm Witch</namedmob>
+	Once done <bold>DIE</bold>. 
+	If you are not <em>lvl 10</em> by now, turn in <RQ>Securing the Lines</RQ> and/or grind to lvl 10.
+</ST>
+
+<ST order="6" class="all" legend="0, 166, 81, 255">
+	Head west and accept quest
+		<AQ>Need for a Cure</AQ> <tloc>41, 18</tloc>
+	Go north/east to <place>Orgrimmar</place>
+</ST>

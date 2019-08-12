@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3D9ECC52-90C3-4785-8B3F-902D34BB4DD5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SamynixLevlingGuide</RootNamespace>
+    <AssemblyName>SamynixLevlingGuide</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommonServiceLocator, Version=2.0.2.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommonServiceLocator.2.0.2\lib\net47\CommonServiceLocator.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight, Version=5.4.1.0, Culture=neutral, PublicKeyToken=e7570ab207bcb616, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLightLibs.5.4.1.1\lib\net45\GalaSoft.MvvmLight.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Extras, Version=5.4.1.0, Culture=neutral, PublicKeyToken=669f0b5e8f868abf, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLightLibs.5.4.1.1\lib\net45\GalaSoft.MvvmLight.Extras.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Platform, Version=5.4.1.0, Culture=neutral, PublicKeyToken=5f873c45e98af8a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLightLibs.5.4.1.1\lib\net45\GalaSoft.MvvmLight.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.111.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.111.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\MvvmLightLibs.5.4.1.1\lib\net45\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="GuideConfig.cs" />
+    <Compile Include="MainViewModel.cs" />
+    <Compile Include="Model\ClassEnum.cs" />
+    <Compile Include="Model\Guide.cs" />
+    <Compile Include="Model\Quest.cs" />
+    <Compile Include="Model\QuestCategory.cs" />
+    <Compile Include="Model\QuestDAO.cs" />
+    <Compile Include="Model\Step.cs" />
+    <Compile Include="Model\SubStep.cs" />
+    <Compile Include="Repository.cs" />
+    <Compile Include="Tags\SimpleTags.cs" />
+    <Compile Include="Tags\TagParser.cs" />
+    <Compile Include="View\Legend\LegendListItem.cs" />
+    <Compile Include="View\Legend\LegendView.xaml.cs">
+      <DependentUpon>LegendView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Legend\LegendViewModel.cs" />
+    <Compile Include="View\StepView\ClickableInlineBase.cs" />
+    <Compile Include="View\StepView\PictureLinkInline.cs" />
+    <Compile Include="View\StepView\InlineImageButton.cs" />
+    <Compile Include="View\StepView\QuestLogButtonInline.cs" />
+    <Compile Include="View\StepView\StepListItem.cs" />
+    <Compile Include="View\StepView\SubStepTextBox.cs" />
+    <Compile Include="View\StepView\StepView.xaml.cs">
+      <DependentUpon>StepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\StepView\StepViewModel.cs" />
+    <Compile Include="View\StepView\SubStepView.xaml.cs">
+      <DependentUpon>SubStepView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\StepView\SubStepViewModel.cs" />
+    <Compile Include="View\StepView\TLocInline.cs" />
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="View\Legend\LegendView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\StepView\StepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\StepView\SubStepView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Tags\TextColors.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Content Include="GuideInfoExample.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Guide\CommenLegends.txt" />
+    <Content Include="Guide\WarriorShaman\Step-17 The Barrens\Image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-17 The Barrens\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-15 The Barrens\Image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-15 The Barrens\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-14 13-15 The Barrens\ImageShaman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-14 13-15 The Barrens\ImageWarrior.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-15 The Barrens\SubStep-1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-14 13-15 The Barrens\climbToSnout.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-14 13-15 The Barrens\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Resources\copy.png" />
+    <Content Include="Guide\WarriorShaman\Step-16 Orgrimmar and RFC\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-16 Orgrimmar and RFC\Image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Resources\appIcon.png" />
+    <Content Include="Guide\WarriorShaman\Step-18 Stonetalon Mountains\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-19 The Barrens\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="x64\SQLite.Interop.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="database.sqlite">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Guide\Maps\MapTemplateWithClippingMask.ai" />
+    <None Include="Guide\Maps\TheBarrens Full.ai" />
+    <None Include="Guide\WarriorShaman\Step-17 The Barrens\Image.ai" />
+    <None Include="Guide\WarriorShaman\Step-15 The Barrens\Image.ai" />
+    <None Include="Guide\WarriorShaman\Step-1 1-6 Valley of Trials\ImageShaman.ai" />
+    <None Include="Guide\WarriorShaman\Step-10 11 Orgrimmar\Image.ai" />
+    <None Include="Guide\WarriorShaman\Step-11 11-12 Durator\Image.ai" />
+    <None Include="Guide\WarriorShaman\Step-12 12-13 The Barrens\Image.ai" />
+    <None Include="Guide\WarriorShaman\Step-13 13 Thunder Bluff\ImageShaman.ai" />
+    <None Include="Guide\WarriorShaman\Step-13 13 Thunder Bluff\ImageWarrior.ai" />
+    <None Include="Guide\WarriorShaman\Step-14 13-15 The Barrens\Image.ai" />
+    <None Include="Guide\WarriorShaman\Step-14 13-15 The Barrens\ImageShaman.ai" />
+    <None Include="Guide\WarriorShaman\Step-14 13-15 The Barrens\ImageWarrior.ai" />
+    <None Include="Guide\WarriorShaman\Step-16 Orgrimmar and RFC\Image.ai" />
+    <None Include="Guide\WarriorShaman\Step-2 5-7 Durotar\ImageShaman.ai" />
+    <None Include="Guide\WarriorShaman\Step-3 7-8 Echo Isles\Image.ai" />
+    <None Include="Guide\WarriorShaman\Step-2 5-7 Durotar\ImageWarrior.ai" />
+    <None Include="Guide\WarriorShaman\Step-1 1-6 Valley of Trials\ImageWarrior.ai" />
+    <None Include="Guide\WarriorShaman\Step-4 8-9 Durator\ImageShaman.ai" />
+    <None Include="Guide\WarriorShaman\Step-4 8-9 Durator\ImageWarrior.ai" />
+    <None Include="Guide\WarriorShaman\Step-5 9-10 Durator\Image.ai" />
+    <None Include="Guide\WarriorShaman\Step-6 10 Orgrimmar\ImageShaman.ai" />
+    <None Include="Guide\WarriorShaman\Step-6 10 Orgrimmar\ImageWarrior.ai" />
+    <None Include="Guide\WarriorShaman\Step-7 10 Durator\Image.ai" />
+    <None Include="Guide\WarriorShaman\Step-8 10 The Barrens - Class quests\ImageShaman.ai" />
+    <None Include="Guide\WarriorShaman\Step-8 10 The Barrens - Class quests\ImageWarrior.ai" />
+    <None Include="Guide\WarriorShaman\Step-9 10-11 Durator\ImageShaman.ai" />
+    <None Include="Guide\WarriorShaman\Step-9 10-11 Durator\ImageWarrior.ai" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Guide\Maps\Ashenvale.jpg" />
+    <None Include="Guide\Maps\Azshara.jpg" />
+    <None Include="Guide\Maps\Darkshore.jpg" />
+    <None Include="Guide\Maps\Desolace.jpg" />
+    <None Include="Guide\Maps\Durator.jpg" />
+    <None Include="Guide\Maps\Dustwallow Marsh.jpg" />
+    <None Include="Guide\Maps\Felwood.jpg" />
+    <None Include="Guide\Maps\Ferelas.jpg" />
+    <None Include="Guide\Maps\Moonglade.jpg" />
+    <None Include="Guide\Maps\Mulgore.jpg" />
+    <None Include="Guide\Maps\Orgrimmar.jpg" />
+    <None Include="Guide\Maps\Silithus.jpg" />
+    <None Include="Guide\Maps\Stonetalon.jpg" />
+    <None Include="Guide\Maps\Tanaris.jpg" />
+    <None Include="Guide\Maps\Teldrassil.jpg" />
+    <None Include="Guide\Maps\The Barrens.jpg" />
+    <None Include="Guide\Maps\Thousand Needles.jpg" />
+    <None Include="Guide\Maps\Thunder Bluff.jpg" />
+    <None Include="Guide\Maps\Un goro crater.jpg" />
+    <None Include="Guide\Maps\Winterspring.jpg" />
+    <Content Include="Guide\missingImage.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\questLogButton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Guide\Screenshots and Coords\Coords.txt" />
+    <None Include="Guide\Screenshots and Coords\Die to Razor.png" />
+    <None Include="Guide\Screenshots and Coords\Path to Razormane Snoutballs.PNG" />
+    <None Include="Guide\Screenshots and Coords\Path up deadmist.PNG" />
+    <Content Include="StepInfoExample.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\GuideInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-1 1-6 Valley of Trials\dieToRazor.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-10 11 Orgrimmar\Image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-10 11 Orgrimmar\Substep-2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-11 11-12 Durator\Image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-11 11-12 Durator\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-1 1-6 Valley of Trials\ImageShaman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-12 12-13 The Barrens\Image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-12 12-13 The Barrens\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-13 13 Thunder Bluff\ImageShaman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-13 13 Thunder Bluff\ImageWarrior.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-13 13 Thunder Bluff\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-2 5-7 Durotar\ImageShaman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-2 5-7 Durotar\razorPathToTower.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-5 9-10 Durator\Image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-5 9-10 Durator\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-6 10 Orgrimmar\ImageShaman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-6 10 Orgrimmar\ImageWarrior.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-6 10 Orgrimmar\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-7 10 Durator\Image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-7 10 Durator\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-10 11 Orgrimmar\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-10 11 Orgrimmar\Substep-1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-8 10 The Barrens - Class quests\ImageShaman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-8 10 The Barrens - Class quests\ImageWarrior.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-9 10-11 Durator\callOfFirePath.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-9 10-11 Durator\ImageShaman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-9 10-11 Durator\ImageWarrior.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-9 10-11 Durator\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-8 10 The Barrens - Class quests\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-3 7-8 Echo Isles\Image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-3 7-8 Echo Isles\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-2 5-7 Durotar\ImageWarrior.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-2 5-7 Durotar\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-1 1-6 Valley of Trials\ImageWarrior.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-1 1-6 Valley of Trials\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-4 8-9 Durator\ImageShaman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-4 8-9 Durator\ImageWarrior.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-4 8-9 Durator\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SamyLib\GuiWPF\GuiWPF.csproj">
+      <Project>{F6CC1511-7F95-4E2A-B5E7-D3DAF53E512E}</Project>
+      <Name>GuiWPF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SamyLib\Standard\Database\Database.csproj">
+      <Project>{4861087A-50B2-4A1C-A635-6E478A0156AB}</Project>
+      <Name>Database</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\SamyLib\Standard\Utilities\Utilities.csproj">
+      <Project>{def95caa-8627-4657-b679-922d4379cfc2}</Project>
+      <Name>Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.111.0\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.111.0\build\net46\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.111.0\build\net46\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.111.0\build\net46\System.Data.SQLite.Core.targets'))" />
+  </Target>
+</Project>

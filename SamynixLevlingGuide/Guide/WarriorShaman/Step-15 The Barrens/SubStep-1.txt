@@ -1,0 +1,8 @@
+﻿<DQ>The Stagnant Oasis</DQ>
+<WQ>Prowlers of the Barrens</WQ>
+<DQ>Raptor Thieves</DQ>
+<DQ>Prowlers of the Barrens</DQ>
+<RQ>Chen's Empty Keg</RQ>
+<RQ>Wharfmaster Dizzywig</RQ>
+<AQ>Miner's Fortune</AQ>
+<AQ>Samophlange</AQ>

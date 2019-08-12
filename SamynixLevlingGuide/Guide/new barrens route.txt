@@ -1,0 +1,498 @@
+- SKRIV LAPP HUSK CONSCRIPT OF THE HORDE
+-> I orgrommar gå te thrall fyst
+-> Plokk opp steinen
+Dø te XRoads 12-
+-> IKKJE HVI DEN JEVLA LØYNANTSINSIGNIAEN. DU MYSTE QUESTE SÅ DU SKA LEVERA HEILT I SLUTTEN HER FUCK YOU!
+
+Disrupt
+Supplies of the crossroads
+Forgotten pools
+Repair
+Crossroads Consription
+Plainstider Menace
+-> Kjøb vatn å mad. trenge det frå nå!
+-> Sedd hs
+Raptor Thieves
+Fungal, wharfmaster
+
+: Quest needed: 
+-> Fuck zebras di rive hardt
+-> East pickup kolkar
+-> Skip kloklar leader mannen, lvl 16. Eg daua hardt
+-> Nord pickup mushroom and pools
+-> Up the mountain todo demon seed
+-> Ner te pools igjen hvis en mangle sopps
+-> Grind te Razormane
+-> BLi ferige me call of fire her 
+-> NÅ MÅ ME VÆR FERDIGE ME PLAINSTRIDERS
+-> Grind te xroads
+Fungal spores _>
+disrupt ->
+plainstriders ->
+forgotten ->
+
+Nå går di te tbluff.(Du kan dø rett øve bruå) Trur me gjer faen!. Me gjer IKKJE faen!
+	OPTION: Hvis me ska gjør RFC i slutten her. SÅ GÅ. Plokk opp tima quest. Få nye stav. Apochetry blabla.
+	Plokk opp rfc quests i tb. ELDER RISE (Searching for the Lost Satchel, Testing an Enemy's Strength )
+HUSK WINDRIDER 
+tren cooking
+hent rfc quests elder
+train firstaid heavy linen du BØR ha nok te nå
+husk å tren journeyman
+lever quest apoc
+HS
+
+
+
+
+-> Grind nerøve te å levera demon seeds (Sjekk chens me shaman tårn)
+-> Eg går å levere shaman q nå ,grind noge sjid imens (To be decided, kan levera det seinare maybe) (må levera neste del ittepå igjen..)
+
+-> Warrior gå opp på fjeddele å hent q imens.
+HUSK Å TRYKKK PÅ SHAMAN BRAZIER ITTE MORDA FLAME ELEMENT
+IKKJE DETT NER TE VALLEY OF SHITLAND
+
+-> Grind opp te razormanes kreening snarlstout and supplycrates
+-> Eg går bort te shaman tårn å levere siste del av qeuste. øve veien
+-> NÅ MÅ ME VÆR FERDIGE ME ZHEVRA (jafal anbefalt :P)
+-> Grind tebage te xroads. 
+-> Husk å plokk opp meats for ogrimmar NÅ. (RIDE TO GRImmar)
+lever meats ta neste
+lever disruption
+lever supplies
+lever zebra ta neste
+
+"ta opp lost in battle?" skriv ittepå om me ska. IKKJE VITS
+
+
+-> Grind te stagnant oasis (do q ofc)
+<ST order="1" legend="0, 0, 0">
+	Grind your way south to <place>Stagnant Oasis</place>
+	Do quest
+		<DQ>The Stagnant Oasis</DQ>
+</ST>
+
+-> Gå te nord for raptor mountain å clear ud cat camps
+<ST order="2" legend="237, 28, 36, 128">
+	Grind your way east
+	Start working on
+		<WQ>Prowlers of the Barrens</WQ> by clearing out all <nm>Prowler</nm> camps
+</ST>
+
+
+<ST order="3" legend="255, 242, 0, 128">
+	Go west up the to <place>Raptor Mountain</place>
+	Work on
+		<wq>Raptor Thieves</wq> by killing/looting all the <nm>Raptors</nm>
+	Go down and up until these quests are done!
+		<DQ>Prowlers of the Barrens</DQ><LE>237, 28, 36, 128</LE>
+		<DQ>Raptor Thieves</DQ><LE>255, 242, 0, 128</LE>
+</ST>
+
+
+-> Grind opp te Raptor mountain (oppføre ratchet) finish raptor shit
+hvis du ikkje blir ferige me prowlers, fuck it gå ner te ratchet
+-> Gå te ratchet, finish prowlers fyst, e masse cats rett nerføre fjeddele
+
+<ST order="4" legend="0, 166, 81">
+	Grind your way north/east to <place>Ratchet</place>
+	Turn in quest
+		<RQ>Chen's Empty Keg</RQ>
+	Accept the next part
+		<AQ>Chen's Empty Keg;2</AQ>
+	Near the <nm>Flight Master</nm> pickup
+		<AQ>Samophlange</AQ>
+	Follow the path into the <place>Engineering building</place> and accept
+		<AQ>Southsea Freebooters</AQ>
+	At the <b>Wanted Poster</b> accept
+		<AQ>WANTED: Baron Longshore</AQ>
+	Put <nm>Control Console Operating Manual</nm> in the bank. (You can try and throw it away first, you may loose your quest)
+	Next to you, accept
+		<AQ>Raptor Horns</AQ>
+	<b>Sell/Repair @ the building next to you</b>
+</ST>
+lever chen ->
+gå te kaiå 
+wharfmaster
+miners forutne(maybe not)
+sampolage  <her har eg komt te på pq dq>
+
+flight master
+engineer bygg
+southsee freeoters
+hiv sjampo manual i banken
+raptor horns.
+sell drid me siå raptor horns, der kan du reparera au
+
+- hiv sjamp manualen i banken fuck den.. 
+husk å plokk opp wanted poster: Wanted Baron Longshore
+-> Kjøb mudsnappers av fiskaren rett før kaiå hvis du vil
+
+<ST order="5" legend="0, 174, 239, 128">
+	Grind your way south and do quests
+		<DQ>Southsea Freebooters</DQ>
+		<DQ>WANTED: Baron Longshore</DQ>
+	Once done, return to <place>Ratchet</place>
+</ST>
+
+<ST order="6">
+	At the <place>Engineering building</place> turn in
+		<RQ>Southsea Freebooters</RQ>
+		<RQ>WANTED: Baron Longshore</RQ>
+	Accept
+		<AQ>The Missing Shipment</AQ>
+	Walk down to the <place>Docks</place>
+	Turn in
+		<RQ>Wharfmaster Dizzywig</RQ>
+		<RQ>The Missing Shipment</RQ>
+	Accapt the next part
+		<AQ>The Missing Shipment;2</AQ>
+	Walk back up to the <place>Engineering building</place> and turn in
+		<RQ>The Missing Shipment;2</AQ>
+	Accept
+		<AQ>Stolen Booty</AQ>
+	<b>Sell/Repair</B> west of the bank
+</ST>
+
+-> Gjer sjørøvara.
+-> Lever sjørørva å baronsifhsdale (du kan levera engineer shit uden å gå te andre etasje!. Jump me autoquest(samyqol or fuck off))
+ta opp missing shipment
+-> HUSK Å GÅ TE DOCKS Å LEVER FYSTE DEL AV MISSING SHIPMENT
+	Go to the docks and turn in
+		
+
+-> HUSK Å GÅ OPP IGJEN å få STOLEN BOOTAY
+-> Gå te pirat å gjer shipment stolen
+
+IKKJE KJØB STAV, får bære stav frå Hidden Enemeis RFC reward
+
+
+
+itte missing shipment: 
+HS
+
+
+lever raptorthieves -> stolen silver
+prowlers -> echeyakee
+stagnant -> altered
+fly te orgrimmar
+hiv stolen shit i banken
+gå te inn å lever meats
+gå opp lever neste del me engngo
+gå å tren skills
+plokk opp spirits of stonetalon
+lever hidden enemies ta follow
+
+
+-> Me går tebage å levere shipment. Ossså flyge me te ogrimmar. (hvis me faktisk ikkje e lvl 14 nå så må me fly te xroads)
+-> Lever meats te innkeeperen. Lever neste del te flygemannen. (me ska hsa tebage)
+-> . Tren and shit i ogrimmar. Gå å tren firstaid så langt du kjeme, på tie
+-> Ed mad i virkeligheden, lag te, mens du skille firstaid!. (FINN GRUPPA TE RFC)
+-> DO RFC
+Lever hidden enemies, fram å tebage femti gonge.
+
+
+
+-> HS te xroads.
+
+<ST order="1" legend="0, 0, 0">
+	At the <nm>Wind Rider</nm> turn in
+		<RQ>Return to the Crossroads</RQ>
+	Head north/east
+	Start working on
+		<WQ>Chen's Empty Keg;2</WQ> by killing <nm>Plainstriders</nm> 
+	Kill/Loot <nm>Echeyakee</nm> for
+		<DQ>Echeyakee</DQ>
+	Head north/west<LE>0, 166, 81</LE>
+</ST>
+
+<ST order="2" legend="0, 166, 81>
+	Start working on
+		<WQ>Chen's Empty Keg;2</WQ> by killing <nm>Savannah Lion Tusk</nm> for<LE>237, 28, 36, 170</LE>
+	Once you reach the <place>Goblin Camp</place> turn in
+		<RQ>Samophlange</RQ> by clicking the <nm>Control Panel</nm>
+	Accept the next part
+		<AQ>Samophlange;2</AQ>
+	Do quest
+		<DQ>Samophlange;2</DQ> by cliking the 3 vaults around the <b>pumpwhateverstation</b>
+	Turn in
+		<RQ>Samophlange;2</RQ>
+	Accept the next part
+		<AQ>Samophlange;3</AQ>
+	Head east abit to the little <b>House</b>
+	There Kill/Loot <nm>Tinkerer Sniggles</nm> for
+		<DQ>Samophlange;3</DQ>
+	Go back down to the <b>console</b> and turn in
+		<RQ>Samophlange;3</RQ> 
+	Accept the next part
+		<AQ>Samophlange;4</AQ>
+	<br/>
+	If your not done with <nm>Savannah Lion Tusk</nm> for <WQ>Chen's Empty Keg;2</WQ> take another round of those
+	<b>SUECIDE</b> and Spirit Res
+</ST>
+	
+	
+
+	
+
+lever return the crossroads
+-> Gå å gjer Echeyakee (forbi shaman tårn bag der)
+-> Mord masse prowlser for chens (trenge ikkje gjer ferdigt)
+-> Sjampo
+husk å lever
+-> SUECIDE
+-> Lever quests
+
+<ST order="3">
+	Turn in quest
+		<RQ>Echeyakee</RQ>
+	Skip <SQ>The Angry Scytheclaws</SQ> for now. You will get annoying feathers in inventory
+	Fly to <place>Ratchet</place>
+</ST>
+
+<ST order="4">
+	In the <place>Bank</place> take out
+		<BW>Telescopic Lens</BW>
+		<BW>Shipment of Boots</BW>
+	Put into <place>Bank</place>
+		<BD>Spells of Shadow</BD>
+		<BD>Incantations from the Nether</BD>
+		<BD>Grimtotem Satchel</BD>
+	Turn in quest
+		<RQ>Samophlange;4</RQ>
+	Accept quests
+		<AQ>Wenikee Boltbucket</AQ>
+		<AQ>Ziz Fizziks</AQ>
+		<AQ>Deepmoss Spider Eggs</AQ>
+	<b>Repair/Sell</b> in house next to <place>Bank</place>
+	<br/>
+	Walk up the hill and to the left. 
+	<SH>Make Ratchet your home</SH>
+	Fly to <place>The Crossroads</place>
+</ST>
+
+<ST order="5" legend="0, 174, 239">
+	<em>Go to the tower and accept quest</em>
+		<AQ>Harpy Raiders</AQ>
+	Follow the road north
+	Kill/Loot <nm>Plainstriders</nm> for
+		<wq>Chen's Empty Keg;2</wq>
+	Turn in quest
+		<RQ>Wenikee Boltbucket</RQ>
+	Accept
+		<AQ>Nugget Slugs</AQ>
+</ST>
+
+
+
+	
+
+
+-> Fly ratchet
+ta ud di der itemane te stolen shipment av banken
+legg in power to destroy i banken
+legg satchel rfc i banken
+-> Lever sjampo. ta opp wenkiee boltbucket. 
+ziz fizziks
+lever stolen shipment
+legg skjold i banken
+ta opp deep spider eggs 
+reparer
+
+-> Sett hearth 
+-> Fly te xroads. zz.
+PLOKK OPP HARPY QUEST FRÅ TÅRNET!!
+ikkje ta angry scyteclaws
+
+-> Gå nord å lever nest sjampo
+
+<ST order="6" legend="46, 49, 146, 170">
+	Head east. You can stop and <b>Sell/Repair</b> at vendor
+	Kill/Loot <nm>Harpies</nm> for
+		<DQ>Harpy Raiders</DQ>
+	Once done, head south
+</ST>
+
+<ST order="7" legend="236, 0, 140">
+	If your not done with <nm>Savannah Lion Tusk</nm> for <WQ>Chen's Empty Keg;2</WQ> finish these <B>NOW></b>
+	Kill <nm>Barak Kodobane</nm><TL>42, 23</TL> for quest
+		<DQ>Kolkar Leaders</DQ>
+	Head south and turn in
+		<RQ>Kolkar Leaders</DQ>
+	Accept
+		<AQ>Verog the Dervish</AQ>
+	Head west to <place>Stonetalon Mountains</place>
+</ST>
+
+-> Gå te han knallart vendoren mod harpyies.
+-> Harpy
+-> Kolkar leaders? hits like a mothjerfucker
+-> Lever kolkar leaders og centuar bracers (hvis done)
+pickup vergosh the devorishsh
+
+Guide e herte nå
+
+<ST order="1">
+	On the border to <place>Stonetalon Mountains</place> turn in quest
+		<RQ>The Spirits of Stonetalon</RQ>
+	Accept quests
+		<AQ>Goblin Invaders</AQ>
+		<AQ>Avenge My Village</AQ>
+	Continue further into <place>Stonetalon Mountains</place>
+</ST>
+
+<ST order="2">
+	Kill <nm>Grimtotem Ruffian</nm> and <nm>Grimtotem Mercenary</nm> for
+		<DQ>Avenge My Village</AQ>
+	Once done, return to <place>border</place>
+</ST>
+
+<ST order="3">
+	Turn in quest
+		<RQ>Avenge My Village</RQ>
+	Accept quest
+		<AQ>Kill Grundig Darkcloud</AQ>
+	Head west into <place>Stonetalon Mountains</place>, use the ramp south of you!
+</ST>
+
+<ST order="4">
+	Accept quest
+		<AQ>Blood Feeders</AQ>
+	Go north/west and find a place to <b>DIE</b>
+	Spirit res
+</ST>
+
+<ST order="5">
+	Go to <place>Sun Rock Retreat</place>
+	<b>Sell/Repair at bowyer right off the <nm>Windrider</nm>
+	Fly to <place>The Crossroads</place>
+</ST>
+		
+-> Stonetalon mountain
+lever spirits of stonetalon /husk å share det me lazbboy
+pickkup golbin invadors
+-> Avange my village
+-> Ner å lever,plokk opp follow
+-< Grind opp te den der campen west (snille camp) use the fucking ramp(rampen e heilt i starten tru eg)
+-> plokk opp blood feeders, 
+-> DØ(muligt det blir hardt for okke)
+
+-> Gå vidare oppøve te sunrock retreet
+sell drid å reparer bowyer
+-> fly te xroads
+
+<ST order="1">
+	At the <place>Watchtower</place> turn in
+		<RQ>Harpy Raiders</RQ>
+	Accept
+		<AQ>Harpy Lieutenants</AQ>
+	Over the road next to the <place>Inn</place> accept
+		<AQ>The Angry Scytheclaws</AQ>
+</ST>
+
+<ST order="2">
+	Head south/east towards <place>The Stagnant Oasis</place>
+	Check if <nm>Verog the Dervish</nm> <tloc>53, 42</tloc> is up if so kill him for 
+		<WQ>Verog the Dervish</WQ>
+	Do 
+		<DQ>Centaur Bracers</DQ> by killing <nm>Kolkars</nm>
+	<nm>Verog the Dervish</nm> spawns by killing the <nm>Kolkars</nm> in the area
+	<br/>
+	You can also start working on 
+		<WQ>Altered Beings</WQ>
+	If you still need to kill <nm>Verog the Dervish</nm> kill him for
+		<DQ>Verog the Dervish</DQ>
+</ST>
+
+<ST order="3">
+	Head abit east to the Stagnant Oasis
+	Kill/loot <nm>Oasis Snapjaw</nm> for quest
+		<DQ>Altered Beings</DQ>
+	Once done head back to <place>The Crossroads</place>
+</ST>
+
+lever harpy raiders
+ta opp harpy lieutenants
+plokk opp angry shitclaws
+
+
+-> Ner å gjer altered snapjaw shells å vargos
+-> her må me bli ferdige me kolkar bracers. (Kan ta slutten rett før levering, men dei mobså kan vær litt låge lvl. 12-13-14)
+-> xroads
+
+her e me på guiiden NÅ
+
+lever altered snapjaws. plokk opp huma runetotem, consumed by hatred. (mulig me ikkje har plass , sjekk når du skrive skikkele guide på quets count)
+
+
+
+-> gjer ferdigtg prowler delen av chens
+-> Slugfen
+-> mord deg te mech mannne å plokk opp quest: Ignition
+-> Do sjamp(nuggets slugs) å escort(du må gjer ignition fyst) (samtidigt)
+-> Lever sjampo(nuggets) ta follow rilll greasygob
+-> gå te han knallat vendoren å sell drid. før harpies
+-> do harpy løytnantar
+-> gå å lever han kloklar satanen ta opp follow
+-> hs te ratchet
+-> northwatch keep
+
+-> gå te northwatch (gå på oppsiå å grind sjid på veien)
+-> fuck the police(escort) alså ikkej gjør an
+-> stolen silver 
+-> angry shitclaws
+-> sikkart lurt at intact raptor horns blir ferdigt
+-> mord plainstriders te du har alt for chens
+-> finn kånå te han mordaren me bruå
+-> thunder lizzard horn te chens
+-> dau igjen te xroads. (må oppføre bruå)
+
+lever masse greie. Hvis me ikje fekk plokkt opp huma å consumed gjør det nå
+
+-> fly te ogrimmar, på tie å få noge skills igjen!
+
+
+
+-> lever rilli greasybob(engineer borti opp nord der ikkje så langt ifrå forge and shit) å plokk sampomanual
+-> TREN WEAPON SKILLS (shaman)
+tren shaman skills
+tren firstaid
+-> gå ud av ogrimmar bagveien
+-> miners fortune å sampomanual
+-> spring tebage te ogrimmar (bagvei)
+-> lever sjamp manual(1800 xp)
+
+-> fly te stonetalon .
+
+
+plokk opp boulderslide ravine
+-> grind ner te han ziz fizziks i buå i krysset
+-> goblin invaders, super re33aper, work egg, work feeders
+lever super reaper -> future inscrutions
+elder crone, shredding machines
+
+-> agropohiobia (arachnopohbia)
+-> boulderslide ravine
+-> grundig
+-> escort
+-> gå å lever barrens border kayas alive, grunding darkcloud, 
+-> serena shitfeether (harpy) (du kan gå på fjellet heilt opp nord så du sleppe å grinda very low lvl mobs)
+-> hs te ratchet
+ta ud satchel
+kaien
+plokk opp wc quests
+-> fly xroads
+lever bloodfeather , plokk opp letter to jinzil. 
+-> fly stonetalon
+boulder ravine, plokk opp earth arise, trouble in the deeps
+lever arachnobia, kayas alive, reparer på bowwyer
+fly te tb
+ta ashenvale hunt
+legg i banken letter to jin
+tren skills, ta opp wc quests
+lever rfc quests, elder crone _> forsaken aid
+hua runetotem > nara wildmane -> leaders
+
+ta call of water
+lever forsaken aid, ta jouernt to terran å serpentbloom
+flyg te xroads å gjer wc. Gjør hazmul mens du leide itte gruppa. elle ittepå :P

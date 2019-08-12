@@ -1,0 +1,145 @@
+﻿<Title>12-13 The Barrens</Title>
+<StepNumber>12</StepNumber>
+<Image class="All">Image.png</Image>
+
+
+<ST order="1" class="Shaman">
+	Turn in quest 
+		<RQ>Conscript of the Horde</RQ>
+	Accept 
+		<AQ>Crossroads Conscription</AQ>
+	Turn in quest 
+		<RQ>Ak'Zeloth</RQ>
+	Accept 
+		<AQ>The Demon Seed</AQ>
+	<em>On the table next to you, loot <nm>Flawed Power Stone</nm></em>
+</ST>
+
+<ST order="1" class="Warrior">
+	Turn in quest
+		<RQ>Conscript of the Horde</RQ>
+	Accept
+		<AQ>Crossroads Conscription</AQ>
+	Turn in quest 
+		<RQ>Path of Defense</RQ>
+	Accept 
+		<AQ>Thun'grim Firegaze</AQ>
+	Turn in quest 
+		<RQ>Ak'Zeloth</RQ>
+	Accept
+		<AQ>The Demon Seed</AQ>
+	<em>On the table next to you, loot <nm>Flawed Power Stone</nm></em>
+</ST>
+
+
+<ST order="2" class="All">
+	On the <bold>NORTH</bold> side of the road, <b>DIE</b>
+	Spirit res
+	At the bottom of the watchtower accept quests
+		<AQ>Disrupt the Attacks</AQ>
+		<AQ>Supplies for the Crossroads</AQ>
+	South in XRs accept 
+		<AQ>The Forgotten Pools</AQ> <tloc>52, 32</tloc>
+	<b>Sell/Repair at cloth vendor</b>
+	North abit turn in 
+		<RQ>Crossroads Conscription</RQ>
+	Accept 
+		<AQ>Plainstrider Menace</AQ>
+	Go inside the <place>Inn</place>. Time to buy some <nm>Milk</nm>
+	<sethome>Make XR your home</sethome>
+	Next to the mailbox accept 
+		<AQ>Raptor Thieves</AQ>
+	Near the flightmaster accept
+		<AQ>Fungal Spores</AQ>
+		<AQ>Wharfmaster Dizzywig</AQ>
+	<cm>Remember to take flight point</cm>
+</ST>
+
+
+<ST order="3" class="All" legend="237, 28, 36">
+	Start working on
+		<wq>Plainstrider Menace</wq>
+		<wq>Raptor Thieves</wq>
+	Head west <le></le> to <namedmob>Regthar Deathgate</namedmob> <tl>45.4, 28.4</tl> 
+	Accept quests
+		<AQ>Centaur Bracers</AQ>
+		<AQ>Kolkar Leaders</AQ>
+</ST>
+
+
+<ST order="4" class="All" legend="0, 166, 81, 255">
+	Start working on
+		<wq>Centaur Bracers</wq>
+	Head north towards <b>The forgotten Pools</b> while killing everything (except <namedmob>Zebras</namedmob>, they hurt like hell)
+	Pickup all the <nm>Mushrooms</nm> you can find for
+		<wq>Fungal Spores</wq>
+	Do quest 
+		<dq>The Forgotten Pools</dq> by swimming to center of lake
+</ST>
+
+
+<ST order="5" class="All" legend="0, 166, 81, 255">
+	Walk up <place>Deadmist Peak</place> to cave @ <tl>47 ,19</tl>
+	Enter and do
+		<dq>The Demon Seed</dq>
+	If you still need <nm>Mushrooms</nm> walk back down and finish
+		<dq>Fungal Spores</dq>
+</ST>
+
+
+<ST order="6" class="Shaman" legend="0, 174, 239, 255">
+	Grind your way east to <place>Razormane camp</place>
+	Do quests
+		<dq>Disrupt the Attacks</dq>
+		<dq>Call of Fire;3</dq>
+	Look for <NM>Chen's Empty Keg</NM> if found
+	Accept quest
+		<AQ>Chen's Empty Keg</AQ>
+	<br/>
+	Be sure you are done with
+		<dq>Plainstrider Menace</dq>
+	Grind your way back to <place>Crossroads</place>
+</ST>
+
+<ST order="6" class="Warrior" legend="0, 174, 239, 255">
+	Grind your way east to <place>Razormane camp</place>
+	Do quest
+		<dq>Disrupt the Attacks</dq>
+	Look for <NM>Chen's Empty Keg</NM> if found
+	Accept quest
+		<AQ>Chen's Empty Keg</AQ>
+	Be sure you are done with
+		<dq>Plainstrider Menace</dq>
+	Grind your way back to <place>Crossroads</place>
+</ST>
+
+<ST order="7" class="All" legend="46, 49, 146">
+	Turn in quests
+		<RQ>Fungal Spores</RQ>
+	Accept <em>YOU HAVE TO WAIT UNTIL THE NPC BREWS UP SOME MAGIC STUFF</em>
+		<AQ>Apothecary Zamah</AQ>
+	Turn in
+		<RQ>Disrupt the Attacks</RQ>
+	Accept
+		<AQ>The Disruption Ends</AQ>
+	Turn in
+		<RQ>Plainstrider Menace</RQ>
+	Accept
+		<AQ>The Zhevra</AQ>
+	Turn in
+		<RQ>The Forgotten Pools</RQ>
+	Accept
+		<AQ>The Stagnant Oasis</AQ>
+</ST>
+
+
+<ST order="8" class="All" legend="236, 0, 140, 255">
+	Grind your way <b>South</b>
+	Start working on
+		<wq>The Zhevra</wq>
+	When you are <cm>PAST</cm> the bridge, <b>DIE</b>
+	Spirit Res
+	Pickup <cm>Flight point</cm> then follow path<le>190, 30, 45</le> into <place>Mulgore</place>
+	Once you have entered <place>Mulgore</place>, <b>DIE</b> again
+	Spirit Res, follow road <b>North</b> to <place>Thunder Bluff</place>
+</ST>

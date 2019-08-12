@@ -1,0 +1,65 @@
+﻿<Title>16 - Orgrimmar and RFC</Title>
+<StepNumber>16</StepNumber>
+<Image class="All">Image.png</Image>
+
+
+<ST order="1">
+	Walk to the <place>Inn</place><LE>0, 0, 0</LE> and turn in
+		<RQ>Ride to Orgrimmar</RQ>
+	Accept
+		<AQ>Doras the Wind Rider Master</AQ>
+	Put these items in the <b>BANK</b/>
+		<BD>Telescopic Lens</BD>
+		<BD>Shipment of Boots</BD>
+	Walk back up to the <nm>Wind Rider</NM> and turn in
+		<RQ>Doras the Wind Rider Master</RQ>
+	Accept
+		<AQ>Return to the Crossroads</AQ>
+	<em>DON'T FLY</em>
+	While searcing for group for <place>Ragefire Chasm</place> go train new <b>skills</b> and <b>firstaid</b>
+</ST>
+
+<ST order="2">
+	Head towards <place>Thrall's Throne Room</place>
+	When you enter, on the left, accept quest
+		<RQ>The Spirits of Stonetalon</RQ>
+	Continue to <nm>Thrall</nm>
+	Turn in
+		-<RQ>Hidden Enemies;2</RQ>
+	Accept the next part
+		-<AQ>Hidden Enemies;3</AQ>
+	<br/>
+	Leave and go towards <place>The cleft of Shadows</place>
+	Pickup quest
+		<AQ>Slaying the Beast</AQ>
+	Share quests with the others, <b>Shaman</b> should have the quests from <place>Thunder Bluff</place>
+
+	Quests:
+		<AQ>Hidden Enemies;3</AQ>
+		<AQ>Searching for the Lost Satchel</AQ>
+		<AQ>Slaying the Beast</AQ>
+		<AQ>Testing an Enemy's Strength</AQ>
+		<AQ>The Power to Destroy...</AQ> If nobody has this to share, don't worry its hardly worth the time handing in later!
+</ST>
+
+<ST order="3">
+	Do RFC
+		<DQ>Hidden Enemies;3</DQ>
+		<DQ>Slaying the Beast</DQ>
+		<DQ>Testing an Enemy's Strength</DQ>
+		<DQ>The Power to Destroy...</DQ>
+		Turn in
+			<RQ>Searching for the Lost Satchel</RQ> and accept
+			<AQ>Returning the Lost Satchel</AQ>
+</ST>
+
+<ST order="4">
+	Right outside <place>RFC</place> turn in
+		<RQ>Slaying the Beast</RQ>
+	Go to <place>Thrall's Throne Room</place> and turn in
+		<RQ>Hidden Enemies;3</RQ>
+	Accept the next part, go to <place>The cleft of Shadows</place> and turn it in.
+	Accept the next part, go back to <place>Thrall's Throne Room</place> and turn it in!
+	<SetHome>Hearth</SetHome> to <place>The Crossroads</place>
+</ST>
+

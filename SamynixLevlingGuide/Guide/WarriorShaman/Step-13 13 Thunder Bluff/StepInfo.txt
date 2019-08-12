@@ -1,0 +1,60 @@
+﻿<Title>13-13 Thunder Bluff</Title>
+<StepNumber>13</StepNumber>
+<Image class="Warrior">ImageWarrior.png</Image>
+<Image class="Shaman">ImageShaman.png</Image>
+
+<SubStep order="1" class="shaman" legend="237, 28, 36, 255">
+	Head to the <nm>Cooking Trainer</nm>
+	Train cooking, if you don't have it. (Needed for quest later)
+</SubStep>
+
+
+<SubStep order="1" class="warrior">
+	Train new Weapon Skills <le>237, 28, 36, 255</le>
+	Go east <le>0, 166, 81</le> to <b>The Hunter Rise</b>
+	Train new skills!
+</SubStep>
+
+
+<ST order="2" class="Shaman" legend="0, 174, 239">
+	Head for <b>The Elder Rise</b>
+	Accept quests
+		<AQ>Searching for the Lost Satchel</AQ>
+		<AQ>Testing an Enemy's Strength</AQ>
+</ST>
+
+<ST order="2" class="Warrior" legend="0, 174, 239">
+	Train <b>Cooking</b> if you haven't already (Needed for quest later)
+</ST>
+
+<ST order="3" class="shaman" legend="46, 49, 146">
+	Go to the center of <place>Thunder Bluff</place>
+	<em>Take Flightpath</em>
+</ST>
+
+<ST order="3" class="Warrior" legend="46, 49, 146">
+	Go to the center of <place>Thunder Bluff</place>
+	<em>Take Flightpath</em>
+</ST>
+
+<ST order="4" class="shaman" legend="236, 0, 140">
+	Go to <place>The Spirit Rise</place>
+	<b>Get your level 12 skills!</b>
+	Skill up your firstaid!. You should have plenty for <nm>Heavy Linen Bandage</nm> now
+	If you get over <b>50</b> train <b>Journeyman</b>
+</ST>
+
+<ST order="4" class="warrior" legend="236, 0, 140">
+	Go to <place>The Spirit Rise</place>
+	Skill up your firstaid!. You should have plenty for <nm>Heavy Linen Bandage</nm> now
+	If you get over <b>50</b> train <b>Journeyman</b>
+</ST>
+
+<ST order="5" legend="190, 30, 45">
+	Head down the past @ the west side, into the cave
+	Accept quest
+		<AQ>Until Death Do Us Part</AQ>
+	Turn in quest
+		<RQ>Apothecary Zamah</RQ>
+	<sh>Hearth</sh> to <place>The Crossroads</place>
+</ST>

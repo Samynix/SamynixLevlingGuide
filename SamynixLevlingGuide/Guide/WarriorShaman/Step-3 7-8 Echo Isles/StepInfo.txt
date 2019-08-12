@@ -1,0 +1,58 @@
+﻿<Title>7-8 Echo Isles</Title>
+<StepNumber>3</StepNumber>
+<Image class="All">Image.png</Image>
+
+<SubStepOrder>1</SubStepOrder>
+<Class>All</Class>
+
+<ST order="1" class="all" legend="0, 0, 0, 255">
+	Swim/grind your way out to <place>Raptor Isle</place>, work on the follwing quests
+		<WorkOnQuest>A Solvent Spirit</WorkOnQuest> by killing/looting <NamedMob>Crabs</NamedMob> and <NamedMob>Makuras</NamedMob>, <em>Warrior is priority, you can finish it later</em>
+		<WorkOnQuest>Break a Few Eggs</WorkOnQuest> by looting <namedmob>Raptor eggs</NamedMob>(Usualy spawns by raptors next to trees)
+		<WorkOnQuest>Practical Prey</WorkOnQuest> by killing/looting <NM>Durotar Tiger</NM>
+		<WorkOnQuest>Zalazane</WorkOnQuest> by killing the humanoids on the main isle
+</ST>
+
+<ST order="2" class="warrior">
+	Once you reach <namedmob>Zalazane</namedmob> <TLoc>56, 75</TLoc> kill/loot. 
+	Up the little hill next to your, loot <namedmob>Minshina's Skull</namedmob> for 
+		<doquest>Minshina's Skull</doquest>
+	<br/>
+	Finish up all quests
+		<DoQuest>A Solvent Spirit</DoQuest> by killing/looting <namedmob>Crabs</namedmob> and <namedmob>Makuras</namedmob>
+		<DoQuest>Break a Few Eggs</DoQuest> by looting <namedmob>Raptor eggs</namedmob>(Usualy spawns by raptors next to trees)
+		<DoQuest>Practical Prey</DoQuest> by killing/looting <NM>Durotar Tiger</NM>
+		<DoQuest>Zalazane</DoQuest> by killing the humanoids on the main isle)
+	Oncedone <bold>DIE</bold> or grind your way back to <place>Sen'jin Village</place>
+</ST>
+
+<ST order="2" class="shaman">
+	Once you reach <namedmob>Zalazane</namedmob> <TLoc>56, 75</TLoc> kill/loot. 
+	Up the little hill next to your, loot <namedmob>Minshina's Skull</namedmob> for 
+		<doquest>Minshina's Skull</doquest>
+	<br/>
+	Finish up quests
+		<DoQuest>Break a Few Eggs</DoQuest> by looting <namedmob>Raptor eggs</namedmob>(Usualy spawns by raptors next to trees)
+		<DoQuest>Practical Prey</DoQuest> by killing/looting <NM>Durotar Tiger</NM>
+		<DoQuest>Zalazane</DoQuest> by killing the humanoids on the main isle)
+	Oncedone <bold>DIE</bold> or grind your way back to <place>Sen'jin Village</place>
+</ST>
+
+<ST order="3" class="warrior">
+	Turn in quests
+		<RQ>A Solvent Spirit</RQ>
+		<RQ>Zalazane</RQ>
+		<RQ>Practical Prey</RQ>
+		<RQ>Minshina's Skull</RQ>
+	<br/>
+	Keep <NamedMob>Faintly Glowing Skull</NamedMob> for easy killing of hard mob later
+</ST>
+
+<ST order="3" class="shaman">
+	Turn in quests
+		<RQ>Zalazane</RQ>
+		<RQ>Practical Prey</RQ>
+		<RQ>Minshina's Skull</RQ>
+	<br/>
+	Keep <NamedMob>Faintly Glowing Skull</NamedMob> for easy killing of hard mob later
+</ST>

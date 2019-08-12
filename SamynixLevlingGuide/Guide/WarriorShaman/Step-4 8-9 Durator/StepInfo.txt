@@ -1,0 +1,46 @@
+﻿<Title>8-9 Durator</Title>
+<StepNumber>4</StepNumber>
+<Image class="Shaman">ImageShaman.png</Image>
+<Image class="Warrior">ImageWarrior.png</Image>
+
+
+<ST order="1" class="Shaman" legend="237, 50, 147, 255">
+	Grind some mobs while you wait for your DUO partner
+	If you are not done with <dq>A Solvent Spirit</dq> finish it <le>63, 72, 204, 170</le>
+</ST>
+
+
+<ST order="1" class="Warrior" legend="52, 64, 154, 255">
+	Head west to the <place>Valley of Trials</place>, just outside accept quest 
+		<AQ>A Peon's Burden</AQ>
+	Continue the path to <place>Valley of Trials</place>
+	<br/>
+	Turn in quest
+		<RQ>Burning Blade Medallion</RQ>
+	Accept quest
+		<AQ>Report to Sen'jin Village</AQ>
+	Leave <place>Valley of Trials</place>, follow the <Legend>237, 50, 147, 255</Legend> path
+</ST>
+
+<ST order="2" class="ALL" legend="237, 50, 147, 255">
+	Do <DoQuest>Thwarting Kolkar Aggression</DoQuest> by clicking attack plans.
+		<namedmob>Attack Plan: Valley of Trials</namedmob> <TLoc>50, 81</TLoc>
+		<namedmob>Attack Plan: Sen'jin Village</namedmob> <TLoc>48, 77</TLoc>
+		<namedmob>Attack Plan: Orgrimmar</namedmob> <TLoc>46, 79</TLoc>
+Once done suecide @ <Bold>Bonfire</bold>. You should end up in <place>Sen'jin Village</place> (Don't do this if you are playing private server, you will end up in <place>Valley of the trials</place>) 
+</ST>
+
+
+<ST order="3" class="shaman">
+	Turn in quest 
+		<RQ>A Solvent Spirit</RQ> (if not already turned in)
+		<RQ>Thwarting Kolkar Aggression</RQ>
+	<SetHome>Hearth to Razor Hill</SetHome>
+</ST>
+
+<ST order="3" class="warrior">
+	Turn in quest 
+		<RQ>Report to Sen'jin Village</RQ>
+		<RQ>Thwarting Kolkar Aggression</RQ>
+	<SetHome>Hearth to Razor Hill</SetHome>
+</ST>

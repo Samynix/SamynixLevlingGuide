@@ -1,0 +1,212 @@
+﻿#File Guide/GuideName/Step-X ABCD/StepInfo.txt
+
+#Tags
+#<Title>Step Title</Title>
+#<StepNumber>X</StepNumber>
+#<Image class="Warrior">ImageUrlForWarrior</Image> (Relative to step directory)
+#<Image class="Warrior, Shaman">ImageUrlForWarriorAndShaman</Image> (Relative to step directory)
+#<Image class="All, !Shaman">ImageForAllClassesExceptShaman</Image> (Relative to step directory)
+#<SubStep order="X" class="Warrior, Shaman">Text for your substep</SubStep> (<ST></ST>)
+#for all class attributes: If class attribute is missing "all" is used
+
+#Substep tags
+#<Bold>/<B>, <Italic>/<I>, <Underline>/<UL>, <DontForget>/<EM> , <LineBreak>/<BR>
+#<TLOC>42.1, 32.2</TLOC>/<TL> Creates a clickable text that copies /tloc coordinate to clipboard
+#<Legend>r, g, b, a</Legend>/<LE> Creates a filled rectangle with color
+#<Picture url="realtivePathToPicture">PictureLink</Picture>/<PIC>  Creates a clickable text that opens image in popup window
+#Color codes <SetHome>/<SH>, <BankWithdraw>/</BW>, <BankDeposit>/<BD>, <NamedMob>/<NM>, <AcceptQuest>/<AQ>, <ReturnQuest>/<RQ>, <DoQuest>/<DQ>, <WorkOnQuest>/<WQ>, <SkipQuest>/<SQ>
+
+
+
+
+<Title>1-6 Valley of Trials (Durotar)</Title>
+<StepNumber>1</StepNumber>
+<Image class="Warrior">ImageWarrior.png</Image>
+<Image class="Shaman">ImageShaman.png</Image>
+
+<Substep order="1" class="All">
+	Accept quest
+		-<AQ>Your Place In The World</AQ>
+</SubStep>
+
+<Substep order="2" class"All">
+	Go west and turn in 
+		-<RQ>Your Place In The World</RQ>
+	Accept 
+		-<AQ>Cutting Teeth</AQ>
+</SubStep>
+
+<SubStep order="3" class="All">
+	Move north while killing <NamedMob>Mottled Boars</NamedMob> for
+		-<DoQuest>Cutting Teeth</DoQuest> 
+	Once done accept
+		-<AQ>Sarkoth</AQ> (<TLoc>40, 62</TLoc>) <Legend>222, 226, 30, 255</Legend>
+</SubStep>
+
+<ST order="4" class="all">
+	Go south and kill <NamedMob>Sarkoth</NamedMob> for 
+		<DoQuest>Sarkoth</DoQuest> <TLoc>(41, 67)</TLoc> <Legend>222, 15, 121, 255</Legend>
+	Go down ramp and turn in
+		-<RQ>Sarkoth</RQ>
+	Accept the next part
+		-<AQ>Sarkoth;2</AQ>
+</ST>
+
+
+<ST order="5" class="all">
+	Make sure <DoQuest>Cutting Teeth</DoQuest> is complete
+	Take shortcut south (where Sarkoth was) to <Place>The Den</Place>
+	If your inventory is completly full(Need 2 bag slots), sell trash at Cooking place/Cauldron before turning in quests
+	<br/>
+	Turn in quests 
+		-<RQ>Cutting Teeth</RQ>
+		-<RQ>Sarkoth;2</RQ> 
+	Accept quest 
+		-<AQ>Sting of the Scorpid</AQ>
+</ST>
+
+<ST order="6" class="shaman">
+	Accept quest
+		-<AQ>Rune-Inscribed Tablet/Parchment</AQ>
+	Just outside turn in 
+		-<RQ>Rune-Inscribed Tablet/Parchment</RQ>
+	Train new skills
+</ST>
+
+<ST order="6" class="warrior">
+	Accept quest
+		-<AQ>Simpe Parchment/Tablet</AQ>
+	Just outside turn in 
+		-<RQ>Simpe Parchment/Tablet</RQ>
+	Train new skills
+</ST>
+
+<ST order="7" class="all">
+	Accept quests 
+		-<AQ>Vile Familiars</AQ>.
+	By the cooking area, accept 
+		-<AQ>Galgar's Cactus Apple Surprise</AQ>
+	<Bold>Get resupplied here</Bold>
+</ST>
+
+<ST order="8" class="all">
+	Go east and accept
+		-<AQ>Lazy Peons</AQ>
+	Go south and start working on 
+		-<WorkOnQuest>Sting of the Scorpid</WorkOnQuest>
+		-<WorkOnQuest>Galgar's Cactus Apple Surprise</WorkOnQuest>
+	Spank some <nm>Lazy Peons</nm> for
+		-<DoQuest>Lazy Peons</DoQuest>
+	<br/>
+	Make sure you are 6.5 bars from level
+</ST>
+
+<ST order="9" class="shaman">
+	Go north and turn in 
+		-<RQ>Lazy Peons</RQ>
+	You should be <Bold>lvl 4</Bold> by now
+	<br/>
+	Accept
+		-<AQ>Thazz'ril's Pick</AQ>
+	Go west to Shaman Trainer. 
+		-Accept quest <AQ>Call of Earth</AQ>
+	<Bold>Train new skills</Bold>
+</ST>
+
+<ST order="9" class="warrior">
+	Go north and turn in
+		-<RQ>Lazy Peons</RQ>
+	You should be <Bold>lvl 4</Bold> by now
+	<br/>
+	Accept
+		-<AQ>Thazz'ril's Pick</AQ>
+	<Bold>Train new skills</Bold>
+</ST>
+
+<ST order="10" class="all">
+	Grind your way north while working on 
+		-<WorkOnQuest>Galgar's Cactus Apple Surprise</WorkOnQuest>
+		-<WorkOnQuest>Sting of the Scorpid</WorkOnQuest>
+		-<WorkOnQuest>Vile Familiars</WorkOnQuest>
+	Pickup <NamedMob>Cactus Apples</NamedMob>, kill/loot <NamedMob>Scorpid Workers</NamedMob> and kill <NamedMob>Vile Familiars</NamedMob>
+</ST>
+
+<ST order="11" class="shaman">
+	Enter cave<Legend>45, 66, 155, 255</Legend> and go straight north. 
+	Kill <NM>Felstalkers</NM> for 
+		-<DoQuest>Call of Earth</DoQuest>
+	Pickup <NamedMob>Thazz'ril's Pick</NamedMob> for
+		-<DoQuest>Thazz'ril's Pick</DoQuest>
+	<br/>
+	Be sure all quests are done
+		-<DoQuest>Galgar's Cactus Apple Surprise</DoQuest>
+		-<DoQuest>Sting of the Scorpid</DoQuest>
+		-<DoQuest>Vile Familiars</DoQuest>
+	<SetHome>Hearth</SetHome> or walk back to <place>The Den</place>
+</ST>
+
+<ST order="11" class="warrior">
+	Enter cave<Legend>45, 66, 155, 255</Legend> and go straight north. 
+	Pickup <NamedMob>Thazz'ril's Pick</NamedMob> for 
+		-<DoQuest>Thazz'ril's Pick</DoQuest>
+	<br/>
+	Be sure all quests are done
+		-<DoQuest>Galgar's Cactus Apple Surprise</DoQuest>
+		-<DoQuest>Sting of the Scorpid</DoQuest>
+		-<DoQuest>Vile Familiars</DoQuest>
+	<SetHome>Hearth</SetHome> or walk back to <place>The Den</place>
+</ST>
+
+<ST order="12" class="shaman">
+	Throw away your hearthstone (you will get new one when making razor hill your home)
+	Turn in 
+		-<RQ>Vile Familiars</RQ>
+		-<RQ>Call of Earth</RQ>
+	Accept
+		-<AQ>Call of Earth;2</AQ>.
+	In <place>The Den</place> turn in
+		-<RQ>Sting of the Scorpid</RQ>
+	Just outside turn in
+		-<RQ>Galgar's Cactus Apple Surprise</RQ>
+	<br/>
+	<Bold>Get resupplied</Bold>
+</ST>
+
+<ST order="12" class="warrior">
+	Throw away your hearthstone (you will get new one when making razor hill your home)
+	Turn in 
+		-<RQ>Galgar's Cactus Apple Surprise</RQ>
+	<Bold>Get resupplied</Bold>
+	<br/>
+	In <place>The Den</place>, turn in 
+		-<RQ>Sting of the Scorpid</RQ>
+	Go east and turn in
+		-<RQ>Vile Familiars</RQ>
+	Accept
+		-<AQ>Burning Blade Medallion.</AQ>
+	Abit further east, turn in
+		-<RQ>Thazz'ril's Pick</RQ>
+</ST>
+
+<ST order="13" class="shaman">
+	Go south/west<Legend>111, 200, 186, 255</Legend> up the ramp.
+	Drink <NamedMob>Eearth Saptha</NamedMob> and talk to the <NamedMob>Elemental</NamedMob><Legend>127, 19, 39, 255</Legend> for
+		-<DoQuest>Call of Earth;2</DoQuest>
+	Turn in
+		-<RQ>Call of Earth;2</RQ>
+	Accept the next part
+		-<DQ>Call of Earth;3</DQ>
+	<br/>
+	Return to <place>The Den</place>(Take shortcut) and turn in 
+		-<RQ>Call of Earth;3</RQ>
+	Leave the starting zone, on your way out turn in quest
+		-<RQ>Thazz'ril's Pick</RQ> 
+</ST>
+
+<ST order="13" class="warrior">
+	Grind your way north to the cave. Once inside the cave, keep right and kill <NamedMob>Yarrog Baneshadow</NamedMob> for 
+		-<DoQuest>Burning Blade Medallion</DoQuest>
+	<br/>
+	<Bold>Drown</Bold>.
+	Be careful where you die, you are warping to Razor Hill. See <Picture url="dieToRazor.png">picture</Picture>
+</ST>

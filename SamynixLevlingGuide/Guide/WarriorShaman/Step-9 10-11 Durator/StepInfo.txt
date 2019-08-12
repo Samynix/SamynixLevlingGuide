@@ -1,0 +1,87 @@
+﻿<Title>10-11 Durator</Title>
+<StepNumber>9</StepNumber>
+<Image class="Shaman">ImageShaman.png</Image>
+<Image class="Warrior">ImageWarrior.png</Image>
+
+<ST order="1" class="shaman" legend="237, 28, 36, 255">
+	Grind your way down to mountain @ <tl>37, 57</tl>, focus on <namedmob>Scorpids</namedmob> for
+		<WorkOnQuest>Finding the Antidote</WorkOnQuest>
+	If you still haven't found <namedmob>Kron's Amulet</namedmob> for
+		<DoQuest>Lost But Not Forgotten</DoQuest> kill <namedmob>Crocolisks</namedmob> in the river
+		<br/>
+	Follow the <pic url="callOfFirePath.png">path</pic> up the mountain 
+	Turn in quest 
+		<RQ>Call of Fire;2</RQ>
+	Accept the next part
+		<AQ>Call of Fire;3</AQ>
+	<SetHome>Hearth</SetHome> to <place>Razor Hill</place>
+</ST>
+
+
+<ST order="1" class="warrior" legend="237, 28, 36, 255">
+	Grind your way to <place>Thunder Ridge</place>, focus on <namedmob>Scorpids</namedmob> for
+		<WorkOnQuest>Finding the Antidote</WorkOnQuest>
+	If you still haven't found <namedmob>Kron's Amulet</namedmob> for 
+		<DoQuest>Lost But Not Forgotten</DoQuest> kill <namedmob>Crocolisks</namedmob> in the river
+	Kill/loot <nm>Thunder Lizard</nm> for
+		<DoQuest>Path of Defense</DoQuest>
+	<SetHome>Hearth</SetHome> to <place>Razor Hill</place>
+</ST>
+
+
+<ST order="2">
+	<em>First of all, go west and pickup <AQ>Conscript of the Horde</AQ><le>0, 166, 81, 255</le></em>
+	Turn in 
+		<RQ>Dark Storms</RQ>
+	Accept
+		<AQ>Margoz</AQ>
+	At the burrow, turn in
+		<RQ>Encroachment</RQ>
+	Head north/east<le>0, 174, 239, 255</le>, get <bold>repaired</bold> at Bowyer
+</ST>
+
+
+
+<ST order="3" class="shaman" legend="0, 174, 239, 255">
+	Head north to <place>Dustwind Cave</place> <tl>53, 28</tl>
+	In the cave do part of
+		<wq>Call of Fire;3</wq>
+	Kill <namedmob>Burning Blade Cultists</namedmob> until <namedmob>Reagent Pouch</namedmob> drops
+	Leave cave and head north <tl>56, 20</tl> <le>46, 49, 146, 255</le>
+</ST>
+
+
+<ST order="3" class="warrior" legend="0, 174, 239, 255">
+	Head north to <place>Dustwind Cave</place> <tl>53, 28</tl>
+	In the cave help your <bold>DUO</bold> partner getting his <nm>Reagent Pouch</nm>
+	Leave cave and head north <tl>56, 20</tl> <le>46, 49, 146, 255</le>
+</ST>
+
+
+<ST order="4" legend="236, 0, 140, 255">
+	At <namedmob>Margoz</namedmob> turn in
+		<RQ>Margoz</RQ>
+	Accept
+		<AQ>Skull Rock</AQ>
+	Head north and enter cave <tl>55, 10</tl>
+	Inside the cave do
+		<dq>Hidden Enemies</dq>
+		<dq>Skull Rock</dq>
+	For bonus quest search for <nm>Gazz'uz</nm>. Keep right and you will most likley find him.
+	For easyer kill use <nm>Faintly Glowing Skull</nm>
+	Pickup bonus quest
+		<AQ>Burning Shadows</AQ> from item <nm>Eye of Burning Shadow</nm>
+</ST>
+
+
+<ST order="5" legend="190, 30, 45">
+	Leave cave and head back to <namedmob>Margoz</namedmob>
+	Turn in quest
+		<RQ>Skull Rock</RQ>
+	Accept
+		<AQ>Neeru Fireblade</AQ>
+	If you are done with <dq>Finding the Antidote</dq>, suecide and spirit res outside <place>Orgrimmar</place>
+	If not, finish 
+		<dq>Finding the Antidote</dq>
+	Head inside <place>Orgrimmar</place>
+</ST>

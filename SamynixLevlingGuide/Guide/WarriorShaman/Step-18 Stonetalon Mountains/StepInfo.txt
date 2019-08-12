@@ -1,0 +1,39 @@
+﻿<Title>18 - Stonetalon Mountains</Title>
+<StepNumber>18</StepNumber>
+<Image>Image.png</Image>
+
+<ST order="1">
+	On the border to <place>Stonetalon Mountains</place> turn in quest
+		<RQ>The Spirits of Stonetalon</RQ>
+	Accept quests
+		<AQ>Goblin Invaders</AQ>
+		<AQ>Avenge My Village</AQ>
+	Continue further into <place>Stonetalon Mountains</place>
+</ST>
+
+<ST order="2">
+	Kill <nm>Grimtotem Ruffian</nm> and <nm>Grimtotem Mercenary</nm> for
+		<DQ>Avenge My Village</AQ>
+	Once done, return to <place>border</place>
+</ST>
+
+<ST order="3">
+	Turn in quest
+		<RQ>Avenge My Village</RQ>
+	Accept quest
+		<AQ>Kill Grundig Darkcloud</AQ>
+	Head west into <place>Stonetalon Mountains</place>, use the ramp south of you!
+</ST>
+
+<ST order="4">
+	Accept quest
+		<AQ>Blood Feeders</AQ>
+	Go north/west and find a place to <b>DIE</b>
+	Spirit res
+</ST>
+
+<ST order="5">
+	Go to <place>Sun Rock Retreat</place>
+	<b>Sell/Repair at bowyer right off the <nm>Windrider</nm>
+	Fly to <place>The Crossroads</place>
+</ST>

@@ -1,0 +1,51 @@
+﻿<Title>10-10 Orgrimmar</Title>
+<StepNumber>6</StepNumber>
+<Image class="Shaman">ImageShaman.png</Image>
+<Image class="Warrior">ImageWarrior.png</Image>
+
+#TODO Add Reagent Vendor, Some Repairdudes, Weapon Training, Warrior class trainer and Shaman class trainer to map
+
+<ST order="1" class="shaman" legend="237, 28, 36, 255">
+	Head to <place>Thrall's Throne Room</place>
+	Get your level 10 spells/abilities.
+	Accept quest 
+		<AQ>Call of Fire</AQ>
+</ST>
+
+
+
+<ST order="1" class="warrior" legend="237, 28, 36, 255">
+	Go to <place>The Valley of Honor</place> 
+	Get your level 10 spells/abilities, accept quest
+		<AQ>Veteran Uzzek</AQ>
+	Go northward and train weapons (atleast staves) <tloc>81, 20</tloc>
+</ST>
+
+
+<ST order="2" class="shaman">
+	Continue into <place>Thrall's throne room</place> 
+	Accept quest 
+		<AQ>Hidden Enemies</AQ> 
+	Turn in quest
+		<RQ>The Admiral's Orders;2</RQ>
+</ST>
+
+
+<ST order="2" class="warrior" legend="0, 166, 81, 255">
+	Go to <place>Thrall's Throneroom</place>
+	Accept quest
+		<AQ>Hidden Enemies</AQ>
+	Turn in
+		<RQ>The Admiral's Orders;2</RQ>
+</ST>
+
+
+<ST order="3" class="all" legend="236, 0, 140, 255">
+	Head for <place>The Cleft of Shadow</place>
+	Here pickup quest
+		<AQ>Finding the Antidote</AQ> 
+	<em>Abandon quest</em>
+		<SQ>Need for a cure</SQ>
+	If you need to get <bold>repaired</bold>, in front of you just on the other side of the valley there is a <namedmob>Staves vendor</namedmob>
+	Enter <place>RFC</place> and <b>DIE</b>
+</ST>

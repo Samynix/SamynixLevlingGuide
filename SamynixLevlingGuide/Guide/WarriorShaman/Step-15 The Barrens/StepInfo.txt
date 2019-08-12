@@ -1,0 +1,102 @@
+﻿<Title>15 - The Barrens</Title>
+<StepNumber>15</StepNumber>
+<Image>Image.png</Image>
+
+
+
+<ST order="1" legend="0, 0, 0">
+	<em>We are soon going to <place>Ragefire Chasm</place></em>
+	Grind your way south to <place>Stagnant Oasis</place>
+	Do quest
+		<DQ>The Stagnant Oasis</DQ>
+</ST>
+
+<ST order="2" legend="237, 28, 36, 128">
+	Grind your way east
+	Start working on
+		<WQ>Prowlers of the Barrens</WQ> by clearing out all <nm>Prowler</nm> camps
+</ST>
+
+
+<ST order="3" legend="255, 242, 0, 128">
+	Go west up the to <place>Raptor Mountain</place>
+	Work on
+		<wq>Raptor Thieves</wq> by killing/looting all the <nm>Raptors</nm>
+	Go down and up until these quests are done!
+		<DQ>Prowlers of the Barrens</DQ><LE>237, 28, 36, 128</LE>
+		<DQ>Raptor Thieves</DQ><LE>255, 242, 0, 128</LE>
+</ST>
+
+<ST order="4" legend="0, 166, 81">
+	Grind your way north/east to <place>Ratchet</place>
+	Turn in quest
+		<RQ>Chen's Empty Keg</RQ>
+	Accept the next part
+		<AQ>Chen's Empty Keg;2</AQ>
+	Near the <nm>Flight Master</nm> pickup
+		<AQ>Samophlange</AQ>
+	Follow the path into the <place>Engineering building</place> and accept
+		<AQ>Southsea Freebooters</AQ>
+	At the <b>Wanted Poster</b> accept
+		<AQ>WANTED: Baron Longshore</AQ>
+	Put in bank
+		<nm>Control Console Operating Manual</nm> in the bank. (You can try and throw it away first, you may loose your quest)
+		<nm>Lieutenant's Insignia</nm> (This is also an item that you might be able to throw away, in beta you lost your quest!)
+		<nm>Clarice's Pendant</nm>
+	Next to you, accept
+		<AQ>Raptor Horns</AQ>
+	<b>Sell/Repair @ the building next to you</b>
+</ST>
+
+<ST order="5" legend="0, 174, 239, 128">
+	Grind your way south and do quests
+		<DQ>Southsea Freebooters</DQ>
+		<DQ>WANTED: Baron Longshore</DQ>
+	Once done, return to <place>Ratchet</place>
+</ST>
+
+<ST order="6">
+	At the <place>Engineering building</place> turn in
+		<RQ>Southsea Freebooters</RQ>
+		<RQ>WANTED: Baron Longshore</RQ>
+	Accept
+		<AQ>The Missing Shipment</AQ>
+	Walk down to the <place>Docks</place>
+	Turn in
+		<RQ>Wharfmaster Dizzywig</RQ>
+		<RQ>The Missing Shipment</RQ>
+	Accapt the next part
+		<AQ>The Missing Shipment;2</AQ>
+	Walk back up to the <place>Engineering building</place> and turn in
+		<RQ>The Missing Shipment;2</RQ>
+	Accept
+		<AQ>Stolen Booty</AQ>
+	<b>Sell/Repair</B> west of the bank
+	<br/>
+	Grind your way south again! <LE>0, 174, 239, 128</LE>
+</ST>
+
+<ST order="7" legend="46, 49, 146, 128">
+	Do quest
+		<DQ>Stolen Booty</DQ> by looting the booty!
+			-<nm>Telescopic Lens</nm> <TL>64, 49</TL>
+			-<nm>Shipment of Boots</nm> <TL>62, 49</TL> 
+	<br/>
+	<SetHome>Hearth</SetHome> to <place>The Crossroads</place>
+</ST>
+
+<ST order="8">
+	Turn in
+		<RQ>Raptor Thieves</RQ>
+	Accept
+		<AQ>Stolen Silver</AQ>
+	Turn in
+		<RQ>Prowlers of the Barrens</RQ>
+	Accept
+		<AQ>Echeyakee</AQ>
+	South in <place>The Crossroads</place> turn in
+		<RQ>The Stagnant Oasis</RQ>
+	Accept
+		<AQ>Altered Beings</AQ>
+	Fly to <place>Orgrimmar</place>
+</ST>

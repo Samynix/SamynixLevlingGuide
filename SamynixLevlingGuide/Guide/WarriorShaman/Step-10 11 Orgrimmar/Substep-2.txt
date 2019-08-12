@@ -1,0 +1,7 @@
+﻿#Color tags: <SetHome/>, <BankWithdraw/>, <BankDeposit/>, <NamedMob/>, <AQ/>, <DoQuest/>, <WorkOnQuest/>, <SkipQuest/>, <TurnInQuest/>
+#Other format tags: <Bold/>, <Italic/>, <Underline/>
+#Coordinate with copy functionality <TLoc>x.x, y.y</Tloc>
+#If only some classes change to <Class>Warrior, Shaman, ...</Class>. Classes can be inverted <Class>All, !Shaman</Class> for all except shaman
+#If you want a Legend rectangle add <Legend>R, G, B, A</Legend>
+#If you want to create a picture link <Picture url="urltoimage.png">Linkname</Picture> urltoimage.png is relative to step folder
+

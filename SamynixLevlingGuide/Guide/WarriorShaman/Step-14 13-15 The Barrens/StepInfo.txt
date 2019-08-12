@@ -1,0 +1,84 @@
+﻿<Title>13-15 - The Barrens</Title>
+<StepNumber>14</StepNumber>
+<Image class="Warrior">ImageWarrior.png</Image>
+<Image class="Shaman">ImageShaman.png</Image>
+
+
+<ST order="1" class="shaman" legend="237, 28, 36">
+	Head east to <place>The Barrens border</place>
+	If you don't have <NM>Chen's Empty Keg</NM>, look for <NM>Chen's Empty Keg</NM> by Tower. 
+	Accept quest
+		<AQ>Chen's Empty Keg</AQ>
+	At the border return quest
+		<RQ>The Demon Seed</RQ>
+</ST>
+
+<ST order="1" class="warrior" legend="237, 28, 36">
+	Head east to <p>The Barrens Border</p>
+	Look for <NM>Chen's Empty Keg</NM> by Tower
+	Accept quest
+		<AQ>Chen's Empty Keg</AQ>
+	At the border turn in 
+		<RQ>The Demon Seed</RQ>
+</ST>
+
+<ST order="2" class="shaman" legend="0, 174, 239">
+	Continue into <p>Durotar</p> <tl>37, 57</tl>
+	Turn in quest
+		<RQ>Call of Fire;3</RQ>
+	Accept the next part
+		<AQ>Call of Fire;4</AQ>
+	Do quest
+		<DQ>Call of Fire;4</DQ>
+	Return quest
+		<RQ>Call of Fire;4</RQ>
+	Accept the final part
+		<AQ>Call of Fire;5</AQ>
+	Follow the <LE>236, 0, 140</LE> path into <place>The Barrens</place> and meet up with your <b>DUO</b> partner
+	You can climb the cliff @ <tloc>62, 27</tloc>, see <pic url="climbToSnout.png">picture</pic>
+</ST>
+
+<ST order="2" class="warrior" legend="0, 174, 239">
+	Head south/west, you can climb the cliff @ <tloc>62, 27</tloc>, see <pic url="climbToSnout.png">picture</pic>
+	Continue up the mountain(idk the best place to go, im not a warrior)
+		<RQ>Thun'grim Firegaze</RQ>
+	Accept quest
+		<AQ>Forged Steel</AQ>
+	Follow <LE>236, 0, 140</LE> and meet up with your <b>DUO</b> partner
+</ST>
+
+
+<ST order="3" class="warrior">
+	Do quests
+		<DQ>The Disruption Ends</DQ>
+		<DQ>Supplies for the Crossroads</DQ>
+	Go east abit <LE>190, 30, 45</LE> and do
+		<DQ>Forged Steel</RQ>
+	Go south <LE>0, 166, 81</LE> and turn in 
+		<RQ>Forged Steel</RQ>
+</ST>
+
+<ST order="3" class="shaman">
+	Do quests
+		<DQ>The Disruption Ends</DQ>
+		<DQ>Supplies for the Crossroads</DQ>
+	Go north <LE>190, 30, 45</LE> to the tower. (If your still missing Chens, check for it)
+	Turn in 
+		<RQ>Call of Fire;5</RQ>
+</ST>
+
+<ST order="4" legend="46, 49, 146">
+Go back to <p>The Crossroads</p>
+Pickup quest
+	<AQ>Meats to Orgrimmar</AQ>
+At the <nm>Flight Master</nm> turn in 
+	<RQ>Meats to Orgrimmar</RQ>
+Accept
+	<AQ>Ride to Orgrimmar</AQ>
+Turn in quests
+	<RQ>The Disruption Ends</RQ>
+	<RQ>Supplies for the Crossroads</RQ>
+	<RQ>The Zhevra</RQ>
+Accept
+	<AQ>Prowlers of the Barrens</AQ>
+</ST>

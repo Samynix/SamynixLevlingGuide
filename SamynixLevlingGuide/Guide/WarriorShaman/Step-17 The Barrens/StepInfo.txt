@@ -1,0 +1,98 @@
+﻿<Title>17 - The Barrens</Title>
+<StepNumber>17</StepNumber>
+<Image>Image.png</Image>
+
+<ST order="1" legend="0, 0, 0">
+	At the <nm>Wind Rider</nm> turn in
+		<RQ>Return to the Crossroads</RQ>
+	Head north/east
+	Start working on
+		<WQ>Chen's Empty Keg;2</WQ> by killing <nm>Plainstriders</nm> 
+	Kill/Loot <nm>Echeyakee</nm> for
+		<DQ>Echeyakee</DQ>
+	Head north/west<LE>0, 166, 81</LE>
+</ST>
+
+<ST order="2" legend="0, 166, 81>
+	Start working on
+		<WQ>Chen's Empty Keg;2</WQ> by killing <nm>Savannah Lion Tusk</nm> for<LE>237, 28, 36, 170</LE>
+	Once you reach the <place>Goblin Camp</place> turn in
+		<RQ>Samophlange</RQ> by clicking the <nm>Control Panel</nm>
+	Accept the next part
+		<AQ>Samophlange;2</AQ>
+	Do quest
+		<DQ>Samophlange;2</DQ> by cliking the 3 vaults around the <b>pumpwhateverstation</b>
+	Turn in
+		<RQ>Samophlange;2</RQ>
+	Accept the next part
+		<AQ>Samophlange;3</AQ>
+	Head east abit to the little <b>House</b>
+	There Kill/Loot <nm>Tinkerer Sniggles</nm> for
+		<DQ>Samophlange;3</DQ>
+	Go back down to the <b>console</b> and turn in
+		<RQ>Samophlange;3</RQ> 
+	Accept the next part
+		<AQ>Samophlange;4</AQ>
+	<br/>
+	Finish up <nm>Savannah Lion Tusk</nm> for <WQ>Chen's Empty Keg;2</WQ>
+	<b>SUECIDE</b> and Spirit Res
+</ST>
+
+<ST order="3">
+	Turn in quest
+		<RQ>Echeyakee</RQ>
+	Skip <SQ>The Angry Scytheclaws</SQ> for now. You will get annoying feathers in inventory
+	Fly to <place>Ratchet</place>
+</ST>
+
+<ST order="4">
+	In the <place>Bank</place> take out
+		<BW>Telescopic Lens</BW>
+		<BW>Shipment of Boots</BW>
+	Put into <place>Bank</place>
+		<BD>Spells of Shadow</BD>
+		<BD>Incantations from the Nether</BD>
+		<BD>Grimtotem Satchel</BD>
+	Turn in quest
+		<RQ>Samophlange;4</RQ>
+	Accept quests
+		<AQ>Wenikee Boltbucket</AQ>
+		<AQ>Ziz Fizziks</AQ>
+		<AQ>Deepmoss Spider Eggs</AQ>
+	<b>Repair/Sell</b> in house next to <place>Bank</place>
+	<br/>
+	Walk up the hill and to the left. 
+	<SH>Make Ratchet your home</SH>
+	Fly to <place>The Crossroads</place>
+</ST>
+
+<ST order="5" legend="0, 174, 239">
+	<em>Go to the tower and accept quest</em>
+		<AQ>Harpy Raiders</AQ>
+	Follow the road north
+	Kill/Loot <nm>Plainstriders</nm> for
+		<wq>Chen's Empty Keg;2</wq>
+	Turn in quest
+		<RQ>Wenikee Boltbucket</RQ>
+	Accept
+		<AQ>Nugget Slugs</AQ>
+	Head west
+</ST>
+
+<ST order="6" legend="46, 49, 146, 170">
+	Head east. You can stop and <b>Sell/Repair</b> at vendor
+	Kill/Loot <nm>Harpies</nm> for
+		<DQ>Harpy Raiders</DQ>
+	Once done, head south
+</ST>
+
+<ST order="7" legend="236, 0, 140">
+	If your not done with <nm>Savannah Lion Tusk</nm> for <WQ>Chen's Empty Keg;2</WQ> finish these <B>NOW></b>
+	Kill <nm>Barak Kodobane</nm> <TL>42, 23</TL> for quest
+		<DQ>Kolkar Leaders</DQ>
+	Head south and turn in
+		<RQ>Kolkar Leaders</RQ>
+	Accept
+		<AQ>Verog the Dervish</AQ>
+	Head west to <place>Stonetalon Mountains</place>
+</ST>

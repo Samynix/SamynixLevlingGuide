@@ -1,0 +1,55 @@
+﻿<view:SamyViewBase
+    x:Class="SamynixLevlingGuide.View.StepView.SubStepView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:SamynixLevlingGuide.View.StepView"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:view="clr-namespace:SamyLib.GuiWPF.View;assembly=SamyLib.GuiWPF"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    Background="{StaticResource TextBackgroundColor}"
+    Visibility="{Binding Visibility}"
+    mc:Ignorable="d">
+    <view:SamyViewBase.DataContext>
+        <local:SubStepViewModel />
+    </view:SamyViewBase.DataContext>
+
+    <view:SamyViewBase.Resources>
+        <Style TargetType="{x:Type local:SubStepTextBox}">
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding IsChecked, ElementName=CheckBoxIsDone}" Value="True">
+                    <Setter Property="Opacity" Value="0.25" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+    </view:SamyViewBase.Resources>
+
+    <Grid PreviewMouseDown="Preview_MouseDown">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <Rectangle
+            Grid.Column="0"
+            HorizontalAlignment="Stretch"
+            VerticalAlignment="Stretch"
+            Fill="Transparent" />
+
+        <CheckBox
+            x:Name="CheckBoxIsDone"
+            Grid.Column="0"
+            Margin="5,7,0,0"
+            VerticalAlignment="Top"
+            PreviewMouseDown="CheckBoxIsDone_PreviewMouseDown" />
+
+        <local:SubStepTextBox
+            x:Name="StepTextBox"
+            Grid.Column="1"
+            Margin="0,0,20,0"
+            Background="{StaticResource TextBackgroundColor}"
+            FontSize="{StaticResource GuideTextSize}"
+            IsReadOnly="True" />
+    </Grid>
+</view:SamyViewBase>

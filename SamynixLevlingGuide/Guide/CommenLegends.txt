@@ -1,0 +1,6 @@
+﻿Red: <LE>237, 28, 36</LE>
+LightBLue: <LE>0, 174, 239</LE>
+Pink: <LE>236, 0, 140</LE>
+DarkRed: <LE>190, 30, 45</LE>
+Green: <LE>0, 166, 81</LE>
+DarkBlue: <LE>46, 49, 146</LE>
