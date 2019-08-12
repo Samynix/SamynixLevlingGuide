@@ -330,7 +330,7 @@ ikkje ta angry scyteclaws
 -> Lever kolkar leaders og centuar bracers (hvis done)
 pickup vergosh the devorishsh
 
-Guide e herte nå
+
 
 <ST order="1">
 	On the border to <place>Stonetalon Mountains</place> turn in quest
@@ -420,7 +420,6 @@ plokk opp angry shitclaws
 -> her må me bli ferdige me kolkar bracers. (Kan ta slutten rett før levering, men dei mobså kan vær litt låge lvl. 12-13-14)
 -> xroads
 
-her e me på guiiden NÅ
 
 lever altered snapjaws. plokk opp huma runetotem, consumed by hatred. (mulig me ikkje har plass , sjekk når du skrive skikkele guide på quets count)
 
@@ -430,6 +429,9 @@ lever altered snapjaws. plokk opp huma runetotem, consumed by hatred. (mulig me 
 -> Slugfen
 -> mord deg te mech mannne å plokk opp quest: Ignition
 -> Do sjamp(nuggets slugs) å escort(du må gjer ignition fyst) (samtidigt)
+
+Guide e herte nå
+
 -> Lever sjampo(nuggets) ta follow rilll greasygob
 -> gå te han knallat vendoren å sell drid. før harpies
 -> do harpy løytnantar

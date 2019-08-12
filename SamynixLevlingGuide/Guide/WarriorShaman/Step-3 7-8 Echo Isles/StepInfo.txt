@@ -14,7 +14,7 @@
 </ST>
 
 <ST order="2" class="warrior">
-	Once you reach <namedmob>Zalazane</namedmob> <TLoc>56, 75</TLoc> kill/loot. 
+	Once you reach <namedmob isTargetLink="true">Zalazane</namedmob> <TLoc>56, 75</TLoc> kill/loot. 
 	Up the little hill next to your, loot <namedmob>Minshina's Skull</namedmob> for 
 		<doquest>Minshina's Skull</doquest>
 	<br/>
@@ -27,7 +27,7 @@
 </ST>
 
 <ST order="2" class="shaman">
-	Once you reach <namedmob>Zalazane</namedmob> <TLoc>56, 75</TLoc> kill/loot. 
+	Once you reach <namedmob isTargetLink="true">Zalazane</namedmob> <TLoc>56, 75</TLoc> kill/loot. 
 	Up the little hill next to your, loot <namedmob>Minshina's Skull</namedmob> for 
 		<doquest>Minshina's Skull</doquest>
 	<br/>

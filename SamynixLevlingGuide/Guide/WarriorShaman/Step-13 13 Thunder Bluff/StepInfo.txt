@@ -4,7 +4,7 @@
 <Image class="Shaman">ImageShaman.png</Image>
 
 <SubStep order="1" class="shaman" legend="237, 28, 36, 255">
-	Head to the <nm>Cooking Trainer</nm>
+	Head to the <b>Cooking Trainer</b> <nm isTargetLink="true">Aska Mistrunner</nm>
 	Train cooking, if you don't have it. (Needed for quest later)
 </SubStep>
 

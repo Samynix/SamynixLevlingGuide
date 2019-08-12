@@ -21,7 +21,7 @@
 		<RQ>Neeru Fireblade</RQ>
 	Accept
 		<AQ>Ak'Zeloth</AQ>
-	Do gossip with <nm>Neeru Fireblade</nm> until 
+	Do gossip with <nm isTargetLink="true">Neeru Fireblade</nm> until 
 		<dq>Hidden Enemies;2</dq> is done
 	Enter <place>RFC</place> and <bold>DIE</bold>
 </ST>

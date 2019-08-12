@@ -23,7 +23,7 @@
 </SubStep>
 
 <ST order="4" class="all" legend="222, 15, 121">
-	Go south and kill <NamedMob>Sarkoth</NamedMob> for 
+	Go south and kill <NamedMob isTargetLink="true">Sarkoth</NamedMob> for 
 		<DoQuest>Sarkoth</DoQuest> <TLoc>(41, 67)</TLoc> <Legend>222, 15, 121, 255</Legend>
 	Go down ramp and turn in
 		<RQ>Sarkoth</RQ>
@@ -183,7 +183,7 @@
 </ST>
 
 <ST order="13" class="warrior" legend="46, 49, 146" >
-	Grind your way north to the cave. Once inside the cave, keep right and kill <NamedMob>Yarrog Baneshadow</NamedMob> for 
+	Grind your way north to the cave. Once inside the cave, keep right and kill <NamedMob isTargetLink="true">Yarrog Baneshadow</NamedMob> for 
 		<DoQuest>Burning Blade Medallion</DoQuest>
 	<br/>
 	<Bold>Drown</Bold>.

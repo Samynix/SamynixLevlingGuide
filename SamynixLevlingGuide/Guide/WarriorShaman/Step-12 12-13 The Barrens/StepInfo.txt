@@ -60,7 +60,7 @@
 	Start working on
 		<wq>Plainstrider Menace</wq>
 		<wq>Raptor Thieves</wq>
-	Head west <le></le> to <namedmob>Regthar Deathgate</namedmob> <tl>45.4, 28.4</tl> 
+	Head west <le></le> to <namedmob isTargetLink="true">Regthar Deathgate</namedmob> <tl>45.4, 28.4</tl> 
 	Accept quests
 		<AQ>Centaur Bracers</AQ>
 		<AQ>Kolkar Leaders</AQ>

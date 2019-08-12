@@ -107,6 +107,7 @@
       <DependentUpon>SubStepView.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\StepView\SubStepViewModel.cs" />
+    <Compile Include="View\StepView\CopyToClipboardInline.cs" />
     <Compile Include="View\StepView\TLocInline.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

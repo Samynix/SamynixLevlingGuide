@@ -7,7 +7,7 @@
 <SubStepOrder>1</SubStepOrder>
 <Class>Shaman</Class>
 <ST order="1" class="Shaman">
-	Follow the path west into <place>The Barrens</place>. Look for a tower @ <tloc>55.8, 20</tloc>, here you will find <namedmob>Kranal Fiss</namedmob>
+	Follow the path west into <place>The Barrens</place>. Look for a tower @ <tloc>55.8, 20</tloc>, here you will find <namedmob isTargetLink="true">Kranal Fiss</namedmob>
 	Turn in quest 
 		<RQ>Call of Fire</RQ>
 	Accept the next part
@@ -18,7 +18,7 @@
 
 
 <ST order="1" class="warrior">
-	Just over the bridge find the npc <namedmob>Uzzek</namedmob> <tloc>61.4, 21</tloc>.
+	Just over the bridge find the npc <namedmob isTargetLink="true">Uzzek</namedmob> <tloc>61.4, 21</tloc>.
 	Turn in quest 
 		<RQ>Veteran Uzzek</RQ>
 	Accept

@@ -22,7 +22,7 @@
 		<AQ>Vanquish the Betrayers</AQ>
 	Go west up the <Picture url="razorPathToTower.png">path</Picture> to the tower, at the top of the tower accept quest 
 		<AQ>Carry your weight</AQ>. 
-	Jump down on the left side of the inn and buy <Bold>Large axe</Bold> from <NamedMob>Uhgar</NamedMob>
+	Jump down on the left side of the inn and buy <Bold>Large axe</Bold> from <NamedMob isTargetLink="true">Uhgar</NamedMob>
 
 	Grind your way down to <place>Tiragarde Keep</place> and meet up with your <b>DUO</b> partner.
 </ST>
@@ -36,7 +36,7 @@
 	Start working on 
 		<WorkOnQuest>Vanquish the Betrayers</WorkOnQuest>
 		<WorkOnQuest>Carry your weight</WorkOnQuest>
-	Go into the keep and kill/loot <NamedMob>Lieutenant Benedict</NamedMob>. Be sure to pickup his key!
+	Go into the keep and kill/loot <NamedMob isTargetLink="true">Lieutenant Benedict</NamedMob>. Be sure to pickup his key!
 	<br/>
 	Go up in the tower, on the roof loot the chest. Accept quest 
 		<AQ>The Admiral's Orders</AQ> from <NamedMob>Aged Envelope</NamedMob>
@@ -59,7 +59,7 @@
 	Start working on 
 		<WorkOnQuest>Vanquish the Betrayers</WorkOnQuest>
 		<WorkOnQuest>Carry your weight</WorkOnQuest>
-	Go into the keep and kill/loot <NamedMob>Lieutenant Benedict</NamedMob>. Be sure to pickup his key!
+	Go into the keep and kill/loot <NamedMob isTargetLink="true">Lieutenant Benedict</NamedMob>. Be sure to pickup his key!
 	<br/>
 	Go up in the tower, on the roof loot the chest. Accept quest 
 		<AQ>The Admiral's Orders</AQ> from <NamedMob>Aged Envelope</NamedMob>
@@ -87,7 +87,7 @@
 		<AQ>Break a Few Eggs</AQ>
 	Continue up the path to the tower. At the tower<Legend>111, 200, 186, 255</Legend>, turn in quest 
 		<RQ>Carry your weight</RQ>. 
-	Jump down on the left side of the <bold>inn</bold>, Buy <Bold>Walking Stick</Bold> from <NamedMob>Uhgar</NamedMob>
+	Jump down on the left side of the <bold>inn</bold>, Buy <Bold>Walking Stick</Bold> from <NamedMob isTargetLink="true">Uhgar</NamedMob>
 	Enter the <place>Inn</place>.
 	If you have it, turn in 
 		<RQ>A Peon's Burden</RQ>

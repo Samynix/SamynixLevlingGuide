@@ -13,7 +13,7 @@
 
 <ST order="2">
 	Head south/east towards <place>The Stagnant Oasis</place>
-	Check if <nm>Verog the Dervish</nm> <tloc>53, 42</tloc> is up if so kill him for 
+	Check if <nm isTargetLink="true">Verog the Dervish</nm> <tloc>53, 42</tloc> is up if so kill him for 
 		<WQ>Verog the Dervish</WQ>
 	Do 
 		<DQ>Centaur Bracers</DQ> by killing <nm>Kolkars</nm>
@@ -21,16 +21,46 @@
 	<br/>
 	You can also start working on 
 		<WQ>Altered Beings</WQ>
-	If you still need to kill <nm>Verog the Dervish</nm> kill him for
+	If you still need to kill <nm isTargetLink="true">Verog the Dervish</nm> kill him for
 		<DQ>Verog the Dervish</DQ>
 </ST>
 
 <ST order="3">
 	Head abit east to the Stagnant Oasis
-	Kill/loot <nm>Oasis Snapjaw</nm> for quest
+	Kill/loot <nm isTargetLink="true">Oasis Snapjaw</nm> for quest
 		<DQ>Altered Beings</DQ>
 	Once done head back to <place>The Crossroads</place>
 </ST>
 
-#<ST order="4">
-	
+<ST order="4">
+	Turn in quest
+		<RQ>Altered Beings</RQ>
+	Accept quests
+#		<AQ>Mura Runetotem</AQ> No space, wait for later
+#		<AQ>Hamuul Runetotem</AQ> No space, wait for later
+		<AQ>Consumed by Hatred</AQ>
+	Head north to <p>Sludge Fen</p>
+</ST>
+
+<ST order="5">
+	If you are not done with <nm>Savannah Lion Tusk</nm> for <WQ>Chen's empty Keg;2</WQ>, clear out the camps sourth of <place>Sludge Fen</place>
+	Its a good idea to be done with the <nm>Savannah Lion Tusks</nm> now
+	<br/>
+	Start working on quest
+		<WQ>Nugget Slugs</WQ> by looting the buckets around the fen
+	Head for <nm isTargetLink="true">Wizzlecrank's Shredder</nm> and accept
+		<AQ>Ignition</AQ>
+	Head up the scaffold in the center of the fen
+	Kill/loot <nm isTargetLink="true">Supervisor Lugwizzle</nm> for
+		<DQ>Ignition</DQ>
+	Back at the shredder, turn in
+		<RQ>Ignition</RQ>
+	<em>When all in party is ready, start the escort</em>
+		<AQ>The Escape</AQ>
+	When <DQ>The Escape</DQ> is done, finish up <DQ>Nugget Slugs</DQ>
+	<br/>
+	Head west
+</ST>
+
+
+

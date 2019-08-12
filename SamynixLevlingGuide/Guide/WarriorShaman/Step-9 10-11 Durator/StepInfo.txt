@@ -59,7 +59,7 @@
 
 
 <ST order="4" legend="236, 0, 140, 255">
-	At <namedmob>Margoz</namedmob> turn in
+	At <namedmob isTargetLink="true">Margoz</namedmob> turn in
 		<RQ>Margoz</RQ>
 	Accept
 		<AQ>Skull Rock</AQ>
@@ -67,7 +67,7 @@
 	Inside the cave do
 		<dq>Hidden Enemies</dq>
 		<dq>Skull Rock</dq>
-	For bonus quest search for <nm>Gazz'uz</nm>. Keep right and you will most likley find him.
+	For bonus quest search for <nm isTargetLink="true">Gazz'uz</nm>. Keep right and you will most likley find him.
 	For easyer kill use <nm>Faintly Glowing Skull</nm>
 	Pickup bonus quest
 		<AQ>Burning Shadows</AQ> from item <nm>Eye of Burning Shadow</nm>
@@ -75,7 +75,7 @@
 
 
 <ST order="5" legend="190, 30, 45">
-	Leave cave and head back to <namedmob>Margoz</namedmob>
+	Leave cave and head back to <namedmob isTargetLink="true">Margoz</namedmob>
 	Turn in quest
 		<RQ>Skull Rock</RQ>
 	Accept

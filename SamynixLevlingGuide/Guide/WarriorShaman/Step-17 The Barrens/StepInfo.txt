@@ -27,14 +27,14 @@
 	Accept the next part
 		<AQ>Samophlange;3</AQ>
 	Head east abit to the little <b>House</b>
-	There Kill/Loot <nm>Tinkerer Sniggles</nm> for
+	There Kill/Loot <nm isTargetLink="true">Tinkerer Sniggles</nm> for
 		<DQ>Samophlange;3</DQ>
 	Go back down to the <b>console</b> and turn in
 		<RQ>Samophlange;3</RQ> 
 	Accept the next part
 		<AQ>Samophlange;4</AQ>
 	<br/>
-	Finish up <nm>Savannah Lion Tusk</nm> for <WQ>Chen's Empty Keg;2</WQ>
+#	Finish up <nm>Savannah Lion Tusk</nm> for <WQ>Chen's Empty Keg;2</WQ>
 	<b>SUECIDE</b> and Spirit Res
 </ST>
 
@@ -58,6 +58,9 @@
 	Accept quests
 		<AQ>Wenikee Boltbucket</AQ>
 		<AQ>Ziz Fizziks</AQ>
+	Up in the engineering hut turn in 
+		<RQ>Stolen Booty</RQ>
+	Down by the bank accept
 		<AQ>Deepmoss Spider Eggs</AQ>
 	<b>Repair/Sell</b> in house next to <place>Bank</place>
 	<br/>
@@ -88,7 +91,7 @@
 
 <ST order="7" legend="236, 0, 140">
 	If your not done with <nm>Savannah Lion Tusk</nm> for <WQ>Chen's Empty Keg;2</WQ> finish these <B>NOW></b>
-	Kill <nm>Barak Kodobane</nm> <TL>42, 23</TL> for quest
+	Kill <nm isTargetLink="true">Barak Kodobane</nm> <TL>42, 23</TL> for quest
 		<DQ>Kolkar Leaders</DQ>
 	Head south and turn in
 		<RQ>Kolkar Leaders</RQ>

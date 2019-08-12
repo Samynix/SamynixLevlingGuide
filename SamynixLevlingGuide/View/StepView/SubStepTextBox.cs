@@ -232,7 +232,14 @@ namespace SamynixLevlingGuide.View.StepView
                             }
 
                             aCurrentSpan.Inlines.Add(colorSpan);
-                            AddText(tagContent, ref isQuestChanges, aCurrentSpan: colorSpan, aCurrentText: aCurrentText, isUnderline: isUnderline);
+                            if (attributes.Any(a => a.Key == "isTargetLink".ToLower() && bool.TryParse(a.Value, out bool isTargetLink) && isTargetLink))
+                            {
+                                colorSpan.Inlines.Add(new CopyToClipboardInline(this, tagContent, $"/targetexact {tagContent}"));
+                            }
+                            else
+                            {
+                                AddText(tagContent, ref isQuestChanges, aCurrentSpan: colorSpan, aCurrentText: aCurrentText, isUnderline: isUnderline);
+                            }
                         }
                     }
                     else

@@ -5,7 +5,7 @@
 <ST order="1" legend="0, 166, 81, 255">
 	Go south and turn in
 		<RQ>Securing the Lines</RQ>
-	Drop down in the canyon, kill/loot <namedmob>Fizzle Darkstorm</namedmob> <tloc>42, 27</tloc> for 
+	Drop down in the canyon, kill/loot <namedmob isTargetLink="true">Fizzle Darkstorm</namedmob> <tloc>42, 27</tloc> for 
 		<DoQuest>Dark Storms</DoQuest>
 	Grind your way south
 </ST>
