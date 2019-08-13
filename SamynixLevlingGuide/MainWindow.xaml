@@ -122,6 +122,8 @@
                     <ColumnDefinition Width="*" />
                     <ColumnDefinition Width="Auto" />
                     <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
                 </Grid.ColumnDefinitions>
 
                 <TextBox x:Name="SearchTextBox" FontSize="{StaticResource GuideTextSize}" />
@@ -133,10 +135,17 @@
                 </Button>
                 <Button
                     Grid.Column="2"
+                    Command="{Binding SearchPreviousCommand}"
+                    CommandParameter="{Binding IsChecked, ElementName=CheckBoxIsWrapAround}">
+                    Prev
+                </Button>
+                <Button
+                    Grid.Column="3"
                     Command="{Binding SearchNextCommand}"
-                    CommandParameter="{Binding Text, ElementName=SearchTextBox}">
+                    CommandParameter="{Binding IsChecked, ElementName=CheckBoxIsWrapAround}">
                     Next
                 </Button>
+                <CheckBox Grid.Column="4" x:Name="CheckBoxIsWrapAround" VerticalAlignment="Center">WrapAround</CheckBox>
             </Grid>
 
             <Image

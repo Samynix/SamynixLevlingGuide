@@ -1,0 +1,138 @@
+﻿<Title>21 - Stonetalon Mountains</Title>
+<StepNumber>21</StepNumber>
+<Image>Image.png</Image>
+
+<ST order="1">
+	<b>Sell/Repair</b> at bowyer next to flightpath
+	Walk up the path south/west of you and accept quest <le>255, 242, 0</le> <tloc>47, 64</tloc>
+		<AQ>Boulderslide Ravine</AQ>
+</ST>
+
+<ST order="2" legend="237, 28, 36">
+	Head for <place>Windshear Crag</place>
+	Stop at the hut and talk to <nm isTargetLink="true">Ziz Fizziks</nm> <tloc>59, 62.4</tloc>
+	Turn in quest
+		<RQ>Ziz Fizziks</RQ>
+	Accept quests
+		<AQ>Super Reaper 6000</AQ>
+</ST>
+
+<ST order="3" legend="0, 166, 81">
+	Start working on quests
+		<WQ>Deepmoss Spider Eggs</WQ> by picking up eggs
+		<WQ>Blood Feeders</WQ> by killing spiders
+	Do quests
+		<DQ>Goblin Invaders</DQ> by killing goblins!
+		<DQ>Super Reaper 6000</DQ> by killing/looting <nm>Venture Co. Operator</nm>
+		There is alot of operators @ the big machinery, you can't miss it
+	Once done with those head out of the crag
+</ST>
+
+<ST order="4" legend="0, 166, 81">
+	Stop at the hut and turn in <RQ>Super Reaper 6000</RQ>
+	Accept quest
+		<AQ>Further Instructions</AQ>
+	Continue to the crosssection <le>0, 174, 239</le> accept quest
+		<AQ>Arachnophobia</AQ> from the wanted poster <tloc>59.1, 75.8</tloc>
+	Continue west
+</ST>
+
+<ST order="5" legend="46, 49, 146, 170">
+	Finsh up quests
+		<DQ>Deepmoss Spider Eggs</DQ> by picking up eggs
+		<DQ>Blood Feeders</DQ> by killing spiders
+	Kill/loot <nm isTargetLink="true">Besseleth</nm> for
+		<DQ>Arachnophobia</DQ>
+	Head south/east
+</ST>
+
+<ST order="6" legend="236, 0, 140">
+	Do quest
+		<DQ>Boulderslide Ravine</DQ> by
+			Looting <nm>Resonite Crystal</nm>
+			Walking up to the little cave lake
+		Leave and head south/east 
+</ST>
+
+<ST order="7" legend="190, 30, 45">
+	Kill/loot <nm isTargetLink="true">Grundig Darkcloud</nm>
+	Kill 6 <nm>Grimtotem Brute</nm> for
+		<DQ>Kill Grundig Darkcloud</DQ>
+	<br/>
+	Once done, enter the tent, from <nm isTargetLink="true">Kaya Flathoof</nm> start <em>Make sure both of you have 1 quest slot</em>
+		<AQ>Protect Kaya</AQ>
+	Do quest
+		<DQ>Protect Kaya</DQ> by protecting her!
+</ST>
+
+<ST order="8" legend="239, 65, 54">
+	Head to <p>The Barrens</p> border
+	Turn in quests
+		<RQ>Kill Grundig Darkcloud</RQ>
+		<RQ>Protect Kaya</RQ>
+		<RQ>Goblin Invaders</RQ>
+	Accept quests
+		<AQ>Shredding Machines</AQ>
+		<AQ>The Elder Crone</AQ>
+		<AQ>Kaya's Alive</AQ>
+</ST>
+
+<ST order="9" legend="251, 176, 64">
+	Continue into <p>The Barrens</p> and walkup the mountains, walk north on the ledge
+	Kill/loot <nm isTargetLink="true">Serena Bloodfeather</nm> <tloc>39.6, 13</tloc> for quest
+		<DQ>Serena Bloodfeather</DQ>
+	<SetHome>Hearth</SetHome> to <p>Ratchet</p>
+</ST>
+
+<ST order="10">
+	Outside the <p>Inn</p> turn in quest
+		<RQ>The Guns of Northwatch</RQ>
+	Walk towards the docks, turn in 
+		<RQ>Chen's empty Keg;2</RQ>
+	Accept the next part
+		<AQ>Chen's empty Keg;3</AQ>
+	Out on the docks turn in 
+		<RQ>Miner's Fortune</RQ>
+	Next to the bank, turn in quests
+		<RQ>Deepmoss Spider Eggs</RQ>
+		<RQ>Raptor Horns</RQ>
+	Accept quest
+		<AQ>Smart Drinks</AQ>
+	In the <p>Bank</p> take out
+		<BW>Grimtotem Satchel</BW>
+	Turn in quests
+		<RQ>The Escape</RQ>
+		<RQ>Further Instructions</RQ>
+	Accept the next part
+		<AQ>Further Instructions;2</AQ>
+	Down by the sea accept
+		<AQ>Trouble at the Docks</AQ>
+	<br/>
+	Fly to <p>The Crossroads</p>
+</ST>
+
+<ST order="11">
+	By the watchtower turn in 
+		<RQ>Serena Bloodfeather</RQ>
+	Accept quests
+		<AQ>Letter to Jin'Zil</AQ>
+		<AQ>Jorn Skyseer</AQ>
+		<AQ>Hamuul Runetotem</AQ>
+	<br/>
+	Fly to <p>Stonetalon Mountains</p>
+</ST>
+
+<ST order="12">
+	Walk up the path and turn in 
+		<RQ>Boulderslide Ravine</RQ>
+	Accept
+		<AQ>Earthen Arise</AQ>
+		<AQ>Trouble in the Deeps</AQ>
+	Walk down again and turn in quests
+		<RQ>Arachnophobia</RQ>
+		<RQ>Kaya's Alive</RQ>
+	<b>Repair/Sell</b> at bowyer
+	<br/>
+	Fly to <p>Thunder Bluff</p>
+</ST>
+

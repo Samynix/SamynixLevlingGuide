@@ -1,0 +1,47 @@
+﻿<Title>20 - Orgrimmar/The Barrens</Title>
+<StepNumber>20</StepNumber>
+<Image class="warrior">ImageWarrior.png</Image>
+<Image class="shaman">ImageShaman.png</Image>
+
+<ST order="1" legend="237, 28, 36" class="shaman">
+	Head for <p>The Valley Of Honor</p>
+	At <nm isTargetLink="true">Rilli Greasygob</nm> turn in quest <le>255, 242, 0</le>
+		<RQ>Rilli Greasygob</RQ>
+	Accept the follow
+		<AQ>Samophlange Manual</AQ>
+	<br/>
+		Train new weapon skills @ <nm isTargetLink="true">Hanashi</nm> <tloc>81.6, 19.4</tloc>
+</ST>
+
+<ST order="1" legend="237, 28, 36" class="shaman">
+	Head for <p>The Valley Of Honor</p>
+	<b>Train new skills</b>
+	At <nm isTargetLink="true">Rilli Greasygob</nm> turn in quest <le>255, 242, 0</le>
+		<RQ>Rilli Greasygob</RQ>
+	Accept the follow
+		<AQ>Samophlange Manual</AQ>
+	<br/>
+		Train new weapon skills @ <nm isTargetLink="true">Hanashi</nm> <tloc>81.6, 19.4</tloc>
+</ST>
+
+<ST order="2" class="Shaman" legend="0, 166, 81">
+	Go to <p>The Valley Of Honor</p> to get new skills
+</ST>
+
+<ST order="3" class="all" legend="0, 174, 239">
+	Head to <p>The Valley Of Spirits</p>
+	If you need to, train firstaid go to <nm isTargetLink="true">Arnok</nm> <tloc>34, 84.4</tloc>
+	Continue trough <p>The Valley Of Spirits</p>
+</ST>
+
+<ST order="4" legend="46, 49, 146">
+	Do quest
+		<DQ>Miner's Fortune</DQ> by killing/looting any humanoid
+		<DQ>Samophlange Manual</DQ> by killing/looting any humanoid, for the cover kill/loot
+			<nm isTargetLink="true">Boss Copperplug</nm> (Inside cave <tloc>59.8, 3.8</tloc>)
+	<br/>
+	Once done, return to <p>Orgrimmar</p> and to <nm isTargetLink="true">Rilli Greasygob</nm> <le>255, 242, 0</le>
+	Turn in quest
+		<RQ>Samophlange Manual</RQ>
+	Fly to <p>Stonetalon Mountains</p>
+</ST>

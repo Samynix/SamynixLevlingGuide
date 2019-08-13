@@ -43,7 +43,8 @@ namespace SamynixLevlingGuide
 
         private RelayCommand _closePopupCommand;
         private RelayCommand<string> _searchCommand;
-        private RelayCommand<string> _searchNextCommand;
+        private RelayCommand<bool> _searchPrevCommand;
+        private RelayCommand<bool> _searchNextCommand;
 
         private Guide _selectedGuide;
         private ClassEnum _selectedClass;
@@ -478,20 +479,33 @@ namespace SamynixLevlingGuide
             {
                 _searchCommand = _searchCommand ?? new RelayCommand<string>((searchString) =>
                 {
-                    Search(searchString, false);
+                    Search(searchString, false, false, false);
                 });
 
                 return _searchCommand;
             }
         }
 
-        public RelayCommand<string> SearchNextCommand
+        public RelayCommand<bool> SearchPreviousCommand
         {
             get
             {
-                _searchNextCommand = _searchNextCommand ?? new RelayCommand<string>((searchString) =>
+                _searchPrevCommand = _searchPrevCommand ?? new RelayCommand<bool>((isWrapAround) =>
                 {
-                    Search(searchString, true);
+                    Search(string.Empty, true, false, isWrapAround);
+                });
+
+                return _searchPrevCommand;
+            }
+        }
+
+        public RelayCommand<bool> SearchNextCommand
+        {
+            get
+            {
+                _searchNextCommand = _searchNextCommand ?? new RelayCommand<bool>((isWrapAround) =>
+                {
+                    Search(string.Empty, false, true, isWrapAround);
                 });
 
                 return _searchNextCommand;
@@ -500,15 +514,15 @@ namespace SamynixLevlingGuide
 
 
         private List<SubStepView> _searchResults = new List<SubStepView>();
-        private int _currentSearchIndex = -1;
+        private int? _currentSearchIndex = null;
         
 
-        private void Search(string aSearchString, bool isSearchNext)
+        private void Search(string aSearchString, bool isSearchPrevious, bool isSearchNext, bool isWrapAround)
         {
-            if (!isSearchNext || !_searchResults.Any())
+            if ((!isSearchNext && !isSearchPrevious) || !_searchResults.Any())
             {
                 _searchResults.Clear();
-                _currentSearchIndex = -1;
+                _currentSearchIndex = null;
 
                 foreach (var view in StepItemsSource.SelectMany(s => s.ViewModel.SubStepItemsSource.Where(st => st.ViewModel.Visibility == Visibility.Visible)))
                 {
@@ -526,15 +540,42 @@ namespace SamynixLevlingGuide
                 }
             }
 
-            if (_searchResults.Count < _currentSearchIndex)
+            if (!_searchResults.Any())
             {
-                _currentSearchIndex = -1;
+                return;
             }
 
-            _currentSearchIndex++;
-            if (_searchResults.Count >= _currentSearchIndex +1)
+            if (isSearchNext)
             {
-                _searchResults[_currentSearchIndex].BringIntoView();
+                _currentSearchIndex = _currentSearchIndex.HasValue ? _currentSearchIndex : -1;
+                if (isWrapAround && _searchResults.Count - 1 < _currentSearchIndex)
+                {
+                    _currentSearchIndex = -1;
+                }
+
+                _currentSearchIndex++;
+                if (_searchResults.Count -1 < _currentSearchIndex)
+                {
+                    return;
+                }
+
+                _searchResults[_currentSearchIndex.Value].BringIntoView();
+            }
+            else
+            {
+                _currentSearchIndex = _currentSearchIndex.HasValue ? _currentSearchIndex : _searchResults.Count;
+                if (isWrapAround && _currentSearchIndex - 1 < 0)
+                {
+                    _currentSearchIndex = _searchResults.Count;
+                }
+
+                _currentSearchIndex--;
+                if (_currentSearchIndex < 0)
+                {
+                    return;
+                }
+
+                _searchResults[_currentSearchIndex.Value].BringIntoView();
             }
         }
 

@@ -1,0 +1,59 @@
+﻿<Title>22 - Thunder Bluff</Title>
+<StepNumber>22</StepNumber>
+<Image class="Warrior">ImageWarrior.png</Image>
+<Image class="Shaman">ImageShaman.png</Image>
+
+<ST order="1">
+	<em>You should do Wailing Caverns after this part</em>
+	From <nm isTargetLink="true">Bluff Runner Windstrider</nm> accept quest
+		<AQ>The Ashenvale Hunt</AQ>
+	At the <p>Bank</p> deposit
+		<BD>Letter to Jin'Zil</BD>
+</ST>
+
+<ST order="2" class="warrior" legend="0, 166, 81">
+	Go to <p>The Hunter Rise</p> and train new skills!
+		(Maybe pickup some quests here im not sure, check later)
+	Continue to
+		<p>The Elder Rise</p>
+</ST>
+
+<ST order="2" class="shaman" legend="237, 28, 36">
+	Go to <p>The Elder Rise</p>
+</ST>
+
+<ST order="3" legend="237, 28, 36">
+	Turn in quests
+		<RQ>Testing an Enemy's Strength</RQ>
+		<RQ>Returning the Lost Satchel</RQ>
+		<RQ>The Elder Crone</RQ>
+	Accept quest
+		<AQ>Forsaken Aid</AQ>
+	Go inside the big hut and turn in 
+		<RQ>Hamuul Runetotem</RQ>
+	Accept the next part
+		<AQ>Nara Wildmane</AQ>
+	Turn in quest
+		<RQ>Nara Wildmane</RQ>
+	Accept quest
+		<AQ>Leaders of the Fang</AQ>
+</ST>
+
+<ST order="4" class="warrior" legend="0, 174, 239">
+	Head to <p>The Spirit Rise</p>
+	Train firstaid if you need to!
+	Go down to the cave and accept quest
+		<AQ>Serpentbloom</AQ>
+	<br/>
+	Fly to the <p>The Crossroads</p>
+</ST>
+
+<ST order="4" class="shaman" legend="0, 174, 239">
+	Head to <p>The Spirit Rise</p>
+	Train firstaid if you need to!
+	Get your lvl 20 skills
+	Go down to the cave and accept quest
+		<AQ>Serpentbloom</AQ>
+	<br/>
+	Fly to the <p>The Crossroads</p>
+</ST>

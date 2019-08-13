@@ -65,9 +65,11 @@
 	Turn in
 		<RQ>Wharfmaster Dizzywig</RQ>
 		<RQ>The Missing Shipment</RQ>
-	Accapt the next part
+	Accept the next part
 		<AQ>The Missing Shipment;2</AQ>
-	Walk back up to the <place>Engineering building</place> and turn in
+	Also accept
+		<AQ>Miner's Fortune</AQ>
+	Walk back up to the <em><place>Engineering building</place></em> and turn in
 		<RQ>The Missing Shipment;2</RQ>
 	Accept
 		<AQ>Stolen Booty</AQ>

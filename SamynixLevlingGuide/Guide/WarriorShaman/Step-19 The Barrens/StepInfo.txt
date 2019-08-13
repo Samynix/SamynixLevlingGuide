@@ -11,13 +11,12 @@
 		<AQ>The Angry Scytheclaws</AQ>
 </ST>
 
-<ST order="2">
+<ST order="2" legend="237, 28, 36">
 	Head south/east towards <place>The Stagnant Oasis</place>
-	Check if <nm isTargetLink="true">Verog the Dervish</nm> <tloc>53, 42</tloc> is up if so kill him for 
-		<WQ>Verog the Dervish</WQ>
-	Do 
-		<DQ>Centaur Bracers</DQ> by killing <nm>Kolkars</nm>
+	Check if <nm isTargetLink="true">Verog the Dervish</nm> <tloc>53, 42</tloc> is up if so kill him for 		<WQ>Verog the Dervish</WQ>
 	<nm>Verog the Dervish</nm> spawns by killing the <nm>Kolkars</nm> in the area
+	Do quest
+		<DQ>Centaur Bracers</DQ> by killing <nm>Kolkars</nm>
 	<br/>
 	You can also start working on 
 		<WQ>Altered Beings</WQ>
@@ -25,7 +24,7 @@
 		<DQ>Verog the Dervish</DQ>
 </ST>
 
-<ST order="3">
+<ST order="3" legend="237, 28, 36">
 	Head abit east to the Stagnant Oasis
 	Kill/loot <nm isTargetLink="true">Oasis Snapjaw</nm> for quest
 		<DQ>Altered Beings</DQ>
@@ -38,12 +37,12 @@
 	Accept quests
 #		<AQ>Mura Runetotem</AQ> No space, wait for later
 #		<AQ>Hamuul Runetotem</AQ> No space, wait for later
-		<AQ>Consumed by Hatred</AQ>
+		<AQ>Lost in Battle</AQ>
 	Head north to <p>Sludge Fen</p>
 </ST>
 
-<ST order="5">
-	If you are not done with <nm>Savannah Lion Tusk</nm> for <WQ>Chen's empty Keg;2</WQ>, clear out the camps sourth of <place>Sludge Fen</place>
+<ST order="5" legend="0, 166, 81">
+	If you are not done with <nm>Savannah Lion Tusk</nm> for <WQ>Chen's empty Keg;2</WQ>, clear out the camps south of the <place>Sludge Fen</place> <LE>0, 174, 239, 170</LE>
 	Its a good idea to be done with the <nm>Savannah Lion Tusks</nm> now
 	<br/>
 	Start working on quest
@@ -59,8 +58,89 @@
 		<AQ>The Escape</AQ>
 	When <DQ>The Escape</DQ> is done, finish up <DQ>Nugget Slugs</DQ>
 	<br/>
-	Head west
+	Head west to <nm isTargetLink="true">Wenikee Boltbucket</nm>
 </ST>
 
+<ST order="6" legend="46, 49, 146">
+	Turn in quest
+		<RQ>Nugget Slugs</RQ>
+	Accept quest
+		<AQ>Rilli Greasygob</AQ>
+	Continue west <LE>236, 0, 140</LE>, <b>Sell/Repair</b>
+	Continue west
+</ST>
 
+<ST order="7" legend="236, 0, 140, 170">
+	Kill/loot <nm>Witchwing Slayers</nm> for 
+		<DQ>Harpy Lieutenants</DQ>
+	When done, go south
+	<br/>
+	This is your last chance to be done with <nm>Savannah Lion Tusk</nm> for <WQ>Chen's empty Keg;2</WQ> <LE>0, 174, 239, 170</LE>
+</ST>
 
+<ST order="8" legend="190, 30, 45">
+	Turn in quests
+		<RQ>Centaur Bracers</RQ>
+		<RQ>Verog the Dervish</RQ>
+	Accept
+		<AQ>Hezrul Bloodmark</AQ>
+	<SetHome>Hearth</SetHome> to <place>Ratchet</place>
+</ST>
+
+<ST order="9">
+	Right outside the <p>Inn</p> accept quest
+		<AQ>The Guns of Northwatch</AQ>
+</ST>
+
+<ST order="10" legend="255, 242, 0">
+	Go sourth to <place>Northwatch Hold</place>
+	Do quest
+		<DQ>The Guns of Northwatch</DQ> by killing/looting the humanoids in the area
+	Kill
+		<nm isTargetLink="true">Captain Fairmount</nm> <tloc>61.8, 54.6</tloc>
+		<nm isTargetLink="true">Cannoneer Smythe</nm> <tloc>63, 56.6</tloc>
+		<nm isTargetLink="true">Cannoneer Whessan</nm> <tloc>60.4, 54.8</tloc>
+	Jump down east of the tower, land on the ledge!
+</ST>
+
+<ST order="11" legend="251, 176, 64">
+	Do quests
+		<DQ>Raptor Horns</DQ>
+		<DQ>Stolen Silver</DQ> <tloc>58, 53.9</tloc>
+	Continue north/west
+</ST>
+
+<ST order="12" legend="102, 45, 145">
+	Do quest
+		<DQ>The Angry Scytheclaws</DQ> <tloc>52, 46</tloc>
+	Finish <nm>Plainstrider Kidney</nm> for <WQ>Chen's Empty Keg;2</WQ>
+	Continue south
+</ST>
+
+<ST order="13" legend="238, 42, 123">
+	At the hut right south of the border do quest
+		<DQ>Lost in Battle</DQ> by interacting with the corpse <tloc>49, 50</tloc>
+	Finish quest
+		<DQ>Chen's empty Keg;2</DQ> by killing/looting <nm>Stormsnouts</nm>
+	Look for mob <nm isTargetLink="true">Owatanka</nm>
+	<em>Head just north of the border</em>
+	DIE
+</ST>
+
+<ST order="14">
+	Turn in quest
+		<RQ>Harpy Lieutenants</RQ>
+	Accept
+		<AQ>Serena Bloodfeather</AQ>
+	South in <p>The Crossroads</p> turn in 
+		<RQ>Lost in Battle</RQ>
+	Accept 
+		<AQ>Consumed by Hatred</AQ>
+	Outside the inn turn in
+		<RQ>The Angry Scytheclaws</RQ>
+		<RQ>Stolen Silver</RQ>
+	Accept
+		<SQ>Jorn Skyseer</SQ> for now
+	<br/>
+	Fly to <p>Orgrimmar</p>
+</ST>

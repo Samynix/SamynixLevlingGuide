@@ -11,9 +11,9 @@
 	Continue further into <place>Stonetalon Mountains</place>
 </ST>
 
-<ST order="2">
+<ST order="2" legend="237, 28, 36">
 	Kill <nm>Grimtotem Ruffian</nm> and <nm>Grimtotem Mercenary</nm> for
-		<DQ>Avenge My Village</AQ>
+		<DQ>Avenge My Village</DQ>
 	Once done, return to <place>border</place>
 </ST>
 
@@ -25,15 +25,15 @@
 	Head west into <place>Stonetalon Mountains</place>, use the ramp south of you!
 </ST>
 
-<ST order="4">
+<ST order="4" legend="0, 166, 81">
 	Accept quest
 		<AQ>Blood Feeders</AQ>
 	Go north/west and find a place to <b>DIE</b>
 	Spirit res
 </ST>
 
-<ST order="5">
+<ST order="5" legend="0, 174, 239">
 	Go to <place>Sun Rock Retreat</place>
-	<b>Sell/Repair at bowyer right off the <nm>Windrider</nm>
+	<b>Sell/Repair</b> at bowyer right off the <nm>Windrider</nm>
 	Fly to <place>The Crossroads</place>
 </ST>

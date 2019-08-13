@@ -4,3 +4,5 @@ Pink: <LE>236, 0, 140</LE>
 DarkRed: <LE>190, 30, 45</LE>
 Green: <LE>0, 166, 81</LE>
 DarkBlue: <LE>46, 49, 146</LE>
+Yellow: <LE>255, 242, 0</LE>
+LightOrange: <LE>251, 176, 64</LE>

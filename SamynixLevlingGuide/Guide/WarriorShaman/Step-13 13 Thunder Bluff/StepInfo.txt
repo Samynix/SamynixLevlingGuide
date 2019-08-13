@@ -3,10 +3,12 @@
 <Image class="Warrior">ImageWarrior.png</Image>
 <Image class="Shaman">ImageShaman.png</Image>
 
-<SubStep order="1" class="shaman" legend="237, 28, 36, 255">
+<ST order="1" class="shaman" legend="237, 28, 36, 255">
+	Go to the center of <place>Thunder Bluff</place>
+	<em>Take Flightpath</em>
 	Head to the <b>Cooking Trainer</b> <nm isTargetLink="true">Aska Mistrunner</nm>
 	Train cooking, if you don't have it. (Needed for quest later)
-</SubStep>
+</ST>
 
 
 <SubStep order="1" class="warrior">
@@ -27,17 +29,13 @@
 	Train <b>Cooking</b> if you haven't already (Needed for quest later)
 </ST>
 
-<ST order="3" class="shaman" legend="46, 49, 146">
-	Go to the center of <place>Thunder Bluff</place>
-	<em>Take Flightpath</em>
-</ST>
 
 <ST order="3" class="Warrior" legend="46, 49, 146">
 	Go to the center of <place>Thunder Bluff</place>
 	<em>Take Flightpath</em>
 </ST>
 
-<ST order="4" class="shaman" legend="236, 0, 140">
+<ST order="3" class="shaman" legend="236, 0, 140">
 	Go to <place>The Spirit Rise</place>
 	<b>Get your level 12 skills!</b>
 	Skill up your firstaid!. You should have plenty for <nm>Heavy Linen Bandage</nm> now
@@ -53,7 +51,7 @@
 <ST order="5" legend="190, 30, 45">
 	Head down the past @ the west side, into the cave
 	Accept quest
-		<AQ>Until Death Do Us Part</AQ>
+		<AQ>Until Death Do Us Part</AQ> (This can in theory be picked up after doing WC)
 	Turn in quest
 		<RQ>Apothecary Zamah</RQ>
 	<sh>Hearth</sh> to <place>The Crossroads</place>

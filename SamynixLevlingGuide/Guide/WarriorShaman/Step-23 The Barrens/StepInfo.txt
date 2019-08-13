@@ -1,0 +1,22 @@
+﻿<Title>23 - The Barrens/Waling Caverns</Title>
+<StepNumber>23</StepNumber>
+<Image>Image.png</Image>
+
+<ST order="1" legend="0, 0, 0, 255">
+	Outside of <p>The Wailing Caverns</p> kill <nm isTargetLink="true">Hezrul Bloodmark</nm>, he patrols around the lake
+		<DQ>Hezrul Bloodmark</DQ>
+</ST>
+
+<ST order="2" legend="237, 28, 36">
+	Head up the mountain and drop down to the little cliff above <p>The Wailing Caverns</p>
+	Accept quests
+		<AQ>Deviate Eradication</AQ>
+		<AQ>Deviate Hides</AQ>
+	If you have time, go turn in <le>0, 166, 81</le>
+		<RQ>Hezrul Bloodmark</RQ>
+	<em>Do The Wailing Caverns</em>
+</ST>
+
+<ST order="3" legend="0, 166, 81">
+	If you didnt already, turn in quest <RQ>Hezrul Bloodmark</RQ>
+</ST>

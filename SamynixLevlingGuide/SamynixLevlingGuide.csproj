@@ -188,10 +188,46 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Resource Include="Resources\appIcon.png" />
+    <Content Include="Guide\WarriorShaman\Step-23 The Barrens\Image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-23 The Barrens\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-21 Stonetalon Mountains\Image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-21 Stonetalon Mountains\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-18 Stonetalon Mountains\Image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Guide\WarriorShaman\Step-18 Stonetalon Mountains\StepInfo.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Guide\WarriorShaman\Step-19 The Barrens\Image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Guide\WarriorShaman\Step-19 The Barrens\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-20 Orgrimmar - Barrens\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-20 Orgrimmar - Barrens\ImageShaman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-20 Orgrimmar - Barrens\ImageWarrior.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-22 Thunder Bluff\ImageShaman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-22 Thunder Bluff\ImageWarrior.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-22 Thunder Bluff\StepInfo.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="x64\SQLite.Interop.dll">
@@ -219,6 +255,8 @@
     <None Include="Guide\WarriorShaman\Step-14 13-15 The Barrens\ImageWarrior.ai" />
     <None Include="Guide\WarriorShaman\Step-16 Orgrimmar and RFC\Image.ai" />
     <None Include="Guide\WarriorShaman\Step-2 5-7 Durotar\ImageShaman.ai" />
+    <None Include="Guide\WarriorShaman\Step-22 Thunder Bluff\ImageShaman.ai" />
+    <None Include="Guide\WarriorShaman\Step-22 Thunder Bluff\ImageWarrior.ai" />
     <None Include="Guide\WarriorShaman\Step-3 7-8 Echo Isles\Image.ai" />
     <None Include="Guide\WarriorShaman\Step-2 5-7 Durotar\ImageWarrior.ai" />
     <None Include="Guide\WarriorShaman\Step-1 1-6 Valley of Trials\ImageWarrior.ai" />
