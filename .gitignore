@@ -344,4 +344,4 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
-!**/SQLite.Interop.dll
+!/SamynixLevlingGuide/x64/SQLite.Interop.dll
