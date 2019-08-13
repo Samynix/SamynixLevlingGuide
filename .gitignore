@@ -347,3 +347,5 @@ MigrationBackup/
 !/SamynixLevlingGuide/
 !/SamynixLevlingGuide/x64/
 !/SamynixLevlingGuide/x64/*.dll
+!/SamynixLevlingGuide/x86/
+!/SamynixLevlingGuide/x86/*.dll
