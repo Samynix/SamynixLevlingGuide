@@ -40,9 +40,9 @@
 	At the <b>Wanted Poster</b> accept
 		<AQ>WANTED: Baron Longshore</AQ>
 	Put in bank
-		<nm>Control Console Operating Manual</nm> in the bank. (You can try and throw it away first, you may loose your quest)
-		<nm>Lieutenant's Insignia</nm> (This is also an item that you might be able to throw away, in beta you lost your quest!)
-		<nm>Clarice's Pendant</nm>
+		<BD>Control Console Operating Manual</BD> in the bank. (You can try and throw it away first, you may loose your quest)
+		<BD>Lieutenant's Insignia</BD> (This is also an item that you might be able to throw away, in beta you lost your quest!)
+		<BD>Clarice's Pendant</BD>
 	Next to you, accept
 		<AQ>Raptor Horns</AQ>
 	<b>Sell/Repair @ the building next to you</b>

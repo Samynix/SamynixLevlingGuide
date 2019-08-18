@@ -122,7 +122,7 @@
 		<DQ>Lost in Battle</DQ> by interacting with the corpse <tloc>49, 50</tloc>
 	Finish quest
 		<DQ>Chen's empty Keg;2</DQ> by killing/looting <nm>Stormsnouts</nm>
-	Look for mob <nm isTargetLink="true">Owatanka</nm>
+	Look for mob <nm isTargetLink="true">Lakota'mani</nm>
 	<em>Head just north of the border</em>
 	DIE
 </ST>

@@ -188,7 +188,19 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Resource Include="Resources\appIcon.png" />
-    <Content Include="Guide\WarriorShaman\Step-23 The Barrens\Image.png">
+    <Content Include="Guide\WarriorShaman\Step-24 Southern Barrens\ImageShaman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-24 Southern Barrens\ImageWarrior.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-24 Southern Barrens\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-23 The Barrens\ImageWarrior.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-23 The Barrens\ImageShaman.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Guide\WarriorShaman\Step-23 The Barrens\StepInfo.txt">

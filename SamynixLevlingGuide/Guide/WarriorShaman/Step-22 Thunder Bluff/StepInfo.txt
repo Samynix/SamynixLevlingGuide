@@ -9,6 +9,8 @@
 		<AQ>The Ashenvale Hunt</AQ>
 	At the <p>Bank</p> deposit
 		<BD>Letter to Jin'Zil</BD>
+		<BD>Hoof of Lakota'mani</BD> if you have it
+		<BD>Enchanted Resonite Crystal</BD>
 </ST>
 
 <ST order="2" class="warrior" legend="0, 166, 81">
@@ -42,7 +44,10 @@
 <ST order="4" class="warrior" legend="0, 174, 239">
 	Head to <p>The Spirit Rise</p>
 	Train firstaid if you need to!
-	Go down to the cave and accept quest
+	Go down to the cave. Turn in quest
+		<RQ>Forsaken Aid</RQ>
+	Accept quests
+		<AQ>Journey to Tarren Mill</AQ>
 		<AQ>Serpentbloom</AQ>
 	<br/>
 	Fly to the <p>The Crossroads</p>
@@ -52,7 +57,12 @@
 	Head to <p>The Spirit Rise</p>
 	Train firstaid if you need to!
 	Get your lvl 20 skills
-	Go down to the cave and accept quest
+	Accept quest
+		<AQ>Call of Water</AQ>
+	Go down to the cave. Turn in quest
+		<RQ>Forsaken Aid</RQ>
+	Accept quests
+		<AQ>Journey to Tarren Mill</AQ>
 		<AQ>Serpentbloom</AQ>
 	<br/>
 	Fly to the <p>The Crossroads</p>

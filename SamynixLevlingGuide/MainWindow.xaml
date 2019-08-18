@@ -145,7 +145,12 @@
                     CommandParameter="{Binding IsChecked, ElementName=CheckBoxIsWrapAround}">
                     Next
                 </Button>
-                <CheckBox Grid.Column="4" x:Name="CheckBoxIsWrapAround" VerticalAlignment="Center">WrapAround</CheckBox>
+                <CheckBox
+                    x:Name="CheckBoxIsWrapAround"
+                    Grid.Column="4"
+                    VerticalAlignment="Center">
+                    WrapAround
+                </CheckBox>
             </Grid>
 
             <Image
@@ -182,69 +187,74 @@
         </Popup>
 
         <Popup
+            x:Name="QuestLogPopup"
             Grid.Row="3"
             IsOpen="{Binding IsPopupQuestLogOpen}"
             Placement="Center"
             PlacementTarget="{Binding ElementName=MainGrid}">
-            <Canvas Width="{Binding PopupWidth}" Height="{Binding PopupHeight}">
-                <ItemsControl
-                    Width="{Binding PopupWidth}"
-                    Height="{Binding PopupHeight}"
-                    Background="Black"
-                    FontSize="{StaticResource GuideTextSize}"
-                    ItemsSource="{Binding QuestLogPopupItemsSource}"
-                    ScrollViewer.VerticalScrollBarVisibility="Hidden">
+            <Grid Width="{Binding PopupWidth}" Height="{Binding PopupHeight}">
+                <ScrollViewer MaxHeight="{Binding PopupHeight}" VerticalScrollBarVisibility="Visible">
+                    <ItemsControl
+                        Width="{Binding PopupWidth}"
+                        Background="Black"
+                        FontSize="{StaticResource GuideTextSize}"
+                        ItemsSource="{Binding QuestLogPopupItemsSource}">
 
-                    <ItemsControl.ItemTemplate>
-                        <DataTemplate>
-                            <Grid>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition />
-                                    <RowDefinition />
-                                </Grid.RowDefinitions>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition />
+                                        <RowDefinition />
+                                    </Grid.RowDefinitions>
 
-                                <TextBlock Foreground="LightGray" Text="{Binding Category}" />
-                                <ItemsControl
-                                    Grid.Row="1"
-                                    Background="Black"
-                                    BorderThickness="0"
-                                    ItemsSource="{Binding Quests}">
-                                    <ItemsControl.ItemTemplate>
-                                        <DataTemplate>
-                                            <StackPanel Orientation="Horizontal">
-                                                <Button
-                                                    Width="25"
-                                                    Height="25"
-                                                    Margin="20,5,0,5"
-                                                    Command="{Binding DataContext.CopyQuestTitleCommand, ElementName=MainGrid}"
-                                                    CommandParameter="{Binding Text, ElementName=TextBlockQuestTitle}">
-                                                    <Image Source="Resources/copy.png" />
-                                                </Button>
+                                    <TextBlock Foreground="LightGray" Text="{Binding Category}" />
+                                    <ItemsControl
+                                        Grid.Row="1"
+                                        Background="Black"
+                                        BorderThickness="0"
+                                        ItemsSource="{Binding Quests}">
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <StackPanel Orientation="Horizontal">
+                                                    <Button
+                                                        Width="25"
+                                                        Height="25"
+                                                        Margin="20,5,0,5"
+                                                        Command="{Binding DataContext.CopyQuestTitleCommand, ElementName=MainGrid}"
+                                                        CommandParameter="{Binding Text, ElementName=TextBlockQuestTitle}">
+                                                        <Image Source="Resources/copy.png" />
+                                                    </Button>
 
-                                                <TextBlock
-                                                    x:Name="TextBlockQuestTitle"
-                                                    Margin="5,0,0,0"
-                                                    Foreground="{Binding TextBrush}"
-                                                    Text="{Binding Title}" />
+                                                    <TextBlock
+                                                        x:Name="TextBlockQuestTitle"
+                                                        Margin="5,0,0,0"
+                                                        Foreground="{Binding TextBrush}"
+                                                        Text="{Binding Title}" />
 
-                                            </StackPanel>
+                                                </StackPanel>
 
 
-                                        </DataTemplate>
-                                    </ItemsControl.ItemTemplate>
-                                </ItemsControl>
-                            </Grid>
-                        </DataTemplate>
-                    </ItemsControl.ItemTemplate>
-                </ItemsControl>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </ScrollViewer>
+
                 <Button
-                    Canvas.Top="0"
-                    Canvas.Right="0"
+                    Width="40"
+                    Height="55"
+                    Margin="0,0,15,0"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Top"
                     Command="{Binding ClosePopupCommand}"
                     FontSize="40">
                     X
                 </Button>
-            </Canvas>
+            </Grid>
         </Popup>
     </Grid>
 </view:SamyWindowBase>

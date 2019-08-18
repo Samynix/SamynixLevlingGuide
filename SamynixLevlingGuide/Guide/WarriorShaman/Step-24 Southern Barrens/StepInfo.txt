@@ -1,0 +1,53 @@
+﻿<Title>24 - Southern Barrens</Title>
+<StepNumber>24</StepNumber>
+<Image class="Warrior">ImageWarrior.png</Image>
+<Image class="Shaman">ImageShaman.png</Image>
+
+
+
+<ST order="1">
+	If you have some <nm>Blood Shards</nm> in your mail, get out some and turn them in!
+	Accept quest
+		<AQ>Tribes at War</AQ>
+	Turn in quest
+		<RQ>Jorn Skyseer</RQ> skip the follow for now
+	Head north
+</ST>
+
+<ST order="2" legend="0, 166, 81, 170">
+	If you still need to kill <nm isTargetLink="true">Lakota'mani</nm> look for him. (Just north of <p>Camp Tau</p>)
+	Do quest
+		<DQ>Consumed By Hatred</DQ> <em>Let the Shaman finish first</em>
+		<DQ>Tribes at War</DQ>
+</ST>
+
+<ST order="3" class="Warrior">
+	<sh>Hearth</sh> to <p>Ratchet</p>
+</ST>
+
+<ST order="3" class="Shaman">
+	While the warrior finishes up <DQ>Consumed By Hatred</DQ> start running south!
+	Turn in quest
+		<RQ>Call of Water;2</RQ>
+	Accept the next part
+		<AQ>Call of Water;3</AQ>
+	Just down the hill fill your water pouch, go back up to hut and turn in 
+		<RQ>Call of Water;3</RQ>
+	Accept the next part
+		<AQ>Call of Water;4</AQ>
+	<sh>Hearth</sh> to <p>Ratchet</p>
+</ST>
+
+<ST order="4">
+	Put in bank
+		<BD>Hoof of Lakota'mani</BD>(if you have it, or not already in bank)
+		<BD>Bristleback Quilboar Tusk</BD>
+	Take out
+		<BW>Spells of Shadow</BW>
+		<BW>Incantations from the Nether</BW>
+		<BW>Clarice's Pendant</BW>
+	<em>Send your bloodshards to mule, return them asap for easy access in mail</em>
+	<br/>
+	Fly to <p>Orgrimmar</p>
+	Head to zeppelin and travel to <p>The Undercity</p>
+</ST>

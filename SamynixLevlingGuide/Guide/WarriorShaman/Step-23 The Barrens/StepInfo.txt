@@ -1,6 +1,7 @@
 ﻿<Title>23 - The Barrens/Waling Caverns</Title>
 <StepNumber>23</StepNumber>
-<Image>Image.png</Image>
+<Image class="Warrior">ImageWarrior.png</Image>
+<Image class="Shaman">ImageShaman.png</Image>
 
 <ST order="1" legend="0, 0, 0, 255">
 	Outside of <p>The Wailing Caverns</p> kill <nm isTargetLink="true">Hezrul Bloodmark</nm>, he patrols around the lake
@@ -18,5 +19,56 @@
 </ST>
 
 <ST order="3" legend="0, 166, 81">
+	You should now be done with
+		<DQ>Deviate Hides</DQ> Can be finished outside
+		<DQ>Deviate Eradication</DQ>
+		<DQ>Serpentbloom</DQ> Can be finished outside
+		<DQ>Smart Drinks</DQ> Can be finished outside (alot of mobs right outside portal)
+		<DQ>Trouble at the Docks</DQ> Is done outside
+		<DQ>Leaders of the Fang</DQ>
+	<br/>
+	Go back up the mountain and turn in quests
+		<RQ>Deviate Hides</RQ>
+		<RQ>Deviate Eradication</RQ>
+	<br/>
 	If you didnt already, turn in quest <RQ>Hezrul Bloodmark</RQ>
+	Run to <place>The Crossroads</place>
+</ST>
+
+<ST order="4">
+	If you don't have these quests accept them
+		<AQ>Jorn Skyseer</AQ>
+		<AQ>Consumed by Hatred</AQ>
+	Fly to <p>Ratchet</p>
+</ST>
+
+<ST order="5" class="Shaman" legend="0, 174, 239">
+	Run south to <nm>Islen Waterseer</nm> and turn in quest
+		<RQ>Call of Water</RQ>
+	Accept the next part
+		<AQ>Call of Water;2</AQ>
+	<br/>
+	Run back to <place>Ratchet</place>
+</ST>
+
+<ST order="6">
+	Turn in quest
+		<RQ>Smart Drinks</RQ>
+	At the bank deposit
+		<BD>Healing/Tanking gear</BD>
+	Turn in quest
+		<RQ>Trouble at the Docks</RQ>
+	Fly to <p>Thunder Bluff</p>
+</ST>
+
+<ST order="7">
+	At the center on top level accept quest
+		<AQ>The Sacred Flame</AQ>
+	Run to <p>The Elder Rise</p>
+	Turn in quest
+		<RQ>Leaders of the fang</RQ>
+	Run to <p>The Spirit Rise</P> and down the cave turn in 
+		<RQ>Serpentbloom</RQ>
+	<br/>
+	Fly to <p>Camp Taurajo</p>
 </ST>
