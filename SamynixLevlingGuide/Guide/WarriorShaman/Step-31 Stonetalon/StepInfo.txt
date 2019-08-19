@@ -1,0 +1,93 @@
+﻿<Title>31 - Stonetalon Mountains</Title>
+<StepNumber>31</StepNumber>
+<Image>Image.png</Image>
+
+<ST order="1">
+	Accept quest
+		<AQ>Cenarius' Legacy</AQ>
+		<AQ>Harpies Threaten</AQ>
+		<AQ>Cycle of Rebirth</AQ>
+	<sethome>Make Sunrock your home</sethome>
+</ST>
+
+<ST order="2" legend="237, 28, 36">
+	Grind your way north
+	Start working on
+		<wq>Jin'Zil's Forest Magic</wq>
+	Kill all <nm>Antlered Courser</nm> and <nm>Great Courser</nm> you see
+	<br/>
+	Start working on
+		<WQ>Cycle of Rebirth</WQ> around the lake<legend>255, 242, 0, 170</legend>
+	Contiune north
+</ST>
+
+<ST order="3">
+	Once all the way north start working on
+		<WQ>Cenarius' Legacy</WQ>
+	Also kill/loot 
+		<nm>Sap Beast</nm>
+		<nm>Twilight Runner</nm>
+		<nm>Fey Dragon</nm>
+	For
+		<WQ>Jin'Zil's Forest Magic</WQ>
+	<br/>
+	Once done with 
+		<DQ>Cenarius' Legacy</DQ>
+	And
+		<nm>Stonetalon Sap</nm>, <nm>Twilight Whisker</nm> and <nm>Fey Dragon Scale</nm>
+	Start heading south again.
+</ST>
+
+<ST order="4" legend="255, 242, 0, 170">
+	Complete quests
+		<DQ>Jin'Zil's Forest Magic</DQ>
+		<DQ>Cycle of Rebirth</DQ>
+	Head to <p>Sun Rock Retreat</p>
+	Turn in quest
+		<RQ>Cycle of Rebirth</RQ>
+	Accept
+		<AQ>New Life</AQ>
+	Turn in
+		<RQ>Cenarius' Legacy</RQ>
+	Accept
+		<AQ>Ordanus</AQ>
+	<b>Sell/Repair</b> at bowyer
+	Go up the path and turn in 
+		<RQ>Earthen Arise</RQ>
+	Accept
+		<AQ>Elemental War</AQ>
+</ST>
+
+<ST order="5" legend="0, 174, 239">
+	Go to <p>The Charred Vale</P>
+	Do quests
+		<DQ>Harpies Threaten</DQ>
+		<DQ>New Life</DQ>
+		<DQ>Elemental War</DQ>
+	Once done <B>DIE</B>
+</ST>
+
+<ST order="6" legend="236, 0, 140">
+	Spirit Res
+	Jump down to <p>Fizziks hut</p> and turn in quest
+		<RQ>Gerenzo Wrenchwhistle</RQ>
+	Continue south to <nm>Witch Doctor Jin'Zil</nm>
+	Turn in quest
+		<RQ>Jin'Zil's Forest Magic</RQ>
+	Go to <p>The Barrens</p> border
+	Turn in quest
+		<RQ>Shredding Machines</RQ>
+	<sethome>Hearth</sethome> to <p>Sunrock Retreat</p>
+</ST>
+
+<ST order="7">
+	Turn in quest
+		<RQ>New Life</RQ>
+		<RQ>Harpies Threaten</RQ>
+	Accept
+		<AQ>Calling in the Reserves</AQ>
+	Go up the path and turn in 
+		<RQ>Elemental War</RQ>
+	<b>Sell/Repair</b> at the Bowyer
+	Fly to <p>Thunder Bluff</p>
+</ST>	

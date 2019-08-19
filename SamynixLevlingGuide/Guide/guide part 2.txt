@@ -121,6 +121,7 @@ GUIDE HERTE NÅ
 plokk opp egghunt å jorn skyseer
 fly
 ta quest lakota mani frå hoof of lakota mani
+
 lever tribes at war
 ta ud blood shards frå posten.
 ta quest Blood shards of agamaggan og lever
@@ -163,6 +164,9 @@ hiv oppsamla healing ger i banken
 lever chens
 
 fly te stonetalon
+
+
+
 ta opp quest Cenarius Legacy
 Harpies Threaten
 ta opp cycle of rebirth
@@ -190,6 +194,9 @@ lever elemental war
 reparer på bowyer
 
 fly te thunderbluff
+
+GUIDE HERTE NÅ
+
 ta sacred flame 
 ta ud av bank: lydon's toxin
 

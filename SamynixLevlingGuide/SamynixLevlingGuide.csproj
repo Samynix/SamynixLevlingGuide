@@ -272,6 +272,21 @@
     <Content Include="Guide\WarriorShaman\Step-29 Ashenvale\StepInfo.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Guide\WarriorShaman\Step-30 Southern Barrens\ImageShaman.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-30 Southern Barrens\ImageWarrior.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-30 Southern Barrens\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-31 Stonetalon\Image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-31 Stonetalon\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="x64\SQLite.Interop.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -302,6 +317,9 @@
     <None Include="Guide\WarriorShaman\Step-3 7-8 Echo Isles\Image.ai" />
     <None Include="Guide\WarriorShaman\Step-2 5-7 Durotar\ImageWarrior.ai" />
     <None Include="Guide\WarriorShaman\Step-1 1-6 Valley of Trials\ImageWarrior.ai" />
+    <None Include="Guide\WarriorShaman\Step-30 Southern Barrens\ImageShaman.ai" />
+    <None Include="Guide\WarriorShaman\Step-30 Southern Barrens\ImageWarrior.ai" />
+    <None Include="Guide\WarriorShaman\Step-31 Stonetalon\Image.ai" />
     <None Include="Guide\WarriorShaman\Step-4 8-9 Durator\ImageShaman.ai" />
     <None Include="Guide\WarriorShaman\Step-4 8-9 Durator\ImageWarrior.ai" />
     <None Include="Guide\WarriorShaman\Step-5 9-10 Durator\Image.ai" />

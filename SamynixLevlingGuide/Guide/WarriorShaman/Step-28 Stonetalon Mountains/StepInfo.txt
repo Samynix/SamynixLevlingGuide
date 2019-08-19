@@ -14,9 +14,9 @@
 <ST order="2" legend="136, 0, 27">
 	Turn in quests
 		<RQ>Blood Feeders</RQ>
-		<RQ>Letter to Lin'Zil</RQ>
+		<RQ>Letter to Jin'Zil</RQ>
 	Accept
-		<b>Jin'Zil's Forest Magic</b> (we are not 26 now im sure, so this is bullshit!)
+		<aq>Jin'Zil's Forest Magic</aq>
 	Head north again!
 </ST>
 

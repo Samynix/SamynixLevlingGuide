@@ -1,0 +1,120 @@
+﻿<Title>30 - Southern Barrens</Title>
+<StepNumber>30</StepNumber>
+<Image class="Shaman">ImageShaman.png</Image>
+<Image class="Warrior">ImageWarrior.png</Image>
+
+<ST order="1">
+	West in <p>The Crossroads</p> accept quest
+		<AQ>Egg Hunt</AQ>
+	Fly to <p>Camp Taurajo</p>
+</ST>
+
+<ST order="2">
+	If you have it, accept quest
+		<AQ>Lakota'Mani</AQ> from <nm>Hoof of Lakota'mani</nm>
+	Turn in quest
+		<RQ>Tribes at War</RQ>
+	Get some <nm>Blood Shards</nm> out of your mail
+	Accept quest
+		<AQ>Blood shards of Agamaggan</AQ>
+	Turn in quest
+		<RQ>Blood shards of Agamaggan</RQ>
+	Accept quest
+		<AQ>Betrayal from Within</AQ>
+	Buff yourself with some bloodshards!
+	Outside the tent accept quest
+		<AQ>Ishamuhale</AQ>
+		<AQ>Malor sends Word</AQ>
+	If you have it, turn in 
+		<RQ>Lakota'Mani</RQ>
+	Inside the <p>Inn</p> make <p>Camp Tau</p> your new <sethome>Home</sethome>
+	Outside the <p>Inn</p> accept quest
+		<AQ>Weapons of Choice</AQ>
+</ST>
+
+<ST order="3" legend="237, 28, 36">
+	Head south
+	Start working on. Kill all the mobs you can see on your way down, until the parts are done, we don't want to backtrack later
+		<WQ>Chen's Empty Keg;3</WQ> 
+			<nm>Stormhide</nm>
+			<nm>Greater Thunderhawk</nm>
+			<nm>Kodoes</nm> There is a big pack of them walking around
+	<br/>
+	Look for mob <nm isTargetLink="true">Owatanka</nm> <legend>239, 65, 54, 170</legend>
+</ST>
+
+<ST order="4" legend="237, 28, 36">
+	Look for <nm isTargetLink="true">Silithid Harvester</nm> at the <p>Silthid Mounds</p>
+	Do quest
+		<DQ>Egg Hunt</DQ>
+</ST>
+
+<ST order="5" legend="0, 166, 81" class="Shaman">
+	Up the hill, turn in quest
+		<RQ>Call of Water;4</RQ>
+	Accept quest
+		<AQ>Call of Water;5</AQ>
+</ST>
+
+<ST order="6" legend="0, 174, 239">
+	Look for <nm isTargetLink="true">Washte Pawne</nm>
+	Do quest
+		<DQ>Weapons of Choice</DQ>
+		<DQ>Betrayal from Within</DQ> by killing
+			<nm isTargetLink="true">Kuz</nm><tloc>43, 80</tloc>
+			<nm isTargetLink="true">Lok Orcbane</nm><tloc>40, 80</tloc>
+			<nm isTargetLink="true">Nak</nm><tloc>43, 83</tloc>
+</ST>
+
+<ST order="7" legend="46, 49, 146">
+	On the road, find <nm isTargetLink="true">Gann Stonespire</nm>
+	Accept quest
+		<AQ>Gann's Reclamation</AQ>
+	Head south and kill/loot
+		<nm>Bael'dun Excavator</nm>
+		<nm>Bael'dun Foreman</nm>
+		<nm isTargetLink="true">Prospector Khazgorm</nm><tloc>47.8, 85.6</tloc>
+	For quest
+		<DQ>Gann's Reclamation</DQ>
+	Go back to <nm isTargetLink="true">Gann Stonespire</nm> and turn in
+		<RQ>Gann's Reclamation</RQ>
+	Accept the next part
+		<AQ>Revenge of Gann</AQ>
+	Be sure you are done with
+		<DQ>Chen's Empty Keg;3</DQ>
+	<sethome>Hearth</sethome> to <p>Camp Taurajo</p>
+</ST>
+
+<ST order="8">
+	Turn in quests
+		<RQ>Weapons of Choice</RQ>
+	Sell/Repair @ npc
+		<RQ>Owatanka</RQ> from item
+		<RQ>Washte Pawne</RQ> from item
+		<RQ>Betrayal from Within</RQ>
+	Accept the next part
+		<AQ>Betrayal from Within;2</AQ>
+	<br/>
+	Fly to <p>The Crossroads</p>
+</ST>
+
+<ST order="9">
+	Turn in quest
+		<RQ>Egg Hunt</RQ>
+		<RQ>Betrayal from Within;2</RQ>
+</ST>
+
+<ST order="10" legend="236, 0, 140">
+	Kill a <nm>Zhevra</nm> for <nm>Fresh Zhevra Carcass</nm>
+	Find a dead tree <tloc>59, 30</tloc> and place your <nm>Fresh Zhevra Carcass</nm>
+	Do quest
+		<DQ>Ishamuhale</DQ>
+	Head for <p>Ratchet</p>
+</ST>
+
+<ST order="11" legend="255, 242, 0">
+	If you have some tanking/healing gear, desposit in bank
+	Turn in quest
+		<RQ>Chen's Empty Keg;3</RQ>
+	Fly to <p>Stonetalon Mountains</p>
+</ST>
