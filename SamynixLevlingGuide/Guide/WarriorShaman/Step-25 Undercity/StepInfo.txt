@@ -1,0 +1,14 @@
+﻿<Title>25 - Undercity</Title>
+<StepNumber>25</StepNumber>
+<Image>Image.png</Image>
+
+
+<ST order="1">
+	First of all, grap the <em>Flightpoint</em>
+	If you need to train Crossbows, daggers, 1H swords, 2H swords or polearms, take a visit to the <nm>Weapon Master</nm> <tloc>57, 32</tloc>
+	Head for the <p>Royal Quarter</p>
+	Once there turn in quest
+		<RQ>The Power to Destroy...</RQ>
+	<br/>
+	Leave <p>The Undercity</p> and head for <p>Silverpine Forest</p>
+</ST>

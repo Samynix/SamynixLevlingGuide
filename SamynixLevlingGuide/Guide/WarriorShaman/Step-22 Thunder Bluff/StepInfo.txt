@@ -5,8 +5,6 @@
 
 <ST order="1">
 	<em>You should do Wailing Caverns after this part</em>
-	From <nm isTargetLink="true">Bluff Runner Windstrider</nm> accept quest
-		<AQ>The Ashenvale Hunt</AQ>
 	At the <p>Bank</p> deposit
 		<BD>Letter to Jin'Zil</BD>
 		<BD>Hoof of Lakota'mani</BD> if you have it

@@ -1,0 +1,30 @@
+﻿<Title>29 - Ashenvale</Title>
+<StepNumber>29</StepNumber>
+<Image>Image.png</Image>
+
+
+<ST order="1" legend="63, 72, 204">
+	Head towards <p>The Zoram Strand</p>
+	Get <em>Flightpath</em>
+	Accept quest 
+		<AQ>Vorsha the Lasher</AQ>
+		<AQ>Naga at the Zoram Strand</AQ>
+	Sell junk
+</ST>
+
+<ST order="2" legend="184, 0, 27">
+	Follow the npc out to the little isle and do quest
+		<DQ>Vorsha the Lasher</DQ>
+	<em>Use a tremor totem for the last boss</em>
+	After done finish up
+		<DQ>Naga at the Zoram Strand</DQ> by killing/looting <nm>Nagas</nm>
+	Return to the camp
+</ST>
+
+<ST order="3">
+	Turn in quest
+		<RQ>Vorsha the Lasher</RQ>
+		<RQ>Naga at the Zoram Strand</RQ>
+		<RQ>Trouble in the Deeps</RQ>
+	<sethome>Hearth</sethome> to <p>The Crossroads</p>
+</ST>

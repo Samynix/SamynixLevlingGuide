@@ -1,0 +1,43 @@
+﻿<Title>28 - Stonetalon Mountains</Title>
+<StepNumber>28</StepNumber>
+<Image>Image.png</Image>
+
+
+<ST order="1" legend="63, 72, 204">
+	Head south, once inside the cave head up to the little pond
+	Inteact with the crystal hanging from the roof <tloc>57.6, 89.4</tloc>
+	Kill/Loot <nm>Goggeroc</nm> for quest
+		<DQ>Earthen Arise</DQ>
+	Continue your journey southwards!
+</ST>
+
+<ST order="2" legend="136, 0, 27">
+	Turn in quests
+		<RQ>Blood Feeders</RQ>
+		<RQ>Letter to Lin'Zil</RQ>
+	Accept
+		<b>Jin'Zil's Forest Magic</b> (we are not 26 now im sure, so this is bullshit!)
+	Head north again!
+</ST>
+
+<ST order="3" legend="255, 242, 0">
+	Head to <p>Fizziks cabin</p>
+	Turn in quest
+		<RQ>Further Instructions;2</RQ>
+	Accept quest
+		<AQ>Gerenzo Wrenchwhistle</AQ>
+	Head into <p>Windshear Crag</p>
+</ST>
+
+<ST order="4" legend="140, 255, 251">
+	Do quest <DQ>Shredding Machines</DQ> by killing
+		<nm isTargetLink="true">XT:9</nm> (South of river)
+		<nm isTargetLink="true">XT:4</nm> (North of river)
+	At the tower <tloc>66, 45</tloc> do quest
+		<DQ>The Flying Machine Airport</DQ>
+	Continue up the mountain
+	On the scaffolding do quest <DQ>Gerenzo Wrenchwhistle</DQ> by killing
+		<nm isTargetLink="true">Gerenzo Wrenchwhistle</nm> 
+	Jump down in the water afterwards(dont die)
+	Head for <p>Ashenvale</p> <le>255, 174, 200</le>
+</ST>

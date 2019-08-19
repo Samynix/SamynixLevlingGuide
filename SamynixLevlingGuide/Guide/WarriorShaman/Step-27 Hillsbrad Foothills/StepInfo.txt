@@ -1,0 +1,103 @@
+﻿<Title>27 - Hillsbrad Foothills</Title>
+<StepNumber>27</StepNumber>
+<Image>Image.png</Image>
+
+
+<ST order="1" class="Shaman">
+	Go the the little <p>well</p> and fill your <nm>Red waterskin</nm> for 
+		<DQ>Call of Water;4</DQ>
+</ST>
+
+<ST order="2">
+	Turn in quests
+		<RQ>Time to Strike</RQ>
+	From the wanted poster accept
+		<AQ>WANTED: Syndicate Personnel</AQ>
+	Inside the church accept
+		<AQ>The Rescue</AQ>
+	In the little house return quests
+		<RQ>Journey to Hillsbrad Foothills</RQ>
+		<RQ>Journey to Tarren Mill</RQ>
+	Accept
+		<AQ>Blood of Innocents</AQ>
+	<br/>
+	Remind the <em>Shaman</em> to fill his <nm>Red waterskin</nm>
+	<br/>
+	Head east to <p>Durnholde Keep</p>, prob best to take the road
+</ST>
+
+<ST order="3">
+	Start working on 
+		<WQ>WANTED: Syndicate Personnel</WQ>
+		<WQ>Blood of Innocents</WQ>
+	Head up the hill to the burned down keep and kill/loot
+		<nm isTargetLink="true">Jailor Eston</nm> <tloc>79, 41</tloc>
+		<nm isTargetLink="true">Jailor Marlgen</nm> <tloc>78, 40</tloc>
+	Rescue 
+		<nm isTargetLink="true">Tog'thar</nm> He is to the right of the burned down keep <tloc>79.6, 39.6</tloc>
+	Head south down under the bridge
+	In the building there rescue
+		<nm isTargetLink="true">Drull</nm> <tloc>75.4, 41.6</tloc>	
+	You should now be done with
+		<DQ>The Rescue</DQ>
+	Finish up
+		<DQ>WANTED: Syndicate Personnel</DQ> 
+		<DQ>Blood of Innocents</DQ>
+	<br/>
+	Once done head back to <p>Tarren Mill</p>
+</ST>
+
+<ST order="4">
+	On your way back, repair at <nm isTargetLink="true">Ott</nm>
+	Return quests
+		<RQ>WANTED: Syndicate Personnel</RQ>
+		<RQ>The Rescue</RQ>
+		<RQ>Blood of Innocents</RQ>
+	<em>Wait</em>
+	Accept quest
+		<AQ>Return to Thunder Bluff</AQ>
+</ST>
+
+<ST order="5">
+	Fly to <p>The Sepulcher</p> Problem solved we now have the <em>Flightpoint</em>
+	Turn in quests
+		<RQ>Beren's Peril</RQ>
+		<RQ>Maps and Runes</RQ>
+	Accept 
+		<AQ>Dalar's Analysis</AQ>
+	Turn in 
+		<RQ>Dalar's Analysis</RQ>
+	Accept
+		<AQ>Dalaran's Intentions</AQ>
+	Turn in 
+		<RQ>Dalaran's Intentions</RQ>
+	<br/>
+	<em>Hearth</em> to Ratchet
+</ST>
+
+<ST order="5">
+	Go to the <p>Bank</p> and take out
+		<BW>Bristleback Quilboar Tusk</BW>
+		<BW>Enchanted Resonite Crystal</BW>
+		<BW>Letter to Jin'Zil</BW>
+		<BW>Hoof of Lakota'mani</BW> (if you have it)
+	Fly to <p>The Crossroads</p>
+</ST>
+
+<ST order="6">
+	<SH>Make The Crossroads your home</SH>
+	Turn in quest 
+		<RQ>Consumed by Hatred</RQ>
+	<b>This might be stupid</b>
+	Fly to <p>Thunder Bluff</p>
+</ST>
+
+<ST order="7">
+	Get new skills if you are lvl 22(should be?) or maybe 24, i have lost control of lvl
+	Go to <p>The Spirit Rise</p> in the cave turn in 
+		<RQ>Return to Thunder Bluff</RQ>
+	Accept the follow
+		<AQ>The Flying Machine Airport</AQ>
+	Fly to <p>Stonetalon Mountains</p>
+#TODO Check if we can do somehting more here
+</ST>

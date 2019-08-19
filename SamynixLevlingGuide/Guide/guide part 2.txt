@@ -45,9 +45,11 @@ shaman gå innom sepulcher å ta fp(du e raske). alle gjør det
 plokk opp jouerny to hillsbrad foothills
 ta fp
 
+
 på grenså plokk opp time to strike
 
 gjør call of water
+
 lever trime tos trike
 wanted posted pickup wanted syndicate personel
 kjørkå the rescue
@@ -87,14 +89,18 @@ sedd hearthstone i xrs
 
 fly te stonetalon
 
+
+
 gå nerøve å gjør earthen arise
 gå ner å lever blood feeders å letter to jin'zil
-plokk opp stonetalon standstill.
+WTF this is totaly bullcrap det æ et ashenvale q... eg trr ikkje me kan plokk aopp Jin'Zil's Forest Magic nå, det e 26, plokk opp stonetalon standstill.
 gå opp igjen 
 ner te fizziks
 lever furture instructions ta neste del
 gjør shredding machines
 gjør  gerenzo wrenchwissle.
+
+
 
 spring te ashenvale gjønå kanalen
 ta te zoram strand
@@ -109,7 +115,11 @@ lever vorsha the lasher
 lever naga at the zoram strand
 
 hs te crossroads
+
+GUIDE HERTE NÅ
+
 plokk opp egghunt å jorn skyseer
+fly
 ta quest lakota mani frå hoof of lakota mani
 lever tribes at war
 ta ud blood shards frå posten.
@@ -182,6 +192,10 @@ reparer på bowyer
 fly te thunderbluff
 ta sacred flame 
 ta ud av bank: lydon's toxin
+
+	From <nm isTargetLink="true">Bluff Runner Windstrider</nm> accept quest
+		<AQ>The Ashenvale Hunt</AQ> (IF you can't find him skip, you dont need this quest yet)
+
 å ashenvale hunt (SJEKK TIDLIGARE I GUIDEN OM DET STÅR DER; FLERJN ISÅFALL)
 gå te hunter rise å lever malor sends word, ta opp steelsnapp
 få deg cooking hvis du ikkje har det

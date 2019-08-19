@@ -1,0 +1,36 @@
+﻿<Title>26 - Silverpine</Title>
+<StepNumber>26</StepNumber>
+<Image>Image.png</Image>
+
+
+<ST order="1" legend="63, 72, 204">
+	Head south to <p>The Sepulcher</p>
+	Once there locate grave and turn in
+		<RQ>Until Death Do Us Part</RQ>
+	Accept quests 
+		<AQ>Border Crossings</AQ>
+		<AQ>Beren's Peril</AQ>
+		<AQ>Journey to Hillsbrad Foothills</AQ>
+	Head south
+	On your way out, take <em>Flightpoint</em>
+</ST>
+
+<ST order="2" legend="136, 0, 27">
+	Retrive the contents of <nm>Dalaran Crate</nm @ <tloc>50, 60</tloc> for
+		<RQ>Border Crossings</RQ>
+	Accept the next part
+		<AQ>Maps and Runes</AQ>
+	Continue South/East
+</ST>
+
+<ST order="3" legend="255, 242, 0">
+	Enter the cave @ <tloc>60, 74</tloc>
+	Kill the mobs for
+		<DQ>Beren's Peril</DQ>
+	Once done head east for <p>Hillsbrad Foothills</p>
+</ST>
+
+<ST order="4">
+	At the border to <p>Hillsbrad Foothills</p> accept quest
+		<AQ>Time to Strike</AQ>
+</ST>
