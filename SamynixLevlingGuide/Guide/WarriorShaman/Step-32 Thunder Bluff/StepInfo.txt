@@ -1,0 +1,42 @@
+﻿<Title>32 - Thunder Bluff</Title>
+<StepNumber>32</StepNumber>
+<Image>Image.png</Image>
+
+<ST order="1" legend="63, 72, 204">
+	From <nm isTargetLink="true">Bluff Runner Windstrider</nm> accept quest
+		<AQ>The Ashenvale Hunt</AQ>
+</ST>
+
+<ST order="2" legend="184, 61, 186" class="warrior">
+	Go to <p>The Hunters Rise</p>
+	Turn in quest
+		<RQ>Malor Sends Word</RQ>
+	Accept
+		<AQ>Steelsnap</AQ>
+	Train new skills
+</ST>
+
+<ST order="2" legend="184, 61, 186" class="shaman">
+	Go to <p>The Hunters Rise</p>
+	Turn in quest
+		<RQ>Malor Sends Word</RQ>
+	Accept
+		<AQ>Steelsnap</AQ>
+</ST>
+
+<ST order="3" legend="136, 0, 27" class="warrior">
+	Go to <p>The Spirit Rise</p>
+	Train firstaid if you need
+	Go down the cave and turn in quest
+		<RQ>The Flying Machine Airport</RQ>
+	Fly to <p>Camp Taurajo</p>
+</ST>
+
+<ST order="3" legend="136, 0, 27" class="shaman">
+	Go to <p>The Spirit Rise</p>
+	Train firstaid if you need
+	Get new skills/abilities
+	Go down the cave and turn in quest
+		<RQ>The Flying Machine Airport</RQ>
+	Fly to <p>Camp Taurajo</p>
+</ST>

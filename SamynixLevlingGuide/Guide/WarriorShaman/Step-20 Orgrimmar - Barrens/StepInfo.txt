@@ -3,19 +3,8 @@
 <Image class="warrior">ImageWarrior.png</Image>
 <Image class="shaman">ImageShaman.png</Image>
 
-<ST order="1" legend="237, 28, 36" class="shaman">
+<ST order="1" class="Shaman" legend="237, 28, 36"> 
 	Head for <p>The Valley Of Honor</p>
-	At <nm isTargetLink="true">Rilli Greasygob</nm> turn in quest <le>255, 242, 0</le>
-		<RQ>Rilli Greasygob</RQ>
-	Accept the follow
-		<AQ>Samophlange Manual</AQ>
-	<br/>
-		Train new weapon skills @ <nm isTargetLink="true">Hanashi</nm> <tloc>81.6, 19.4</tloc>
-</ST>
-
-<ST order="1" legend="237, 28, 36" class="shaman">
-	Head for <p>The Valley Of Honor</p>
-	<b>Train new skills</b>
 	At <nm isTargetLink="true">Rilli Greasygob</nm> turn in quest <le>255, 242, 0</le>
 		<RQ>Rilli Greasygob</RQ>
 	Accept the follow

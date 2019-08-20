@@ -32,7 +32,6 @@ fly te orgrimmar
 
 ta zeppelinen te undercity
 
-Guide herte nå
 
 husk å ta fp
 warrior sjekk wep skills
@@ -116,8 +115,6 @@ lever naga at the zoram strand
 
 hs te crossroads
 
-GUIDE HERTE NÅ
-
 plokk opp egghunt å jorn skyseer
 fly
 ta quest lakota mani frå hoof of lakota mani
@@ -195,7 +192,7 @@ reparer på bowyer
 
 fly te thunderbluff
 
-GUIDE HERTE NÅ
+
 
 ta sacred flame 
 ta ud av bank: lydon's toxin
@@ -211,6 +208,10 @@ tren skills.
 lever return to thunderbluff (ta the flying mahine airport, kanskje skip)
 
 fly te camp taurajo
+
+
+
+
 lever ishamuhale ta enraged thunder lizards
 sett hearthstone ct
 plokk opp new ore sample
@@ -244,6 +245,8 @@ vær ferdige me enraged thunderlizards
 gå te thousand needles lift
 lever calling in the reserves
 ta opp message to freewind post (hvis npcen leve)
+
+
 
 ha øyene oppe for galek messenger
 gå nerøve te freeewind post
@@ -280,6 +283,8 @@ lever cry of the thunderhawk
 
 fly the xroads
 gå te splintertree
+
+
 
 ta fp
 plokk satyr horns
@@ -318,6 +323,8 @@ Next to the Inn, turn in "Stonetalon Standstill" and "The Befouled Element" (74.
 
 Fly te Zoram'gar Outpost Ashenvale
 
+
+
 07) turn in "Je'neu of the Earthen Ring" (12.34).
 08) From the troll up in the other tent, accept "Troll Charm".
 09) From the orc next to the Cauldron accept "Between a Rock and a Thistlefur".
@@ -342,8 +349,11 @@ n the Inn, turn in (if you did it) "Freedom to Ruul" (74.61).  Make sure you are
 09) Run back to Splintertree Post (don't hearth) and turn in "Satyr Horns" (73.61, #5 on map).
 10) Next to you at the Wind Rider Master, fly to Sun Rock Retreat, Stonetalon Mountains.
 
-
+GUIDE HERTE NÅ
 accept bloodfury bloodline DET KONNNE ME PLOKT OPP ITTE HARPIES
+
+
+bloodfury bloodline
 
 gå å gjør bloodfury bloodline
 2 bars away from 28

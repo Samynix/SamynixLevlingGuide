@@ -4,7 +4,7 @@
 <Image class="Shaman">ImageShaman.png</Image>
 
 
-<ST order="1" class="Shaman" legend="225, 210, 95, 255">
+	
 	Accept quest 
 		<AQ>A Peon's Burden</AQ>
 	Grind your way south/east to Sen'jin Village and accept quests

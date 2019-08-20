@@ -1,0 +1,86 @@
+<Title>34 - Thousend Needels</Title>
+<StepNumber>34</StepNumber>
+<Image>Image.png</Image>
+
+<ST order="1" legend="136, 0, 27">
+	Look for <nm isTargetLink="true">Galak Messenger</nm> <legend>63, 72, 204</legend> Spawn(<tloc>37.8, 30.2</tloc>)
+	Head for <P>Freewind post</p>
+</ST>
+
+<ST order="2">
+	Turn in quest
+		<RQ>Message to Freewind Post</RQ> 
+	Accept
+		<AQ>Pacify the Centaur</AQ>
+	Mail your firstaid books to a bank mule (return them asap)
+	From wanted posted accept quest
+		<AQ>Wanted - Arnak Grimtotem</AQ>
+	<b>Sell/Repair</b> at <nm isTargetLink="true">Starn</nm>
+	Accept quests
+		<AQ>ALien Egg</AQ>
+		<AQ>Wind Rider</AQ>
+	<em>TAKE FLIGHTPATH</em>
+	Take the lift down
+</ST>
+
+<ST order="3" legend="255, 127, 39">
+	Do quest
+		<DQ>Pacify the Centaur</DQ>
+	Head east and up the cave
+</ST>
+
+<ST order="4" legend="140, 255, 251">
+	Accept quest
+		<AQ>Test of Faith</AQ> <em>Walk the plank, don't jump</em>
+	Turn in quest
+		<RQ>Test of Faith</RQ>
+	Accept
+		<AQ>Test of Endurance</AQ>
+</ST>
+
+<ST order="5" legend="184, 61, 186">
+	Try and do quest
+		<WQ>A new ore Sample</WQ> by killing/looting
+			<nm isTargetLink="true">Gravelsnout Digger Digger</nm>
+			<nm isTargetLink="true">Gravelsnout Surveyor</nm>
+</ST>
+
+<ST order="6" legend="255, 174, 200">
+	Do quest 
+		<DQ>Alien Egg</DQ>
+	Spawns <tloc>56.3, 50.3</tloc>, <tloc>52.3, 55.3</tloc>, <tloc>37.7, 56.2</tloc>
+	Head back to <p>Freewind Post</p>
+</ST>
+
+<ST order="7">
+	Turn in quest
+		<RQ>Pacify the Centaur</RQ>
+	Accept
+		<AQ>Grimtotem Spying</AQ>
+	Turn in 
+		<RQ>Alien Egg</RQ>
+	Accept
+		<AQ>Serpent Wild</AQ>
+	<em>FLIGHTPATH</em>
+	<sethome>Heart</sethome> to <p>Camp Taurajo</p>
+</ST>
+
+<ST order="8">
+	In <p>Camp Taurajo</p>
+	If you have done it turn in
+		<WQ>A New Ore Sample</WQ>
+	If you have any new beast quests turn them in
+	Turn in 
+		<RQ>Enraged Thunder Lizards</RQ>
+	Accept
+		<AQ>Cry of the Thunderhawk</AQ>
+	Go do 
+		<DQ>Cry of the Thunderhawk</DQ> (Kill thunderhawk just south of camp)
+	Turn in 
+		<RQ>Cry of the Thunderhawk</RQ>
+		Fly to <p>The Crossroads</p>
+</ST>
+
+<ST order="9">
+	Walk north to <p>Ashenvale</p>
+</ST>

@@ -1,0 +1,64 @@
+<Title>33 - Southern Barrens</Title>
+<StepNumber>33</StepNumber>
+<Image class="Shaman">ImageShaman.png</Image>
+<Image class="Warrior">ImageWarrior.png</Image>
+
+<ST order="1">
+	Turn in quest
+		<RQ>Ishamuhale</RQ>
+	Accept
+		<AQ>Enraged Thunder Lizards</AQ>
+	Make <p>Camp Taurajo</p> your new <sh>Home</sh>
+</ST>
+
+<ST order="2">
+	If you still need <nm isTargetLink="true">Owatanka</nm> look for him <legend>137, 0, 27</legend>
+	If you still need <nm isTargetLink="true">Silithid Harvester</nm> look for him <legend>0, 168, 243</legend>
+	Start working on
+		<WQ>Enraged Thunder Lizards</WQ> by killing <nm>Thunderheads</nm>
+</ST>
+
+<ST order="3 legend="184, 61, 186">
+	Head south to <nm isTargetLink="true">Feegly the Exiled</nm> <tloc>48.8, 86.2</tloc> and accept
+		<AQ>The Tear of the Moons</AQ> (He might be dead)
+	Start working on
+		<WQ>Revenge of Gann</WQ>
+</ST>
+
+<ST order="3" legend="63, 72, 204" class="Shaman">
+	Get some money from your partner, 4g should be plenty.
+	Take a short trip to <p>Dustwallow Marsh</p> to buy some firstaid books!
+	At <tloc>36.6, 30.4</tloc> in <p>Brackenwall Village</p> buy
+		<nm>Expert First Aid - Under Wraps x 2</nm>
+		<nm>Manual: Heavy Silk Bandage x 2</nm> 
+	Head back to <p>The Barrens</p>
+</ST>
+
+<ST order="4">
+	Share quest <AQ>The Tear of the Moons</AQ>
+	Share firstaid manuals
+	<br/>
+	Head down to the basement and do
+		<DQ>The Tear of the Moons</DQ> (Be careful)
+	Do quest by killing/looting mobs in the area
+		<DQ>Revenge of Gann</DQ>
+	Once done
+	<em>BOTH BE READY TO TURN IN BEFORE TURNING IN, he dies after abit</em>
+	Turn in 
+		<RQ>The Tear of the Moons</RQ>
+	Go back to the road and turn in 
+		<RQ>Revenge of Gann</RQ>
+	Accept the next part
+		<RQ>Revenge of Gann;2</RQ>
+	Do quest
+		<DQ>Revenge of Gann;2</DQ> <tloc>46, 85</tloc> (Can be done from under the platform)
+	Head back to the road and turn in 
+		<RQ>Revenge of Gann;2</RQ>
+	Be sure you are done with 
+		<DQ>Enraged Thunder Lizards</DQ>
+	Head south to <p>Thousend Needles border</p>
+	Turn in quest
+		<RQ>Calling in the Reserves</RQ>
+	Accept
+		<AQ>Message to Freewind Post</AQ> (if npc dead, skip)
+</ST>

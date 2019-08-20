@@ -1,0 +1,152 @@
+<Title>35 - Ashenvale</Title>
+<StepNumber>35</StepNumber>
+<Image>Image.png</Image>
+
+<ST order="1" legend="0, 0, 0">
+	Head for <p>Splintertree post</p>
+</ST>
+
+<ST order="2">
+	Accept quest
+		<AQ>Satyr Horns</AQ>
+		<AQ>Stonetalon Standstill</AQ>
+	<b>Sell/Repair at the guy back there!</b>
+	Set <sethome>Hearthstone</sethome>
+	Return quest
+		<RQ>The Ashenvale Hunt</RQ>
+	Accept the next part and return it again
+	Out on the road, <em>accept<em> quest
+		<AQ>Ashenvale Outrunners</AQ>
+</ST>
+
+<ST order="3" legend="63, 72, 204">
+	Start working on
+		<WQ>Ashenvale Outrunners</WQ>
+	Locate <nm isTargetLink="true">Sharptalon</nm> (Roams around the area) and kill/loot
+	Finish 
+		<DQ>Ashenvale Outrunners</DQ>
+</ST>
+
+<ST order="4" legend="255, 242, 0">
+	Locate <nm isTargetLink="true">Torek</nm> <tloc>68, 75</tloc>
+	Make sure both of you are ready
+	Do escort
+		<DQ>Torek's Assault</DQ>
+	Continue west
+</ST>
+
+<ST order="5" legend="255, 242, 0">
+	At the lake find/kill 
+		<nm isTargetLink="true">Tideress</nm>
+	Accept quest
+		<AQ>The Beflouled Element</AQ> from <nm>Befouled Water Globe</nm>
+	Kill/loot <nm>Water Elementals</nm> for 
+		<DQ>Stonetalon Standstill</DQ>
+</ST>
+
+<ST order="6" legend="140, 255, 251">
+	Find/kill
+		<nm isTargetLink="true">Ursangous</nm> <tloc>43, 67</tloc>
+	Continue west to do/help shaman with Call of Water
+</ST>
+
+<ST order="7" legend="140, 255, 251" class="Shaman">
+	In the middle of <p>Ruins of Stardust</p> fill your <nm>Blue Waterskin</nm> for 
+		<DQ>Call of Water;5</DQ>
+</ST>
+
+<ST order="8" legend="184, 61, 186">
+	Head up to <p>Raynewood Retreat</p>
+	Along the way find/kill
+		<nm isTargetLink="true">Shadumbra</nm> <tloc>57, 56</tloc>
+</ST>
+
+<ST order="9" legend="184, 61, 186">
+	Kill <nm>Dryads</nm> for the <nm>Etched Phial</nm> for 
+		<WQ>The Sacred Flame</WQ>
+	Head up the house and kill/loot
+		<nm isTargetLink="true">Keeper Ordanus</nm> <tloc>62, 51.2</tloc> for
+			<DQ>Ordanus</DQ>
+	Head south
+</ST>
+
+<ST order="10" legend="136, 0, 27">
+	At the moonwell <tloc>60, 73</tloc> fill your <nm>Etched Vial</nm>
+	<sethome>Hearth</sethome> or walk back to <p>Splintertree Post</p>
+</ST>
+
+<ST order="11">
+	If we are very close to 27 we deliver quests here, if not we wait!!!!
+	If we are delivering
+		<b>Sharptalon claw<b>
+		<b>Ursangou's paw</b>
+		<b>Shadumbra's head</b>
+		<b>The hunt Completed
+		<b>Stonetalon Standstill</b>
+		<b>Torek's Assault</b>
+
+	Turn in quest 
+		<RQ>The Beflouled Element</RQ>
+	Accept 
+		<AQ>Je'neu of the Earthen Ring</AQ>
+	Fly to <p>Zoram'gar Outpost</p>
+</ST>
+
+<ST order="12">
+	Turn in <RQ>Je'neu of the Earthen Ring</RQ>
+	Accept quests
+		<AQ>Troll Charm<AQ>
+		<AQ>Between a Rock and a Thistlefur</AQ>
+		Head east on the road
+</ST>
+
+<ST order="13" legend="14, 209, 69">
+	Walk north into the cave
+	Do quests
+		<DQ>Troll Charm</DQ>
+	Find npc
+		<nm isTargetLink="true">Ruul Snowhoof</nm> <tloc>41.4, 34.6</tloc>
+	When both are ready, do escort
+		<DQ>Freedom to Ruul</DQ>
+	Finish up 
+		<DQ>Between a Rock and a Thistlefur</DQ>
+	Grind for awhile here, atleast up to level 27
+	<br/>
+	Head back to <p>Zoram'gar Outpost</p>
+</ST>
+
+<ST order="14">
+	Turn in quests
+		<RQ>Troll Charm</RQ>
+		<RQ>Freedom to Ruul</RQ>
+	<sethome>Hearth</sethome> to <p>Splintertree Post</p>
+</ST>
+
+<ST order="15">
+	Turn in quests
+		<RQ>Freedom to Ruul</RQ>
+		<RQ>Sharptalon claw</RQ> (from item)
+		<RQ>Ursangou's paw</RQ> (from item)
+		<RQ>Shadumbra's head</RQ> (from item)
+	Accept and return
+		<RQ>The hunt Completed</RQ>
+	Turn in 
+		<rq>Stonetalon Standstill</rq>
+	By the watchtower
+		<rq>Torek's Assault</rq>
+	Out on the road turn in 
+		<RQ>Ashenvale Outrunners</RQ>
+</ST>
+
+<ST order="16" legend="185, 122, 86">
+	Follow the river north 
+	Kill/loot <nm>Satyrs</nm> for 
+		<DQ>Satyr Horns</DQ>
+	Once done head back to <p>Splintertree Post</p>
+</ST>
+
+<ST order="17">
+	Turn in quest
+		<RQ>Satyr Horns</RQ>
+	Fly to <p>Sunrock Retreat/Stonetalon Mountains</p>
+</ST>

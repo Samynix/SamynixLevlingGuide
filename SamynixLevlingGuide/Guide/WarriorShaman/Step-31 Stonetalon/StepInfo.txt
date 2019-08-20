@@ -85,6 +85,7 @@
 		<RQ>New Life</RQ>
 		<RQ>Harpies Threaten</RQ>
 	Accept
+		<AQ>Bloodfury Bloodline</AQ>
 		<AQ>Calling in the Reserves</AQ>
 	Go up the path and turn in 
 		<RQ>Elemental War</RQ>

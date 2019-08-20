@@ -24,11 +24,17 @@ namespace SamynixLevlingGuide.Tags
                     return false;
                 }
 
-                string pattern = @"(\w*)=""(\w*\.png|\w*|.*)""";
+                if (aLine.Contains("<Title>5-7 Durotar</Title>"))
+                {
+
+                }
+
+                string pattern = @"(\S+)\s*=\s*([']|[""])\s*([\W\w]*?)\s*\2";
                 RegexOptions options = RegexOptions.Singleline;
                 foreach (Match m in Regex.Matches(aLine.Substring(aIndex, endOfStartTagIndex - aIndex), pattern, options))
                 {
-                    aDictionaryOfAttributes[m.Groups[1].Value.ToLower()] = m.Groups[2].Value;
+                    string elg = (aLine.Substring(aIndex, endOfStartTagIndex - aIndex));
+                    aDictionaryOfAttributes[m.Groups[1].Value.ToLower()] = m.Groups[m.Groups.Count - 1].Value;
                 }
 
                 if (aLine[endOfStartTagIndex-1] == '/')
