@@ -118,7 +118,7 @@
 <ST order="14">
 	Turn in quests
 		<RQ>Troll Charm</RQ>
-		<RQ>Freedom to Ruul</RQ>
+		<RQ>Between a Rock and a Thistlefur</RQ>
 	<sethome>Hearth</sethome> to <p>Splintertree Post</p>
 </ST>
 

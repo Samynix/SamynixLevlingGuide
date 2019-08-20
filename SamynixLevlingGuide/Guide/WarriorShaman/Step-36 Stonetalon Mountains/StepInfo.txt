@@ -1,0 +1,33 @@
+<Title>36 - Stonetalon Mountains</Title>
+<StepNumber>36</StepNumber>
+<Image>Image.png</Image>
+
+<ST order="1" legend="237, 28, 36">
+	Go to <p>The Charred Vale</p>
+</ST>
+
+<ST order="2" legend="237, 28, 36">
+	Kill/loot <nm isTargetLink="true">Bloodfury Ripper</nm> <tloc>31.6, 62.4</tloc> for
+		<DQ>Bloodfury Bloodline</DQ>
+	Grind until you are two bars from 28
+	Head back to <p>Sunrock Retreat</p>
+</ST>
+
+<ST order="3">
+	Turn in quest
+		<RQ>Bloodfury Bloodline</RQ>
+		<RQ>Ordanus</RQ>
+	Fly to <p>Thunderbluff</p>
+</ST>
+
+<ST order="4">
+	Make <p>Thunder Bluff</p> your new <sethome>home</sethome>
+	Go to the upper rise to <nm isTargetLink="true">Zangen Stonehoof</nm>
+	Turn in
+		<RQ>The Sacred Flame</RQ>
+	Accept the next part
+		<AQ>The Sacred Flame;2</AQ>
+	If you still havent trained cooking, train it! 
+	Get new spells/abilities
+	Fly to <p>Thousand Needles</p>
+</ST>

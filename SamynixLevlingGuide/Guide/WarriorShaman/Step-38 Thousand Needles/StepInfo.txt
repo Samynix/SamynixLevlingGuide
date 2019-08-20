@@ -1,0 +1,31 @@
+<Title>38 - Thousand Needles</Title>
+<StepNumber>38</StepNumber>
+<Image>Image.png</Image>
+
+<ST order="1">
+	Walk up and do 
+		<DQ>Grimtotem Spying</DQ>
+		<DQ>Arikara</DQ>
+		<DQ>Arnak Grimtotem</DQ>
+		<DQ>Free at Last</DQ>
+</ST>
+
+<ST order="2" legend="0, 166, 81">
+	TUrn in quests
+		<RQ>Homeward Bound</RQ>
+		<RQ>Arikara</RQ>
+</ST>
+
+<ST order="3">
+	Head back to <p>Freewind post</p>
+	Turn in quests
+		<RQ>Grimtotem Spying</RQ>
+		<RQ>Wanted Arnak Grimtotem</RQ>
+		<RQ>Free at Last</RQ>
+		<RQ>The Sacred Flame;2</RQ>
+		<RQ>Wind Rider</RQ>
+</ST>
+
+<ST order="4">
+
+</ST>

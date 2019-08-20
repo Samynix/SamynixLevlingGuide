@@ -314,6 +314,21 @@
     <Content Include="Guide\WarriorShaman\Step-35 Ashenvale\Image.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Guide\WarriorShaman\Step-36 Stonetalon Mountains\Image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-36 Stonetalon Mountains\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-37 Thousand Needles\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Guide\WarriorShaman\Step-37 Thousand Needles\Image.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Guide\WarriorShaman\Step-38 Thousand Needles\StepInfo.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <Content Include="x64\SQLite.Interop.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

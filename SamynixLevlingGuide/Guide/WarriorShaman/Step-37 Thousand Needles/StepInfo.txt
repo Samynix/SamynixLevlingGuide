@@ -1,0 +1,100 @@
+<Title>37 - Thousand Needles</Title>
+<StepNumber>37</StepNumber>
+<Image>Image.png</Image>
+
+<ST order="1">
+	Turn in quest
+		<RQ>The Sacred Flame;2</RQ>
+	Accept
+		<AQ>The Sacred Flame;3</RQ>
+</ST>
+
+<ST order="2" legend="237, 28, 36">
+	Go west to the end of the cave
+	Touch a crate and do
+		<DQ>Test of Endurance</DQ>
+</ST>
+
+<ST order="3" legend="46, 49, 146">
+	If you still need to do <WQ>A new Ore Sample</WQ> search for <legend>0, 174, 239</legend>
+		<nm isTargetLink="true">Gravelsnout Digger Digger</nm>
+		<nm isTargetLink="true">Gravelsnout Surveyor</nm>
+	<br/>
+	Head east up the ramp into the cave, turn in quest
+		<RQ>Test of Endurance</RQ>
+	Accept
+		<AQ>Test of Strength</AQ>
+</ST>
+
+<ST order="4" legend="236, 0, 140">
+	Head west at the centaur camp, enter the cave
+	Do quest
+		<DQ>The Sacred Flame;3</DQ>
+</ST>
+
+<ST order="5" legend="0, 166, 81">
+	If you still need to kill the <nm isTargetLink="true">Galak Messenger</nm> search for him <legend>190, 30, 45</legend>
+	Accept quest
+		<AQ>Assasination Plot</AQ> from <nm>Assassination Note</nm>
+</ST>
+
+<ST order="6">
+	At the gizmo camp, make sure both are ready
+	Turn in 
+		<RQ>Assasination Plot</AQ>
+	Accept
+		<RQ>Protect Kanati Greycloud</RQ> and turn it in 
+	Turn in 
+		<RQ>Serpent Wild</RQ>
+	Accept
+		<AQ>Sacred Fire</AQ>
+		<AQ>Hypercapacitor Gizmo</AQ>
+</ST>
+
+<ST order="7" legend="249, 237, 50">
+	If panther is there do quest
+		<DQ>Hypercapacitor Gizmo</DQ>
+	Continue east and do
+		<DQ>Sacred Fire</DQ>
+	Head back to the camp and turn in
+		<RQ>Hypercapacitor Gizmo</RQ>
+</ST>
+
+<ST order="8" legend="196, 154, 108">
+	Find <nm isTargetLink="true">Steelsnap</nm> for quest <DQ>Steelsnap</DQ>, he patrols around the western part of the path
+	Find <nm isTargetLink="true">Fragments of Rok'Alim</nm> for quest <DQ>Test of Stength</DQ>, he patrols around the eastern part of the path
+	Head up to <p>Highperch</p>
+	Do quest
+		<DQ>Wind Rider</DQ>
+	Walk all the way up, make sure all party members are ready
+	Do the escort
+		<DQ>Homeward Bound</DQ>
+	Once done <sethome>Hearth</sethome> to <p>Thunder Bluff</p>
+</ST>
+
+<ST order="9">
+	At the <p>Hunter Rise</p> turn in 
+		<RQ>Steelsnap</RQ>
+	Accept
+		<AQ>Frostmaw</AQ>
+	Head to the <p>Elder Rise</p>
+	Turn in
+		<RQ>Sacred Fire</RQ>
+	Accept
+		<AQ>Arikara</AQ>
+</ST>
+
+<ST order="10" class="Warrior">
+	Fly to <p>Thousand Needles</p>
+	Turn in 
+		<RQ>Wind Rider</RQ>
+	Set hs if you want to, you can prob hs back! (wwarrior)
+		<RQ>The Sacred Flame;2</RQ>
+</ST>
+
+<ST order="10" class="Shaman">
+	Fly to <p>Camp Taurajo</p>
+	Walk down and turn in <RQ>Call of Fire;5</RQ>
+	Accept <AQ>Call of Fire;6</AQ>
+	Continue south to <p>Thousand Needles</p>
+</ST>
