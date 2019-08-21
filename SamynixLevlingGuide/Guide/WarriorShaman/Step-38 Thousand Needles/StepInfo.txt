@@ -6,7 +6,7 @@
 	Walk up and do 
 		<DQ>Grimtotem Spying</DQ>
 		<DQ>Arikara</DQ>
-		<DQ>Arnak Grimtotem</DQ>
+		<DQ>Wanted - Arnak Grimtotem</DQ>
 		<DQ>Free at Last</DQ>
 </ST>
 
@@ -22,10 +22,40 @@
 		<RQ>Grimtotem Spying</RQ>
 		<RQ>Wanted Arnak Grimtotem</RQ>
 		<RQ>Free at Last</RQ>
-		<RQ>The Sacred Flame;2</RQ>
+		<RQ>The Sacred Flame;3</RQ>
 		<RQ>Wind Rider</RQ>
 </ST>
 
-<ST order="4">
+<ST order="4" class="Warrior">
+	Fly to <p>Orgrimmar</p>
+	Put these in bank
+		<BD>Kodo skin Scroll</BD>(i dont dare to destroy it, quest went away)
+		<BD>Fragments of Rok'Alim</BD>
+	<sethome>Make</sethome> <p>Orgrimmar</p> your new home
+	Take Zeppelin to <p>Undercity</p>
+		Once at <p>Undercity</p>
+	Fly to <p>Tarren Mill</p>
+</ST>
 
+<ST order="4" class="Shaman">
+	Fly to <p>Ratchet</p>
+	Turn in quest
+		<RQ>Call of Water;5</RQ>
+	Accept
+		<AQ>Call of Water;6</AQ> (may be invisible)
+	<em>Make sure you have water saptha and the call of water quest</em>
+	<br/>
+	In the bank put in
+		<BD>Kodo skin scroll</BD>
+		<BD>Fragments of ROk'alim</BD>
+	Fly to <p>Ogrimmar</p>
+	Make <sethome>Ogrimmar</sethome> your new home
+	Take Zeppelin to <p>Undercity</p>
+	Once at <p>Undercity</p>
+	Fly to <p>The Sepulcher</p>
+	Get out on the coast and do <RQ>Call of Water;6</RQ>
+	<em>Drink septha, push brazier, talk to manifestion, get quest to go back</em>
+		<AQ>Call of Water;7</AQ>
+	<br/>
+	Fly to <p>Tarren Mill</p>
 </ST>

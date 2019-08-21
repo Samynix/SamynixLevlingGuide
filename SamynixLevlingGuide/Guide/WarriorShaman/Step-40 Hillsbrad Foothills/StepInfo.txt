@@ -1,0 +1,70 @@
+<Title>40 - Hillsbrad Foothills</Title>
+<StepNumber>40</StepNumber>
+<Image>Image.png</Image>
+
+<ST order="1" legend="237, 28, 36">
+	Head west to the cave, do quest
+		<DQ>Helcular's Revenge</DQ>
+</ST>
+
+<ST order="2" legend="0, 166, 81">
+	Now you need to be finished with
+		<DQ>Elixir of Pain</DQ>
+	Head back to <p>Tarren Mill</p>
+</ST>
+
+<ST order="3">
+	Turn in quest
+		<RQ>Elixir of Pain</RQ>
+	Accept
+		<AQ>Elixir of Pain;2</AQ>
+	Behind church turn in
+		<RQ>Helcular's Revenge</RQ>
+	Accept next
+		<AQ>Helcular's Revenge;2</AQ>
+	Return quest
+		<RQ>Infiltration</RQ> If you did
+	Accept
+		<AQ>Gol'dir</AQ> If you did
+</ST>
+
+<ST order="4" legend="237, 28, 36">
+	Back in the cave do the two first braziers of 
+		<WQ>Helcular's Revenge</WQ>
+</ST>
+
+<ST order="5" legend="46, 49, 146">
+	Head west
+	Turn in quest (at the dog)
+		<RQ>Elixir of Pain;2</RQ>
+	And do quest
+		<DQ>Battle of Hillsbrad</DQ>
+		<WQ>Dangerous!</WQ>
+	Kill
+		<nm isTargetLink="true">Farmer Ray</nm><tloc>33, 35</tloc>
+		<nm isTargetLink="true">Farmer Getz</nm><tloc>35, 37</tloc>
+		<nm isTargetLink="true">Clerk Horrace Whitesteed</nm>
+		<nm isTargetLink="true">Citizen Wilkes</nm>
+		<nm isTargetLink="true">Farmer Kalaba</nm>
+	Head south to <p>Azurelode Mine</p>
+</ST>
+
+<ST order="6">
+	Inside the mine, kill
+		<nm isTargetLink="true">Miner Hackett</nm><tloc>30, 56</tloc> for
+			<DQ>Dangerous!</DQ>
+</ST>
+
+<ST order="7" legend="236, 0, 140">
+	Go to the shore and grind to 31?? Atleast awhile
+	<em>DIE</em> to <p>Tarren Mill</p>
+</ST>
+
+<ST order="8">
+	Turn in quests
+		<RQ>Battle of Hillsbrad</RQ>
+		<RQ>Dangerous!</RQ>
+	In the Church accept quest
+		<AQ>Regthar Deathgate</AQ>
+	<sh>Hearth</sh> to <p>Ogrimmar</p>
+</ST>

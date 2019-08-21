@@ -7,11 +7,15 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     d:DesignHeight="450"
     d:DesignWidth="800"
-    Background="{StaticResource TextBackgroundColor}"
     mc:Ignorable="d">
+
     <UserControl.DataContext>
         <local:StepViewModel />
     </UserControl.DataContext>
+
+    <UserControl.Background>
+        <SolidColorBrush Color="{Binding MainViewModel.Instance+TextBackgroundColor}" />
+    </UserControl.Background>
 
     <Grid>
         <Grid.RowDefinitions>

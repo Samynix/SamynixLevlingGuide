@@ -1,0 +1,59 @@
+<Title>39 - Hillsbrad Foothills</Title>
+<StepNumber>39</StepNumber>
+<Image>Image.png</Image>
+
+<ST order="1">
+	In the small house accept quests
+		<AQ>Elixir of Suffering</AQ>
+		<AQ>Elixir of Pain</AQ>
+		<AQ>Elixir of Agony</AQ>
+	From wanted poster accept
+		<AQ>Dangerous</AQ>
+	In front of the church accept
+		<AQ>Battle of Hillsbrad</AQ> (invisible q)
+		<AQ>Humbert's Sword</AQ>
+	Behind the church
+		<AQ>Helcular's Revenge</AQ>
+</ST>
+
+<ST order="2" legend="237, 28, 36">
+	Start working on 
+		<WQ>Elixir of Suffering</WQ>
+		<nm>Turtle Meat</nm> (You need 10)
+</ST>
+
+<ST order="3" legend="236, 0, 140">
+	<DQ>Elixir of Pain</DQ>
+</ST>
+
+<ST order="4" legend="0, 166, 81">
+	Start working on
+		<WQ>Elixir of Agony</WQ>
+</ST>
+
+<ST order="4" legend="0, 174, 239">
+	Do quest
+		<DQ>Humbert's Sword</DQ>
+</ST>
+
+<ST order="5" legend="46, 49, 146">
+	Work some more on 
+		<WQ>Elixir of Agony</WQ> (if you can finish it, its very good)
+	Finish your <nm>Turtle Meats</nm>, kill <nm>Turtles</nm> up the river!
+</ST>
+
+<ST order="6">
+	<em>If you are lvl 29 buy Southshore Stout and grab Infiltration, then do it straight after! (Up the hill <tloc>57, 69</tloc> in Alterac exhange stout for missive</em>
+
+	Inn the inn from the trader buy <nm>Soothing Spices</nm>
+	Accept quest and turn in quest
+		<RQ>Soothing Turtle Bisque</RQ>
+	Outside turn in 
+		<RQ>Humbert's Sword</RQ>
+	In the small house
+	Turn in quest
+		<RQ>Elixir of Suffering</RQ>
+		<RQ>Elixir of Agony</RQ>
+	Accept
+		<AQ>Elixir of Suffering;2</AQ>
+</ST>

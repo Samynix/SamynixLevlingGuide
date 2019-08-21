@@ -9,10 +9,13 @@
     xmlns:step="clr-namespace:SamynixLevlingGuide.View.StepView"
     xmlns:sys="clr-namespace:System;assembly=mscorlib"
     xmlns:view="clr-namespace:SamyLib.GuiWPF.View;assembly=SamyLib.GuiWPF"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
     Title="Samynix Levling Guide"
-    Background="{StaticResource TextBackgroundColor}"
     Icon="Resources/appIcon.png"
     mc:Ignorable="d">
+    <view:SamyWindowBase.Background>
+        <SolidColorBrush Color="{Binding TextBackgroundColor}" />
+    </view:SamyWindowBase.Background>
     <!--<view:SamyWindowBase.DataContext>
         <local:MainViewModel />
     </view:SamyWindowBase.DataContext>-->
@@ -44,10 +47,21 @@
             <RowDefinition />
         </Grid.RowDefinitions>
 
-        <ComboBox
-            BorderThickness="0"
-            ItemsSource="{Binding GuideItemsSource}"
-            SelectedItem="{Binding SelectedGuide}" />
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <ComboBox
+                BorderThickness="0"
+                ItemsSource="{Binding GuideItemsSource}"
+                SelectedItem="{Binding SelectedGuide}" />
+            <xctk:ColorPicker
+                Grid.Column="1"
+                MinWidth="50"
+                SelectedColor="{Binding TextBackgroundColor}" />
+        </Grid>
+
 
         <legend:LegendView
             x:Name="LegendView"

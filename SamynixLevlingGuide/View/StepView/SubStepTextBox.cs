@@ -333,14 +333,19 @@ namespace SamynixLevlingGuide.View.StepView
                 }
             }
 
-            Quests.Add(quest);
+           
             if (aTagType == SimpleTags.Tag.ReturnQuest)
             {
                 quest.HasBeenDelivered = true;
+                Quests.Add(quest);
             }
             else if (aTagType == SimpleTags.Tag.SkipQuest)
             {
                 quest.HasBeenMarkedForSkip = true;
+            }
+            else
+            {
+                Quests.Add(quest);
             }
 
             quest.TextBrush = new SolidColorBrush(TextColors.GetColorFromTag(aTagType));

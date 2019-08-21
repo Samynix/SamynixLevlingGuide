@@ -78,7 +78,9 @@
 		<DQ>Cry of the Thunderhawk</DQ> (Kill thunderhawk just south of camp)
 	Turn in 
 		<RQ>Cry of the Thunderhawk</RQ>
-		Fly to <p>The Crossroads</p>
+	Accept
+		<AQ>Mahren Skyseer</AQ>
+	Fly to <p>The Crossroads</p>
 </ST>
 
 <ST order="9">

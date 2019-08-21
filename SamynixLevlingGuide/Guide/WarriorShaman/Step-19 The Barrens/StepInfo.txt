@@ -139,7 +139,7 @@
 	Outside the inn turn in
 		<RQ>The Angry Scytheclaws</RQ>
 		<RQ>Stolen Silver</RQ>
-	Accept
+	Skip
 		<SQ>Jorn Skyseer</SQ> for now
 	<br/>
 	Fly to <p>Orgrimmar</p>

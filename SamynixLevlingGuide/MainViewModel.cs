@@ -28,11 +28,20 @@ namespace SamynixLevlingGuide
             Instance = new MainViewModel();
         }
 
-        private MainViewModel()  {
+        private MainViewModel()
+        {
+            TextBackgroundColor = Color.FromArgb(255, 68, 63, 58);
             AllViewsLoadedEvent += ApplicationLoaded;
         }
 
-
+        public Color TextBackgroundColor
+        {
+            get => textBackgroundColor; set
+            {
+                textBackgroundColor = value;
+                RaisePropertyChanged();
+            }
+        }
 
         private Dictionary<Step, Tuple<StepView, double>> _stepScrollBounds = new Dictionary<Step, Tuple<StepView, double>>();
 
@@ -150,7 +159,8 @@ namespace SamynixLevlingGuide
         {
             get => _selectedClass; set
             {
-                if (_selectedClass == value) {
+                if (_selectedClass == value)
+                {
                     return;
                 }
 
@@ -208,7 +218,7 @@ namespace SamynixLevlingGuide
                 {
                     foreach (var quest in subStep.ViewModel.Quests)
                     {
-                       
+
                         if (!currentQuestLog.ContainsKey(quest.Category))
                         {
                             currentQuestLog[quest.Category] = new Dictionary<string, Quest>();
@@ -227,6 +237,11 @@ namespace SamynixLevlingGuide
                         else
                         {
                             currentQuestLog[quest.Category][quest.QuestKey] = quest;
+                        }
+
+                        if (currentQuestLog.Sum(c => c.Value.Count()) > 20)
+                        {
+
                         }
                     }
 
@@ -515,7 +530,7 @@ namespace SamynixLevlingGuide
 
         private List<SubStepView> _searchResults = new List<SubStepView>();
         private int? _currentSearchIndex = null;
-        
+        private Color textBackgroundColor;
 
         private void Search(string aSearchString, bool isSearchPrevious, bool isSearchNext, bool isWrapAround)
         {
@@ -532,7 +547,7 @@ namespace SamynixLevlingGuide
                     {
                         isFirstSearch = false;
                         if (!_searchResults.Contains(view))
-                    {
+                        {
                             _searchResults.Add(view);
                         }
                     }
@@ -554,7 +569,7 @@ namespace SamynixLevlingGuide
                 }
 
                 _currentSearchIndex++;
-                if (_searchResults.Count -1 < _currentSearchIndex)
+                if (_searchResults.Count - 1 < _currentSearchIndex)
                 {
                     return;
                 }

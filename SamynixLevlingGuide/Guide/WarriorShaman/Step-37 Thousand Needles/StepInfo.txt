@@ -6,7 +6,7 @@
 	Turn in quest
 		<RQ>The Sacred Flame;2</RQ>
 	Accept
-		<AQ>The Sacred Flame;3</RQ>
+		<AQ>The Sacred Flame;3</AQ>
 </ST>
 
 <ST order="2" legend="237, 28, 36">
@@ -35,13 +35,13 @@
 <ST order="5" legend="0, 166, 81">
 	If you still need to kill the <nm isTargetLink="true">Galak Messenger</nm> search for him <legend>190, 30, 45</legend>
 	Accept quest
-		<AQ>Assasination Plot</AQ> from <nm>Assassination Note</nm>
+		<AQ>Assassination Plot</AQ> from <nm>Assassination Note</nm>
 </ST>
 
 <ST order="6">
 	At the gizmo camp, make sure both are ready
 	Turn in 
-		<RQ>Assasination Plot</AQ>
+		<RQ>Assassination Plot</RQ>
 	Accept
 		<RQ>Protect Kanati Greycloud</RQ> and turn it in 
 	Turn in 
@@ -62,7 +62,7 @@
 
 <ST order="8" legend="196, 154, 108">
 	Find <nm isTargetLink="true">Steelsnap</nm> for quest <DQ>Steelsnap</DQ>, he patrols around the western part of the path
-	Find <nm isTargetLink="true">Fragments of Rok'Alim</nm> for quest <DQ>Test of Stength</DQ>, he patrols around the eastern part of the path
+	Find <nm isTargetLink="true">Fragments of Rok'Alim</nm> for quest <DQ>Test of Strength</DQ>, he patrols around the eastern part of the path
 	Head up to <p>Highperch</p>
 	Do quest
 		<DQ>Wind Rider</DQ>
@@ -89,12 +89,12 @@
 	Turn in 
 		<RQ>Wind Rider</RQ>
 	Set hs if you want to, you can prob hs back! (wwarrior)
-		<RQ>The Sacred Flame;2</RQ>
+		<RQ>The Sacred Flame;3</RQ>
 </ST>
 
 <ST order="10" class="Shaman">
 	Fly to <p>Camp Taurajo</p>
-	Walk down and turn in <RQ>Call of Fire;5</RQ>
-	Accept <AQ>Call of Fire;6</AQ>
+	Walk down and turn in <RQ>Call of Water;5</RQ>
+	Accept <AQ>Call of Water;6</AQ>
 	Continue south to <p>Thousand Needles</p>
 </ST>

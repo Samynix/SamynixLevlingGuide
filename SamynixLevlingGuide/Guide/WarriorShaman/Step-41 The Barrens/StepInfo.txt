@@ -1,0 +1,100 @@
+<Title>41 - The Barrens</Title>
+<StepNumber>41</StepNumber>
+<Image>Image.png</Image>
+
+<ST order="1" class="Shaman">
+	At <nm isTargetLink="true">Magenius</nm> buy Ankhs! <tloc>45.8, 40.6</tloc>
+	Train new skills
+	Accept quest
+		<AQ>Call of Air</AQ>
+</ST>
+
+<ST order="1" class="Warrior">
+	Train new skills
+	Accept quest
+		<AQ>The Islander</AQ>
+</ST>
+
+<ST order="2">
+	Fly to <p>Ratchet</p>
+</ST>
+
+<ST order="3" class="Shaman">
+	Head to <nm isTargetLink="true">Mahren Skyseer</nm> <tloc>65.8, 43.8</tloc>
+	Turn in quest
+		<RQ>Call of Water;7</RQ>
+		<RQ>Mahren Skyseer</RQ>
+	Accept
+		<AQ>Isha Awak</AQ>
+</ST>
+
+<ST order="3" class="Warrior">
+	Head to <nm isTargetLink="true">Mahren Skyseer</nm> <tloc>65.8, 43.8</tloc>
+	Turn in quest
+		<RQ>Mahren Skyseer</RQ>
+	Accept
+		<AQ>Isha Awak</AQ>
+</ST>
+
+<ST order="4">
+	Head out to the island at <tloc>68.6, 49<tloc>
+	Shaman help warrior! 
+</ST>
+
+<ST order="5" class="Warrior">
+	Talk to <nm isTargetLink="true">Klannoc Macleod</nm>
+	Turn in quest
+		<RQ>The Islander</RQ>
+	Accept
+		<AQ>The Affray</AQ>
+	Do quest and turn in 
+		<RQ>The Affray</RQ>
+	Acccept
+		<AQ>The Windwatcher</AQ>
+</ST>
+
+<ST order="6">
+	Head to shore again
+	Follow shore south until you find 
+		<nm isTargetLink="true">Isha Awak</nm>
+	Kill for quest
+		<DQ>Isha Awak</DQ>
+	Go back up to <nm isTargetLink="true">Mahren Skyseer</nm> <tloc>65.8, 43.8</tloc> and turn in 
+		<RQ>Isha Awak</RQ>
+</ST>
+
+<ST order="7" class="Shaman">
+	<sethome>Hearth</sethome>
+	If you still havent trained silk bandages, this is a good time to do so!
+	Take zeppelin to <p>Gromgol</p>
+</ST>
+
+<ST order="7" class="Warrior">
+	<sethome>Hearth</sethome> if you can (you cant)
+	Take zeppelin to <p>Undercity</p> and fly to <p>Tarren Mill</p>
+	There follow river north, and turn in 
+		<RQ>The Windwatcher</RQ>
+	Accept
+		<AQ>Cyclonian</AQ>
+	Fly back to <p>Undercity</p> and take zeppelin to <p>Gromgol</p>
+</ST>
+
+<ST order="8">
+	<em>Do Joana's 30-31 STV</em>
+	<sethome>HS</sethome> to <p>Ogrimmar</p>
+	Take some stuff out of the bank
+		<BW>Fragments of Rok'Alim</BW>
+	Fly to <p>The Crossroads</p>
+		Accept
+			<AQ>The Swarm Grows</AQ>
+		Run west to kolkar bunker and turn in 
+			<RQ>Regthar Deathgate</RQ>
+		Accept
+			<AQ>The Kolkar of Desolace</AQ>		
+	If you still need to turn in <DQ>A new ore Sample</DQ> fly to <p>Camp Taurajo</p> and turn in
+		<RQ>A new ore Sample</RQ>
+	Fly to <p>Thousand Needles</p>
+	At the test of shit cave turn in
+		<RQ>Call of Air</RQ>
+		<RQ>Test of Strength</RQ>
+</ST>

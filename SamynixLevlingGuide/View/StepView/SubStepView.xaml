@@ -8,12 +8,15 @@
     xmlns:view="clr-namespace:SamyLib.GuiWPF.View;assembly=SamyLib.GuiWPF"
     d:DesignHeight="450"
     d:DesignWidth="800"
-    Background="{StaticResource TextBackgroundColor}"
     Visibility="{Binding Visibility}"
     mc:Ignorable="d">
     <view:SamyViewBase.DataContext>
         <local:SubStepViewModel />
     </view:SamyViewBase.DataContext>
+
+    <view:SamyViewBase.Background>
+        <SolidColorBrush Color="{Binding MainViewModel.Instance+TextBackgroundColor}" />
+    </view:SamyViewBase.Background>
 
     <view:SamyViewBase.Resources>
         <Style TargetType="{x:Type local:SubStepTextBox}">
@@ -48,8 +51,11 @@
             x:Name="StepTextBox"
             Grid.Column="1"
             Margin="0,0,20,0"
-            Background="{StaticResource TextBackgroundColor}"
             FontSize="{StaticResource GuideTextSize}"
-            IsReadOnly="True" />
+            IsReadOnly="True">
+            <local:SubStepTextBox.Background>
+                <SolidColorBrush Color="{Binding MainViewModel.Instance+TextBackgroundColor}" />
+            </local:SubStepTextBox.Background>
+        </local:SubStepTextBox>
     </Grid>
 </view:SamyViewBase>
