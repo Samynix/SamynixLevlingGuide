@@ -376,7 +376,7 @@
     <None Include="Guide\Maps\TheBarrens Full.ai" />
     <None Include="Guide\WarriorShaman\Step-17 The Barrens\Image.ai" />
     <None Include="Guide\WarriorShaman\Step-15 The Barrens\Image.ai" />
-    <None Include="Guide\WarriorShaman\Step-1 1-6 Valley of Trials\ImageShaman.ai" />
+    <None Include="Guide\WarriorShaman\Step-01 1-6 Valley of Trials\ImageShaman.ai" />
     <None Include="Guide\WarriorShaman\Step-10 11 Orgrimmar\Image.ai" />
     <None Include="Guide\WarriorShaman\Step-11 11-12 Durator\Image.ai" />
     <None Include="Guide\WarriorShaman\Step-12 12-13 The Barrens\Image.ai" />
@@ -386,27 +386,27 @@
     <None Include="Guide\WarriorShaman\Step-14 13-15 The Barrens\ImageShaman.ai" />
     <None Include="Guide\WarriorShaman\Step-14 13-15 The Barrens\ImageWarrior.ai" />
     <None Include="Guide\WarriorShaman\Step-16 Orgrimmar and RFC\Image.ai" />
-    <None Include="Guide\WarriorShaman\Step-2 5-7 Durotar\ImageShaman.ai" />
+    <None Include="Guide\WarriorShaman\Step-02 5-7 Durotar\ImageShaman.ai" />
     <None Include="Guide\WarriorShaman\Step-22 Thunder Bluff\ImageShaman.ai" />
     <None Include="Guide\WarriorShaman\Step-22 Thunder Bluff\ImageWarrior.ai" />
-    <None Include="Guide\WarriorShaman\Step-3 7-8 Echo Isles\Image.ai" />
-    <None Include="Guide\WarriorShaman\Step-2 5-7 Durotar\ImageWarrior.ai" />
-    <None Include="Guide\WarriorShaman\Step-1 1-6 Valley of Trials\ImageWarrior.ai" />
+    <None Include="Guide\WarriorShaman\Step-03 7-8 Echo Isles\Image.ai" />
+    <None Include="Guide\WarriorShaman\Step-02 5-7 Durotar\ImageWarrior.ai" />
+    <None Include="Guide\WarriorShaman\Step-01 1-6 Valley of Trials\ImageWarrior.ai" />
     <None Include="Guide\WarriorShaman\Step-30 Southern Barrens\ImageShaman.ai" />
     <None Include="Guide\WarriorShaman\Step-30 Southern Barrens\ImageWarrior.ai" />
     <None Include="Guide\WarriorShaman\Step-31 Stonetalon\Image.ai" />
     <None Include="Guide\WarriorShaman\Step-40 Hillsbrad Foothills\Image.ai" />
     <None Include="Guide\WarriorShaman\Step-39 Hillsbrad Foothills\Image.ai" />
-    <None Include="Guide\WarriorShaman\Step-4 8-9 Durator\ImageShaman.ai" />
-    <None Include="Guide\WarriorShaman\Step-4 8-9 Durator\ImageWarrior.ai" />
-    <None Include="Guide\WarriorShaman\Step-5 9-10 Durator\Image.ai" />
-    <None Include="Guide\WarriorShaman\Step-6 10 Orgrimmar\ImageShaman.ai" />
-    <None Include="Guide\WarriorShaman\Step-6 10 Orgrimmar\ImageWarrior.ai" />
-    <None Include="Guide\WarriorShaman\Step-7 10 Durator\Image.ai" />
-    <None Include="Guide\WarriorShaman\Step-8 10 The Barrens - Class quests\ImageShaman.ai" />
-    <None Include="Guide\WarriorShaman\Step-8 10 The Barrens - Class quests\ImageWarrior.ai" />
-    <None Include="Guide\WarriorShaman\Step-9 10-11 Durator\ImageShaman.ai" />
-    <None Include="Guide\WarriorShaman\Step-9 10-11 Durator\ImageWarrior.ai" />
+    <None Include="Guide\WarriorShaman\Step-04 8-9 Durator\ImageShaman.ai" />
+    <None Include="Guide\WarriorShaman\Step-04 8-9 Durator\ImageWarrior.ai" />
+    <None Include="Guide\WarriorShaman\Step-05 9-10 Durator\Image.ai" />
+    <None Include="Guide\WarriorShaman\Step-06 10 Orgrimmar\ImageShaman.ai" />
+    <None Include="Guide\WarriorShaman\Step-06 10 Orgrimmar\ImageWarrior.ai" />
+    <None Include="Guide\WarriorShaman\Step-07 10 Durator\Image.ai" />
+    <None Include="Guide\WarriorShaman\Step-08 10 The Barrens - Class quests\ImageShaman.ai" />
+    <None Include="Guide\WarriorShaman\Step-08 10 The Barrens - Class quests\ImageWarrior.ai" />
+    <None Include="Guide\WarriorShaman\Step-09 10-11 Durator\ImageShaman.ai" />
+    <None Include="Guide\WarriorShaman\Step-09 10-11 Durator\ImageWarrior.ai" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -453,7 +453,7 @@
     <Content Include="Guide\WarriorShaman\GuideInfo.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-1 1-6 Valley of Trials\dieToRazor.png">
+    <Content Include="Guide\WarriorShaman\Step-01 1-6 Valley of Trials\dieToRazor.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Guide\WarriorShaman\Step-10 11 Orgrimmar\Image.png">
@@ -468,7 +468,7 @@
     <Content Include="Guide\WarriorShaman\Step-11 11-12 Durator\StepInfo.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-1 1-6 Valley of Trials\ImageShaman.png">
+    <Content Include="Guide\WarriorShaman\Step-01 1-6 Valley of Trials\ImageShaman.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Guide\WarriorShaman\Step-12 12-13 The Barrens\Image.png">
@@ -486,31 +486,31 @@
     <Content Include="Guide\WarriorShaman\Step-13 13 Thunder Bluff\StepInfo.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-2 5-7 Durotar\ImageShaman.png">
+    <Content Include="Guide\WarriorShaman\Step-02 5-7 Durotar\ImageShaman.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-2 5-7 Durotar\razorPathToTower.png">
+    <Content Include="Guide\WarriorShaman\Step-02 5-7 Durotar\razorPathToTower.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-5 9-10 Durator\Image.png">
+    <Content Include="Guide\WarriorShaman\Step-05 9-10 Durator\Image.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-5 9-10 Durator\StepInfo.txt">
+    <Content Include="Guide\WarriorShaman\Step-05 9-10 Durator\StepInfo.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-6 10 Orgrimmar\ImageShaman.png">
+    <Content Include="Guide\WarriorShaman\Step-06 10 Orgrimmar\ImageShaman.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-6 10 Orgrimmar\ImageWarrior.png">
+    <Content Include="Guide\WarriorShaman\Step-06 10 Orgrimmar\ImageWarrior.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-6 10 Orgrimmar\StepInfo.txt">
+    <Content Include="Guide\WarriorShaman\Step-06 10 Orgrimmar\StepInfo.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-7 10 Durator\Image.png">
+    <Content Include="Guide\WarriorShaman\Step-07 10 Durator\Image.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-7 10 Durator\StepInfo.txt">
+    <Content Include="Guide\WarriorShaman\Step-07 10 Durator\StepInfo.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Guide\WarriorShaman\Step-10 11 Orgrimmar\StepInfo.txt">
@@ -519,52 +519,52 @@
     <Content Include="Guide\WarriorShaman\Step-10 11 Orgrimmar\Substep-1.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-8 10 The Barrens - Class quests\ImageShaman.png">
+    <Content Include="Guide\WarriorShaman\Step-08 10 The Barrens - Class quests\ImageShaman.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-8 10 The Barrens - Class quests\ImageWarrior.png">
+    <Content Include="Guide\WarriorShaman\Step-08 10 The Barrens - Class quests\ImageWarrior.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-9 10-11 Durator\callOfFirePath.png">
+    <Content Include="Guide\WarriorShaman\Step-09 10-11 Durator\callOfFirePath.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-9 10-11 Durator\ImageShaman.png">
+    <Content Include="Guide\WarriorShaman\Step-09 10-11 Durator\ImageShaman.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-9 10-11 Durator\ImageWarrior.png">
+    <Content Include="Guide\WarriorShaman\Step-09 10-11 Durator\ImageWarrior.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-9 10-11 Durator\StepInfo.txt">
+    <Content Include="Guide\WarriorShaman\Step-09 10-11 Durator\StepInfo.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-8 10 The Barrens - Class quests\StepInfo.txt">
+    <Content Include="Guide\WarriorShaman\Step-08 10 The Barrens - Class quests\StepInfo.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-3 7-8 Echo Isles\Image.png">
+    <Content Include="Guide\WarriorShaman\Step-03 7-8 Echo Isles\Image.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-3 7-8 Echo Isles\StepInfo.txt">
+    <Content Include="Guide\WarriorShaman\Step-03 7-8 Echo Isles\StepInfo.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-2 5-7 Durotar\ImageWarrior.png">
+    <Content Include="Guide\WarriorShaman\Step-02 5-7 Durotar\ImageWarrior.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-2 5-7 Durotar\StepInfo.txt">
+    <Content Include="Guide\WarriorShaman\Step-02 5-7 Durotar\StepInfo.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-1 1-6 Valley of Trials\ImageWarrior.png">
+    <Content Include="Guide\WarriorShaman\Step-01 1-6 Valley of Trials\ImageWarrior.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-1 1-6 Valley of Trials\StepInfo.txt">
+    <Content Include="Guide\WarriorShaman\Step-01 1-6 Valley of Trials\StepInfo.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-4 8-9 Durator\ImageShaman.png">
+    <Content Include="Guide\WarriorShaman\Step-04 8-9 Durator\ImageShaman.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-4 8-9 Durator\ImageWarrior.png">
+    <Content Include="Guide\WarriorShaman\Step-04 8-9 Durator\ImageWarrior.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Guide\WarriorShaman\Step-4 8-9 Durator\StepInfo.txt">
+    <Content Include="Guide\WarriorShaman\Step-04 8-9 Durator\StepInfo.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

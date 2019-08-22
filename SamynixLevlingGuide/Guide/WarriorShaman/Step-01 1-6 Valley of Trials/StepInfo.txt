@@ -5,7 +5,7 @@
 
 <Substep order="1" class="All">
 	Accept quest
-	<AQ>Your Place In The World</AQ>
+		<AQ>Your Place In The World</AQ>
 </SubStep>
 
 <Substep order="2" class"All">

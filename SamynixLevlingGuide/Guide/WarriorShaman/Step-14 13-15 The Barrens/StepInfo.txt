@@ -53,7 +53,7 @@
 		<DQ>The Disruption Ends</DQ>
 		<DQ>Supplies for the Crossroads</DQ>
 	Go east abit <LE>190, 30, 45</LE> and do
-		<DQ>Forged Steel</RQ>
+		<DQ>Forged Steel</DQ>
 	Go south <LE>0, 166, 81</LE> and turn in 
 		<RQ>Forged Steel</RQ>
 </ST>

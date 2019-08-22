@@ -17,6 +17,7 @@
 </ST>
 
 <ST order="3">
+	<em>Maybe go to ferelas and grab fp? then fly to freewind</em>
 	Head back to <p>Freewind post</p>
 	Turn in quests
 		<RQ>Grimtotem Spying</RQ>
