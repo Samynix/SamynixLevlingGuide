@@ -15,7 +15,7 @@
 	Return quest
 		<RQ>The Ashenvale Hunt</RQ>
 	Accept the next part and return it again
-	Out on the road, <em>accept<em> quest
+	Out on the road, <em>accept</em> quest
 		<AQ>Ashenvale Outrunners</AQ>
 </ST>
 
@@ -78,10 +78,10 @@
 <ST order="11">
 	If we are very close to 27 we deliver quests here, if not we wait!!!!
 	If we are delivering
-		<b>Sharptalon claw<b>
+		<b>Sharptalon claw</b>
 		<b>Ursangou's paw</b>
 		<b>Shadumbra's head</b>
-		<b>The hunt Completed
+		<b>The hunt Completed</b>
 		<b>Stonetalon Standstill</b>
 		<b>Torek's Assault</b>
 
@@ -95,7 +95,7 @@
 <ST order="12">
 	Turn in <RQ>Je'neu of the Earthen Ring</RQ>
 	Accept quests
-		<AQ>Troll Charm<AQ>
+		<AQ>Troll Charm</AQ>
 		<AQ>Between a Rock and a Thistlefur</AQ>
 		Head east on the road
 </ST>

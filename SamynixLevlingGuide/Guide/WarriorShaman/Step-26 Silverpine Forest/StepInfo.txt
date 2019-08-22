@@ -16,7 +16,7 @@
 </ST>
 
 <ST order="2" legend="136, 0, 27">
-	Retrive the contents of <nm>Dalaran Crate</nm @ <tloc>50, 60</tloc> for
+	Retrive the contents of <nm>Dalaran Crate</nm> @ <tloc>50, 60</tloc> for
 		<RQ>Border Crossings</RQ>
 	Accept the next part
 		<AQ>Maps and Runes</AQ>

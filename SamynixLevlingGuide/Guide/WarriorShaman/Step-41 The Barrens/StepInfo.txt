@@ -37,7 +37,7 @@
 </ST>
 
 <ST order="4">
-	Head out to the island at <tloc>68.6, 49<tloc>
+	Head out to the island at <tloc>68.6, 49</tloc>
 	Shaman help warrior! 
 </ST>
 
