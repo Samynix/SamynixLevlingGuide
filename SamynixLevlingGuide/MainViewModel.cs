@@ -19,8 +19,11 @@ using System.Windows.Media;
 
 namespace SamynixLevlingGuide
 {
+
     public class MainViewModel : SamyViewModelBase
     {
+        static int? OnlyLoadStep = 2;
+
         public static MainViewModel Instance { get; }
 
         static MainViewModel()
@@ -96,7 +99,7 @@ namespace SamynixLevlingGuide
             var guides = new List<Guide>();
             foreach (var directory in Directory.EnumerateDirectories(Path.Combine(Environment.CurrentDirectory, "Guide")))
             {
-                var guide = Guide.Parse(directory);
+                var guide = Guide.Parse(directory, OnlyLoadStep);
                 if (guide.IsValid)
                 {
                     guides.Add(guide);

@@ -51,7 +51,7 @@ namespace SamynixLevlingGuide.Model
             return classList;
         }
 
-        public static Guide Parse(string aDirectory)
+        public static Guide Parse(string aDirectory, int? aOnlyLoadThisStep)
         {
             Guide result = new Guide();
             bool titleFound = false;
@@ -82,13 +82,13 @@ namespace SamynixLevlingGuide.Model
             result.IsValid = titleFound && classFound;
             if (result.IsValid)
             {
-                ParseSteps(result, aDirectory);
+                ParseSteps(result, aDirectory, aOnlyLoadThisStep);
             }
 
             return result;
         }
 
-        private static void ParseSteps(Guide aGuide, string aGuideDirectory)
+        private static void ParseSteps(Guide aGuide, string aGuideDirectory, int? aOnlyLoadThisStep)
         {
             Dictionary<int, Step> validSteps = new Dictionary<int, Step>();
             foreach (var directory in Directory.EnumerateDirectories(aGuideDirectory))
@@ -104,7 +104,7 @@ namespace SamynixLevlingGuide.Model
                 }
 
                 var step = Step.Parse(aGuide, directory);
-                if (step.IsValid)
+                if (step.IsValid && (!aOnlyLoadThisStep.HasValue || aOnlyLoadThisStep.Value == step.StepNumber))
                 {
                     if (validSteps.ContainsKey(step.StepNumber))
                     {
