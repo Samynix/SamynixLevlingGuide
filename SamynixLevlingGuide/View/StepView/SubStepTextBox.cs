@@ -35,7 +35,6 @@ namespace SamynixLevlingGuide.View.StepView
         public Action QuestLogButtonClicked;
 
         private List<Tuple<TextRange, Brush>> _foundSearches = new List<Tuple<TextRange, Brush>>();
-        private TextPointer _startCarretPosition;
 
         public SubStepTextBox()
         {
@@ -105,11 +104,10 @@ namespace SamynixLevlingGuide.View.StepView
             AddText(aText, ref isQuestChanges);
             if (isQuestChanges)
             {
-                _paragraph.Inlines.Add("  ");
+                _paragraph.Inlines.Add(new LineBreak());
+                _paragraph.Inlines.Add(new LineBreak());
                 _paragraph.Inlines.Add(_questLogButton);
             }
-
-            _startCarretPosition = CaretPosition;
 
             if (aLegend.HasValue)
             {
